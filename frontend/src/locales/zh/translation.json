@@ -1,0 +1,1535 @@
+{
+  "login": {
+    "language": "选择语言",
+    "signIn": "登录",
+    "signUp": "注册",
+    "email": "电子邮件地址",
+    "password": "密码",
+    "login": "登录",
+    "noAccount": "没有账户？",
+    "forgotPassword": "忘记密码？",
+    "resetPassword": "重置密码",
+    "resetPasswordInstructions": "请输入您的电子邮件地址。我们将向您发送一个4位数的代码以重置您的密码。",
+    "backToLogin": "返回登录",
+    "sendCode": "发送代码",
+    "enterResetCode": "输入重置代码",
+    "enterCodeInstructions": "请输入发送到您电子邮件的4位数代码和新密码。",
+    "code": "4位数代码",
+    "newPassword": "新密码",
+    "submit": "提交",
+    "errors": {
+      "emailRequired": "电子邮件为必填项。",
+      "passwordRequired": "密码为必填项。",
+      "invalidEmail": "请输入有效的电子邮件地址。",
+      "generic": "出现错误，请重试。",
+      "invalidCredentials": "请输入正确的凭据。",
+      "invalidCodeOrPassword": "请输入有效的4位数代码和新密码。",
+      "confirmPasswordRequired": "请确认您的密码",
+      "passwordMismatch": "密码不匹配",
+      "invalidCode": "代码或请求无效。"
+    },
+    "codeSent": "已将4位数重置代码发送到您的电子邮件。请检查您的收件箱。",
+    "passwordUpdated": "密码更新成功！正在重定向到登录页面...",
+    "confirmNewPassword": "确认新密码"
+  },
+  "signup": {
+    "firstName": "名字",
+    "lastName": "姓氏",
+    "phone": "手机号码",
+    "email": "电子邮件地址",
+    "suburb": "郊区",
+    "church": "教会",
+    "selectChurch": "选择教会",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "next": "下一步",
+    "prev": "上一步",
+    "getToKnowYou": "了解您",
+    "attendedBeforeQuestion": "您以前参加过这个教会吗？",
+    "yes": "是",
+    "no": "否",
+    "faithLevelQuestion": "描述您的信仰水平：",
+    "faithLevel": {
+      "nofaith": "无信仰",
+      "uncertain": "不确定",
+      "opentofaith": "对信仰开放",
+      "activelyexploring": "积极探索",
+      "strongfaith": "坚定信仰"
+    },
+    "broughtByQuestion": "有人带您来教会吗？",
+    "selectOption": "选择一个选项",
+    "broughtByName": "是谁带您来的？",
+    "faithLevelLabel": "信仰程度",
+    "primaryLanguageQuestion": "您的主要语言是什么？",
+    "primaryLanguageLabel": "主要语言",
+    "languages": {
+      "english": "英语",
+      "spanish": "西班牙语",
+      "portuguese": "葡萄牙语",
+      "indonesian": "印尼语",
+      "mandarin": "中文"
+    },
+    "language": {
+      "english": "英语",
+      "spanish": "西班牙语",
+      "portuguese": "葡萄牙语",
+      "indonesian": "印尼语",
+      "mandarin": "普通话"
+    },
+    "referralSource": {
+      "friendFamily": "朋友或家人推荐",
+      "churchEvent": "教会活动或聚会",
+      "socialMedia": "社交媒体 (Facebook, Instagram 等)",
+      "communityOutreach": "社区外展/慈善项目",
+      "onlineSearch": "在线搜索 (Google, YouTube 等)",
+      "flyerPoster": "传单/海报/公告"
+    },
+    "termsAndConditions": "条款和条件",
+    "howDidYouHearQuestion": "您是如何了解到我们的？",
+    "howDidYouHearLabel": "推荐来源",
+    "referralSources": {
+      "friend_family": "朋友或家人推荐",
+      "church_event": "教会活动或服务",
+      "social_media": "社交媒体（Facebook、Instagram等）",
+      "community_outreach": "社区外展 / 慈善计划",
+      "online_search": "在线搜索（Google、YouTube等）",
+      "flyer_poster": "传单 / 海报 / 公告"
+    },
+    "referralSection": "推荐信息（可选）",
+    "referralCode": "推荐码",
+    "referralCodePlaceholder": "如果您有推荐码请输入",
+    "referredBy": "推荐人",
+    "referredByPlaceholder": "请输入推荐您的人的姓名",
+    "termsDescription": "创建帐户即表示您确认自己已年满18岁，或年龄在13至17岁之间并已获得父母或监护人许可。您也同意我们的服务条款和隐私政策中列出的其他条款。",
+    "readPrivacyPolicy": "阅读我们的隐私政策",
+    "acceptTerms": "我同意Futures Church按照其隐私政策使用这些信息",
+    "finish": "完成",
+    "agree": "我同意",
+    "errors": {
+      "firstNameMin": "名字必须至少包含3个字符",
+      "firstNameLetters": "名字只能包含字母",
+      "firstNameRequired": "名字为必填项",
+      "lastNameLetters": "姓氏只能包含字母",
+      "emailRequired": "电子邮件为必填项",
+      "emailInvalid": "电子邮件格式无效",
+      "emailExists": "此电子邮件已被注册。请使用其他电子邮件。",
+      "suburbRequired": "郊区为必填项",
+      "phoneDigits": "电话号码只能包含数字",
+      "phoneMin": "电话号码必须至少包含10位数字",
+      "phoneRequired": "手机号码为必填项",
+      "passwordMin": "密码必须至少包含6个字符",
+      "passwordRequired": "密码为必填项",
+      "confirmPasswordMatch": "密码必须匹配",
+      "confirmPasswordRequired": "确认密码为必填项",
+      "churchRequired": "必须选择教会",
+      "termsRequired": "您必须同意条款和条件。",
+      "broughtByName": "请输入有效的名字",
+      "generic": "注册失败"
+    },
+    "success": "您的账户已成功创建！"
+  },
+  "dashboard": {
+    "totalChurches": "教会总数",
+    "totalAdmins": "管理员总数",
+    "totalStaff": "员工总数",
+    "totalUsers": "用户总数",
+    "totalEvents": "活动总数",
+    "totalSermons": "讲道总数",
+    "totalSalvations": "救恩总数",
+    "totalLiveChurches": "直播教会总数",
+    "loading": "加载中...",
+    "click_to_view": "点击查看",
+    "filters": {
+      "date_range": "选择日期范围",
+      "past_24_hours": "过去24小时",
+      "this_week": "本周",
+      "this_month": "本月",
+      "this_year": "本年",
+      "custom_range": "自定义日期范围",
+      "select_church": "选择教会",
+      "select_all": "全选",
+      "your_church": "（您的教会）",
+      "no_church_assigned": "未分配教会"
+    },
+    "tiles": {
+      "new_users": "新用户",
+      "new_salvations": "新救恩",
+      "new_sermons": "新讲道"
+    },
+    "live_sermons": {
+      "title": "直播讲道",
+      "sr_no": "序号",
+      "church_name": "教会名称",
+      "start_time": "开始时间",
+      "active_users": "活跃用户",
+      "no_live_sermons": "当前没有直播讲道",
+      "view_in_detail": "查看详情"
+    },
+    "messages": {
+      "no_church_selected": "未选择教会",
+      "select_church_description": "请从筛选器中至少选择一个教会以查看分析和图表。",
+      "apply_filters_title": "应用筛选器查看数据",
+      "apply_filters_description": "点击\"应用筛选器\"按钮为您选择的教会加载分析数据。"
+    },
+    "charts": {
+      "faith_status": "信仰状态",
+      "overall_breakdown": "总体分布",
+      "no_faith_data": "无信仰数据",
+      "no_faith_data_available": "没有可用的信仰水平数据",
+      "church_wise_breakdown": "各教会注册情况",
+      "new_registrations": "新注册",
+      "monthly_breakdown": "月度分布",
+      "no_church_selected": "未选择教会",
+      "apply_filters_to_view": "应用过滤器查看数据",
+      "select_church_message": "请从过滤器中至少选择一个教会以查看分析和图表。",
+      "click_apply_filters_message": "点击应用过滤器按钮加载所选教会的数据。",
+      "no_registrations": "无新注册",
+      "no_registrations_message": "所选时期内没有新用户注册",
+      "church_locations": "教会位置",
+      "distribution": "教会区域分布",
+      "no_church_locations": "无教会位置",
+      "add_church_locations": "添加教会位置以在地图上显示",
+      "no_location_data": "没有可用的教会位置数据",
+      "all_countries": "所有国家",
+      "app_discovery": "应用发现",
+      "how_users_found": "用户如何找到我们",
+      "no_discovery_data": "无发现数据",
+      "no_discovery_available": "没有可用的应用发现数据",
+      "languages_by_country": "各国语言",
+      "user_distribution": "用户区域分布",
+      "no_language_data": "无语言数据",
+      "no_sermon_data": "无讲道数据",
+      "no_sermon_data_message": "所选时间段内没有可用的讲道时长数据。",
+      "no_language_available": "没有按国家/地区划分的语言数据",
+      "primary_language": "主要语言分布",
+      "active_users_by_church": "各教会活跃用户",
+      "users_active_period": "所选时期内活跃的用户",
+      "all_churches": "所有教会",
+      "no_active_users": "无活跃用户",
+      "no_active_users_message": "所选时期内没有活跃用户",
+      "avg_sermon_duration": "讲道平均时长",
+      "performance_by_church": "各教会表现",
+      "church": "教会",
+      "avg_duration": "平均时长",
+      "sermons": "讲道",
+      "avg_users": "平均用户",
+      "total_hours": "总小时",
+      "sermon_languages": "讲道收听语言",
+      "language_distribution": "语言使用分布",
+      "no_language_data_available": "此期间没有可用的讲道收听数据"
+    }
+  },
+  "menu": {
+    "dashboard": "仪表板",
+    "manageProfile": "管理个人资料",
+    "manageAdministrators": "管理管理员",
+    "manageStaffMembers": "管理员工",
+    "manageUsers": "管理用户",
+    "manageChurches": "管理教会",
+    "manageEvents": "管理活动",
+    "analytics": "分析",
+    "manageChurch": "管理教会",
+    "goLive": "直播",
+    "deleteRequestAccounts": "账户删除请求",
+    "joinLiveSermons": "加入直播讲道",
+    "events": "活动",
+    "privacyPolicy": "隐私政策",
+    "deleteMyAccount": "删除我的账户",
+    "Feedback": "反馈",
+    "viewFeedback": "所有反馈"
+  },
+  "profile": {
+    "header": "个人资料设置",
+    "changePassword": "更改密码",
+    "sections": {
+      "basic_information": "基本信息",
+      "employment_details": "就业详情",
+      "access_permissions": "访问与权限",
+      "skills_qualifications": "技能与资格",
+      "hr_payroll_details": "人力资源与薪资详情",
+      "additional_information": "附加信息",
+      "church_member_details": "教会成员详情",
+      "additional_church_info": "额外的教会信息"
+    },
+    "modal": {
+      "change_password": "更改密码"
+    },
+    "fields": {
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件",
+      "phone_number": "电话号码",
+      "suburb": "郊区",
+      "date_of_birth": "出生日期",
+      "gender": "性别",
+      "profile_photo": "个人资料照片",
+      "referalcode": "推荐码",
+      "job_title": "职位/角色",
+      "department": "部门",
+      "user_role": "用户角色",
+      "system_access_level": "系统访问级别",
+      "education_level": "教育水平",
+      "certifications": "证书（用逗号分隔）",
+      "employee_id": "员工ID",
+      "salary_hourly_rate": "薪资/小时工资",
+      "emergency_contact": "紧急联系人",
+      "linkedin_profile": "LinkedIn个人资料",
+      "current_password": "当前密码",
+      "new_password": "新密码",
+      "confirm_new_password": "确认新密码",
+      "attended_before": "您以前参加过这个教会吗？",
+      "faith_journey": "信仰旅程",
+      "brought_by": "谁带你来教会的？"
+    },
+    "placeholders": {
+      "phone_number": "+1234567890",
+      "education_level": "例如，学士学位",
+      "certifications": "例如，AWS认证，Scrum Master",
+      "linkedin_profile": "https://linkedin.com/in/username",
+      "emergency_contact": "电话号码",
+      "brought_by": "请输入带你来的人名..."
+    },
+    "options": {
+      "select_gender": "选择性别",
+      "male": "男",
+      "female": "女",
+      "other": "其他",
+      "select_role": "选择角色",
+      "admin": "管理员",
+      "staff": "员工",
+      "user": "用户",
+      "yes": "是",
+      "no": "否",
+      "no_faith": "没有信仰",
+      "uncertain": "不确定",
+      "open_to_faith": "对信仰持开放态度",
+      "actively_exploring": "积极探索中",
+      "strong_faith": "坚定的信仰"
+    },
+    "buttons": {
+      "update_profile": "更新个人资料",
+      "cancel": "取消",
+      "change_password": "更改密码"
+    },
+    "messages": {
+      "supported_formats": "支持的格式：JPG、PNG（最大5MB）",
+      "profile_updated_successfully": "个人资料更新成功",
+      "password_changed_successfully": "密码更改成功"
+    },
+    "errors": {
+      "first_name_and_last_name_are_required": "名字和姓氏为必填项",
+      "invalid_phone_number_format": "电话号码格式无效",
+      "invalid_email_format": "电子邮件格式无效",
+      "invalid_work_email_format": "工作电子邮件格式无效",
+      "invalid_linkedin_profile_url": "LinkedIn个人资料URL无效",
+      "user_id_not_found": "在本地存储中未找到用户ID",
+      "file_is_too_large_please_select_an_image_under_5mb": "文件过大，请选择小于5MB的图片。",
+      "error_updating_profile": "更新个人资料时出错",
+      "all_password_fields_required": "所有密码字段均为必填项",
+      "passwords_do_not_match": "新密码和确认密码不匹配",
+      "error_changing_password": "更改密码时出错",
+      "file_size_exceeds_5mb_limit": "文件大小超过5MB限制",
+      "fetch_failed": "404 未找到"
+    }
+  },
+  "user": {
+    "buttons": {
+      "add_new_user": "添加新用户",
+      "edit": "编辑",
+      "delete": "删除",
+      "cancel": "取消",
+      "save": "保存",
+      "update": "更新"
+    },
+    "search_placeholder": "按姓名或电子邮件搜索...",
+    "table": {
+      "serial_number": "序列号",
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件",
+      "phone": "电话",
+      "suburb": "郊区",
+      "church_name": "教会名称",
+      "actions": "操作"
+    },
+    "modal": {
+      "save_user": "保存用户",
+      "update_user": "更新用户"
+    },
+    "fields": {
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件",
+      "password": "密码",
+      "phone": "电话",
+      "address": "地址",
+      "suburb": "郊区",
+      "church_name": "教会名称"
+    },
+    "options": {
+      "select_church": "选择教会"
+    },
+    "messages": {
+      "loading_users": "正在加载用户...",
+      "no_users_available": "没有可用的用户",
+      "user_deleted_successfully": "用户删除成功",
+      "user_save_successfully": "用户添加成功",
+      "user_update_successfully": "用户更新成功",
+      "delete_user_confirmation": "您确定要删除此用户吗？",
+      "no_search_results": "未找到与 \"{searchTerm}\" 匹配的用户"
+    },
+    "errors": {
+      "first_name_required": "名字为必填项。",
+      "first_name_min_length": "名字必须至少包含3个字符。",
+      "first_name_letters_only": "名字只能包含字母。",
+      "last_name_min_length": "姓氏必须至少包含3个字符。",
+      "last_name_letters_only": "姓氏只能包含字母。",
+      "password_required": "密码为必填项。",
+      "password_min_length": "密码必须至少包含6个字符。",
+      "email_required": "电子邮件为必填项。",
+      "email_invalid": "请输入有效的电子邮件地址。",
+      "phone_required": "电话为必填项。",
+      "phone_invalid": "电话号码必须正好包含10位数字。",
+      "suburb_required": "郊区为必填项。",
+      "suburb_letters_only": "郊区只能包含字母。",
+      "church_required": "请选择一个教会。",
+      "error_fetching_users": "获取用户时出错",
+      "error_fetching_churches": "获取教会时出错",
+      "error_deleting_user": "删除用户时出错",
+      "error_during_save_operation": "保存操作期间出错",
+      "error_during_update_operation": "更新操作期间出错"
+    }
+  },
+  "event": {
+    "buttons": {
+      "add_new_event": "添加新活动",
+      "edit": "编辑",
+      "delete": "删除",
+      "cancel": "取消",
+      "save": "保存",
+      "update": "更新",
+      "save_photos": "添加照片",
+      "update_photos": "更新照片"
+    },
+    "table": {
+      "serial_number": "序列号",
+      "event_name": "活动名称",
+      "event_date": "活动日期",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "modal": {
+      "save_event": "添加活动",
+      "update_event": "编辑活动"
+    },
+    "fields": {
+      "name": "名称",
+      "date": "活动日期与时间",
+      "description": "描述",
+      "church_name": "教会名称"
+    },
+    "labels": {
+      "event_images": "活动图片"
+    },
+    "options": {
+      "select_church": "选择教会"
+    },
+    "status": {
+      "active": "活跃",
+      "expired": "已过期"
+    },
+    "messages": {
+      "loading_events": "正在加载活动...",
+      "no_events_available": "目前没有可用的活动",
+      "event_deleted_successfully": "活动删除成功",
+      "event_save_successfully": "活动保存成功",
+      "event_update_successfully": "活动更新成功",
+      "image_deleted_successfully": "图片删除成功",
+      "delete_event_confirmation": "您确定要删除此活动吗？"
+    },
+    "errors": {
+      "event_name_required": "活动名称为必填项。",
+      "event_description_required": "活动描述为必填项",
+      "event_date_required": "活动日期为必填项。",
+      "invalid_date_format": "日期格式无效",
+      "church_name_required": "教会名称为必填项。",
+      "error_fetching_events": "获取活动时出错",
+      "error_fetching_churches": "获取教会时出错",
+      "error_deleting_event": "删除活动时出错",
+      "error_during_save_operation": "保存操作期间出错",
+      "error_during_update_operation": "更新操作期间出错",
+      "image_not_found_in_database": "数据库中未找到图片",
+      "failed_to_delete_image": "无法删除图片"
+    }
+  },
+  "golive": {
+    "seo": {
+      "title": "实时讲道翻译 | 实时讲道翻译",
+      "description": "通过我们的实时讲道翻译器体验实时讲道翻译和多语言教会服务。",
+      "keywords": "教会讲道翻译器, 实时讲道翻译, 实时讲道口译, 多语言教会服务, 在线翻译讲道, 礼拜服务翻译, 圣经讲道翻译"
+    },
+    "labels": {
+      "professional_speech_translation": "专业演讲翻译",
+      "current_transcription": "当前转录"
+    },
+    "buttons": {
+      "start_speaking": "开始讲话",
+      "stop": "停止"
+    },
+    "options": {
+      "choose_microphone": "选择麦克风...",
+      "language_english": "英语"
+    },
+    "placeholders": {
+      "transcription_placeholder": "您的转录将显示在这里..."
+    },
+    "status": {
+      "ready_to_start": "准备开始",
+      "listening": "正在聆听...",
+      "stopped": "已停止"
+    },
+    "errors": {
+      "browser_not_supported": "浏览器不支持",
+      "no_microphones_found": "未找到麦克风",
+      "microphone_permission_denied": "访问麦克风出错。请确保已授予麦克风权限。",
+      "microphone_error_audio_capture": "麦克风错误：音频捕获。请检查您的麦克风权限。",
+      "microphone_error_not_allowed": "麦克风错误：未被允许。请检查您的麦克风权限。",
+      "recognition_error_no_speech": "识别错误：没有语音",
+      "too_many_restart_attempts": "重启尝试过多。请重试。",
+      "translation_error": "翻译出错",
+      "wake_lock_not_supported": "警告：屏幕锁定不支持。讲道将继续进行。",
+      "error_starting_stream": "启动流媒体时出错",
+      "error_stopping_stream": "停止流媒体时出错",
+      "error_adding_sermon": "添加讲道时出错",
+      "error_updating_sermon_status": "更新讲道状态时出错"
+    }
+  },
+  "joinlivesermons": {
+    "seo": {
+      "selection": {
+        "title": "直播讲道 | 加入直播讲道",
+        "description": "加入直播讲道，体验多语言实时讲道翻译。",
+        "keywords": "直播讲道, 在线加入讲道, 教会直播, 在线讲道翻译"
+      },
+      "translation": {
+        "title": "实时讲道翻译 | 实时讲道翻译",
+        "description": "通过我们的实时讲道翻译器体验实时讲道翻译和多语言教会服务。",
+        "keywords": "教会讲道翻译器, 实时讲道翻译, 实时讲道口译, 多语言教会服务, 在线翻译讲道, 礼拜服务翻译, 圣经讲道翻译"
+      }
+    },
+    "labels": {
+      "live_sermons": "直播讲道",
+      "accept_jesus": "我接受耶稣。",
+      "live_sermon": "直播讲道",
+      "live_now": "正在直播",
+      "initiator": "发起者",
+      "start_time": "开始时间",
+      "your_previous_sessions": "您的历史会话",
+      "status": "状态"
+    },
+    "buttons": {
+      "join_sermon": "加入讲道",
+      "leave_sermon": "离开讲道",
+      "start_translation": "开始翻译",
+      "stop_translation": "停止翻译"
+    },
+    "options": {
+      "language_english": "英语",
+      "language_spanish": "西班牙语",
+      "language_portuguese": "葡萄牙语",
+      "language_indonesian": "印尼语",
+      "language_mandarin": "普通话",
+      "language_arabic": "阿拉伯语"
+    },
+    "table": {
+      "serial_number": "序列号",
+      "church_name": "教会名称",
+      "initiator_name": "发起者姓名",
+      "start_date_time": "开始日期时间",
+      "end_date_time": "结束日期时间"
+    },
+    "placeholders": {
+      "transcription_placeholder": "等待讲道翻译开始..."
+    },
+    "messages": {
+      "loading_sermon_data": "正在加载讲道数据...",
+      "no_live_sermons": "目前没有可用的直播讲道。请稍后检查。",
+      "loading": "加载中..."
+    },
+    "status": {
+      "ready_to_start": "准备开始",
+      "connected": "已连接",
+      "disconnected": "已断开",
+      "connection_lost": "连接丢失。请刷新页面。"
+    },
+    "errors": {
+      "no_live_sermon_available": "没有可用的直播讲道",
+      "failed_to_fetch_sermon_data": "无法获取讲道数据",
+      "failed_to_start_backend_session": "无法启动后端会话",
+      "failed_to_start_streaming": "无法启动流媒体",
+      "failed_to_stop_streaming": "无法停止流媒体",
+      "wake_lock_failed": "警告：无法防止屏幕变暗。翻译将继续进行。",
+      "wake_lock_not_supported": "警告：屏幕锁定不支持。翻译将继续进行。"
+    }
+  },
+  "events": {
+    "labels": {
+      "upcoming_events": "即将举行的活动",
+      "expired": "已过期",
+      "event_photos": "活动照片"
+    },
+    "buttons": {
+      "read_more": "了解更多",
+      "show_less": "显示更少"
+    },
+    "messages": {
+      "no_events_available": "目前没有可用的活动"
+    },
+    "errors": {
+      "error_loading_events": "加载活动时出错：{error}",
+      "error_fetching_events": "获取活动时出错"
+    },
+    "alt": {
+      "event_image": "活动图片{number}",
+      "zoomed_event": "放大活动"
+    }
+  },
+  "privacypolicy": {
+    "labels": {
+      "title": "隐私政策与服务条款",
+      "back": "返回"
+    },
+    "sections": {
+      "introduction": {
+        "paragraph1": "教堂翻译器",
+        "paragraph2": "最后更新：2025年5月2日",
+        "paragraph3": "欢迎使用Church Translator（“我们”、“我们的”）。 “Church Translator”是由<strong>Futures Church South Australia Incorporated</strong>（“Futures Church”）开发和运营的应用程序。为了隐私目的，Futures Church负责根据本政策收集和处理您的数据。",
+        "paragraph4": "Church Translator遵守<strong>澳大利亚隐私原则（APPs）</strong>，根据<strong>1988年隐私法（Cth）</strong>进行个人信息收集、使用、披露和存储。我们还致力于履行苹果和谷歌应用商店的隐私要求，确保您在使用我们的服务时获得安全、透明的体验。",
+        "paragraph5": "本文件概述了我们的<strong>隐私政策</strong>和<strong>服务条款</strong>（“条款”）。通过访问或使用Church Translator，您同意受本条款的约束。"
+      },
+      "table_of_contents": {
+        "title": "目录",
+        "list_items": {
+          "item1": "1. 我们收集的信息",
+          "item2": "2. 数据处理的法律依据",
+          "item3": "3. 我们如何使用您的信息",
+          "item4": "4. 个人资料照片",
+          "item5": "5. 麦克风访问",
+          "item6": "6. 第三方服务",
+          "item7": "7. 国际数据传输",
+          "item8": "8. 数据访问与共享",
+          "item9": "9. 数据安全",
+          "item10": "10. 数据保留与删除",
+          "item11": "11. 数据泄露通知",
+          "item12": "12. 您的权利",
+          "item13": "13. 儿童隐私与资格",
+          "item14": "14. 用户责任",
+          "item15": "15. 终止",
+          "item16": "16. 知识产权",
+          "item17": "17. 责任限制",
+          "item18": "18. 适用法律",
+          "item19": "19. 本政策变更",
+          "item20": "20. 免责声明",
+          "item21": "21. 联系我们"
+        }
+      },
+      "information_we_collect": {
+        "title": "1. 我们收集的信息",
+        "paragraph1": "当您在Church Translator创建账户时，我们会收集以下个人信息：",
+        "list_items": {
+          "name": "姓名",
+          "email_address": "电子邮件地址",
+          "mobile_number": "手机号码（可选）",
+          "home_suburb": "居住郊区（可选）",
+          "church_attend": "您参加的教堂",
+          "faith_status": "信仰状态（例如，无信仰、轻微信仰、强烈信仰等）",
+          "church_attendance_details": "教堂出勤详情"
+        },
+        "paragraph2": "如果您使用我们的音频或个人资料功能，我们还可能请求访问您设备的麦克风、摄像头或照片库。请参阅下文了解这些信息的使用方式。",
+        "paragraph3": "我们还可能收集有限的设备和使用信息（例如，IP地址、应用程序版本、崩溃日志）以改进应用程序功能。"
+      },
+      "legal_basis": {
+        "title": "2. 数据处理的法律依据",
+        "paragraph1": "我们根据以下法律依据处理您的个人信息：",
+        "list_items": {
+          "consent": "<strong>同意</strong>：我们依赖您的同意来收集和使用可选或敏感数据，例如您的信仰状态、教堂隶属关系以及麦克风、摄像头或照片库的使用。您可以随时通过设备设置或联系我们撤销同意。",
+          "legitimate_interest": "<strong>合法利益</strong>：我们处理您的信息以监控Church Translator应用程序的影响，评估与精神内容的互动，支持教会领导照顾他们的社区，并履行我们资助合作伙伴设定的问责要求。我们认为这种使用是成比例的、合理的，并且不会凌驾于您的权利之上。",
+          "contract_fulfilment": "<strong>合同履行</strong>：某些个人信息被处理以使我们能够提供核心翻译服务、管理您的账户，并履行您在使用应用程序时同意的服务条款。"
+        }
+      },
+      "how_we_use": {
+        "title": "3. 我们如何使用您的信息",
+        "paragraph1": "我们使用您的信息来：",
+        "list_items": {
+          "provide_translation": "在活动期间提供实时翻译服务。",
+          "manage_profile": "使您能够管理个人资料并使用应用程序功能。",
+          "share_pastors": "与您注册教堂的授权牧师或领导分享相关细节，以帮助提供牧灵支持。",
+          "monitor_kpis": "监控应用程序的整体使用趋势并满足组织的关键绩效指标（KPI）。这包括（但不限于）跟踪参与度和救赎决定，以帮助评估精神成长。",
+          "improve_functionality": "监控使用趋势以改进应用程序功能和体验。"
+        },
+        "paragraph2": "我们<strong>不会</strong>在您不知情的情况下收集个人数据，我们仅将信息用于本文件中概述的目的。",
+        "paragraph3": "我们<strong>不会</strong>将您的数据用于第三方广告或出售您的个人信息。"
+      },
+      "profile_photos": {
+        "title": "4. 个人资料照片",
+        "paragraph1": "如果您选择在Church Translator中上传个人资料照片，我们可能会请求访问您设备的：",
+        "list_items": {
+          "camera": "<strong>摄像头</strong>（用于拍照）",
+          "photo_library": "<strong>照片库</strong>（用于选择图像）"
+        },
+        "paragraph2": "添加照片是可选的，仅用于您的个人资料。不会分享、发布或用于营销目的。您可以随时通过设备设置撤销此权限。"
+      },
+      "microphone_access": {
+        "title": "5. 麦克风访问",
+        "paragraph1": "需要麦克风访问权限以直接向您的设备提供实时<strong>音频翻译</strong>。",
+        "list_items": {
+          "active_sessions": "访问仅在活动翻译会话期间使用。",
+          "audio_not_stored": "音频不会被记录、存储或在实时翻译所需之外重复使用。"
+        },
+        "paragraph2": "您可以随时通过设备设置撤销麦克风访问权限，但在此功能禁用期间翻译将不会进行。"
+      },
+      "third_party_services": {
+        "title": "6. 第三方服务",
+        "paragraph1": "Church Translator严格为核心功能使用以下第三方服务：",
+        "list_items": {
+          "microsoft_azure": "<strong>Microsoft Azure –</strong> 位于澳大利亚墨尔本的服务器，用于托管核心应用程序服务。",
+          "mongodb_atlas": "<strong>MongoDB Atlas（由Amazon Web Services托管） –</strong> 位于澳大利亚悉尼的数据库服务，用于安全存储和管理用户数据。"
+        },
+        "paragraph2": "这些服务对于提供实时翻译、语音转文本和文本转语音等功能至关重要，以响应用户发起的操作。",
+        "paragraph3": "我们<strong>不会</strong>将您的个人信息（例如姓名、电子邮件、手机号码、信仰状态或教堂详情）与这些服务提供商共享用于营销、广告或其他次要目的。通过这些服务处理的数据仅限于满足您的请求和确保应用程序正常运行所需。所有数据处理均按照严格的安全和隐私标准进行。"
+      },
+      "international_data_transfer": {
+        "title": "7. 国际数据传输",
+        "paragraph1": "通过Church Translator应用程序收集的所有个人信息均存储并管理在位于<strong>澳大利亚</strong>的服务器上（详见“第6节 第三方服务”）。",
+        "paragraph2": "虽然我们不在澳大利亚以外的服务器上存储或处理数据，但从海外访问应用程序的用户可能将数据传输到我们的澳大利亚服务器。这意味着当国际用户与应用程序交互时，可能会发生跨境数据传输。",
+        "paragraph3": "我们确保所有此类传输都以安全方式处理，使用加密传输协议（例如，TLS 1.2+）保护您的信息在发送到我们的服务器时符合适用隐私法律。"
+      },
+      "data_access_sharing": {
+        "title": "8. 数据访问与共享",
+        "paragraph1": "您的数据仅可被以下人员访问：",
+        "list_items": {
+          "authorised_leadership": "您关联教堂的授权领导。",
+          "authorised_staff": "Futures Church的授权员工。"
+        },
+        "paragraph2": "所有数据访问均受严格保密协议的约束，并通过适当的技术和组织措施进行保护。"
+      },
+      "data_security": {
+        "title": "9. 数据安全",
+        "paragraph1": "我们使用<strong>行业标准的技术和组织保障措施</strong>，包括：",
+        "list_items": {
+          "tls_ssl": "<strong>TLS 1.2+和SSL加密</strong>用于安全数据传输",
+          "encryption": "<strong>静态和传输中的数据加密</strong>",
+          "role_based_access": "<strong>基于角色的访问控制</strong>以限制内部数据访问",
+          "secure_backups": "<strong>定期安全备份</strong>",
+          "authentication_protocols": "<strong>认证协议</strong>以保护用户账户"
+        },
+        "paragraph2": "我们持续评估和升级我们的安全措施以符合最佳实践；然而，我们无法保证数据的绝对保护。Church Translator无法对您通过互联网发送或从我们接收的信息的安全性，或任何未经授权的访问或使用该信息承担责任。"
+      },
+      "data_retention_deletion": {
+        "title": "10. 数据保留与删除",
+        "paragraph1": "我们仅在必要时保留您的个人信息以实现其预期目的。您可以通过以下方式删除您的账户：",
+        "list_items": {
+          "option1_title": "<strong>选项1：在应用程序内</strong>",
+          "option1_step": "前往菜单 > 删除账户",
+          "option2_title": "<strong>选项2：通过电子邮件</strong>",
+          "option2_step1": "发送请求至：<blue>lauren.van.niekerk@futures.church</blue>",
+          "option2_step2": "包括您的全名和注册电子邮件"
+        },
+        "paragraph2": "您的数据将在<strong>30天内</strong>被删除，除非我们依法需要保留更长时间。"
+      },
+      "data_breach_notification": {
+        "title": "11. 数据泄露通知",
+        "paragraph1": "如果发生可能导致严重损害的数据泄露，我们将根据<strong>澳大利亚信息专员办公室（OAIC）</strong>的<strong>可报告数据泄露（NDB）计划</strong>通知受影响的用户和OAIC。"
+      },
+      "your_rights": {
+        "title": "12. 您的权利",
+        "paragraph1": "您有权：",
+        "list_items": {
+          "access_correct": "访问和更正您的个人信息",
+          "request_deletion": "请求删除您的账户和个人信息",
+          "withdraw_consent": "撤销对数据收集的同意（例如，摄像头、麦克风）",
+          "lodge_complaint": "如果您认为您的数据被不当处理，可向OAIC提出投诉"
+        }
+      },
+      "childrens_privacy": {
+        "title": "13. 儿童隐私与资格",
+        "paragraph1": "您必须年满<strong>13岁</strong>才能使用该应用程序。<strong>18岁以下</strong>的用户必须获得<strong>父母或监护人的同意</strong>。",
+        "paragraph2": "我们不会故意收集13岁以下儿童的数据。如果我们发现此类数据收集，我们将优先从我们的服务器中删除该信息。"
+      },
+      "user_responsibilities": {
+        "title": "14. 用户责任",
+        "paragraph1": "您同意：",
+        "list_items": {
+          "accurate_information": "在注册时提供准确和真实的信息",
+          "lawful_purposes": "仅将应用程序用于合法目的并符合本条款",
+          "secure_credentials": "保持您的登录凭据安全。"
+        }
+      },
+      "termination": {
+        "title": "15. 终止",
+        "paragraph1": "如果发生以下情况，我们可能会暂停或终止您的账户：",
+        "list_items": {
+          "breach_terms": "您违反本条款",
+          "misuse_services": "您滥用服务",
+          "legal_security": "出于法律或安全原因需要终止"
+        },
+        "paragraph2": "如果我们暂停或终止您的账户，它将从我们的服务器中删除。",
+        "paragraph3": "您也可以随时通过联系支持或使用应用程序内设置删除您的账户。"
+      },
+      "intellectual_property": {
+        "title": "16. 知识产权",
+        "paragraph1": "Church Translator及其内容是Futures Church的财产。保留所有权利。未经书面同意，您不得复制、修改或分发应用程序的任何部分。"
+      },
+      "limitation_liability": {
+        "title": "17. 责任限制",
+        "paragraph1": "在法律允许的最大范围内，<strong>Futures Church、</strong>其员工和应用程序开发者不对因使用应用程序而产生的间接、附带或后果性损害承担责任。"
+      },
+      "governing_law": {
+        "title": "18. 适用法律",
+        "paragraph1": "本条款受<strong>南澳大利亚，澳大利亚</strong>的法律管辖。争议将在南澳大利亚法院的管辖下处理。"
+      },
+      "changes_policy": {
+        "title": "19. 本政策变更",
+        "paragraph1": "我们可能会不时修改本条款和隐私政策。",
+        "paragraph2": "我们将通过应用程序或电子邮件通知您重大变更，修订版本将在我们的网站上提供，网址为<blue>https://churchtranslator.com/privacy-policy</blue>。在收到此类变更通知后继续使用Church Translator将被视为接受更新后的条款。"
+      },
+      "disclaimer": {
+        "title": "20. 免责声明",
+        "paragraph1": "Church Translator按“现状”和“可用”提供。我们不保证不间断的服务或完全准确的翻译。"
+      },
+      "contact_us": {
+        "title": "21. 联系我们",
+        "paragraph1": "如果您对本条款或我们的隐私政策有任何问题、请求或疑虑，请通过以下方式联系我们：",
+        "list_items": {
+          "email": "<strong>电子邮件：</strong> <blue>lauren.van.niekerk@futures.church</blue>",
+          "mailing_address_title": "<strong>邮寄地址：</strong>",
+          "mailing_address_line1": "Church Translator",
+          "mailing_address_line2": "c/o Futures Church",
+          "mailing_address_line3": "57 Darley Road, Paradise",
+          "mailing_address_line4": "South Australia, 5075 AUSTRALIA"
+        },
+        "paragraph2": "Church Translator是由<strong>Futures Church South Australia Incorporated（ABN：94 916 517 224）</strong>开发和运营的教会项目，该组织是澳大利亚注册的慈善机构。"
+      }
+    }
+  },
+  "deleteAccountRequest": {
+    "title": "删除我的账户",
+    "subtitle": "请选择删除账户的原因。",
+    "reasonLabel": "删除原因",
+    "selectReason": "选择原因",
+    "submitButton": "立即删除",
+    "pendingMessage": "您的请求已发送，正在等待管理员审核。",
+    "approvedMessage": "您的账户已安排删除。",
+    "rejectedMessage": "您的请求已被管理员拒绝。",
+    "errorNoReason": "请选择删除原因",
+    "successMessage": "账户删除成功",
+    "errorMessage": "删除请求出错",
+    "userNotFound": "未找到用户数据"
+  },
+  "deletionReasons": [
+    "不再需要账户",
+    "隐私担忧",
+    "切换到其他服务",
+    "通知过多",
+    "其他"
+  ],
+  "adminDeleteRequests": {
+    "title": "账户删除请求",
+    "subtitle": "审查和管理用户待处理的账户删除请求。",
+    "noRequests": "没有新的请求",
+    "tableHeaders": {
+      "srNo": "序列号",
+      "user": "用户",
+      "reason": "理由",
+      "status": "状态",
+      "requestedAt": "请求时间",
+      "actions": "操作"
+    },
+    "approveButton": "批准",
+    "rejectButton": "拒绝",
+    "errorFetch": "获取删除请求时出错",
+    "successApprove": "请求已批准，用户删除成功",
+    "errorApprove": "批准和删除账户时出错",
+    "successReject": "删除请求拒绝成功",
+    "errorReject": "拒绝请求时出错"
+  },
+  "analyticsMenu": {
+    "acceptedJesus": {
+      "title": "接受耶稣",
+      "tableHeaders": {
+        "srNo": "序列号",
+        "name": "姓名",
+        "email": "电子邮件",
+        "phone": "电话",
+        "count": "计数"
+      },
+      "noUsers": "尚无用户接受耶稣",
+      "loading": "正在加载用户..."
+    },
+    "liveSermons": {
+      "title": "直播讲道",
+      "tableHeaders": {
+        "srNo": "序列号",
+        "churchName": "教会名称",
+        "hostedBy": "主办方",
+        "startDateTime": "开始日期时间",
+        "actions": "操作"
+      },
+      "noSessions": "没有可用的直播会话",
+      "loading": "正在加载讲道...",
+      "detailsButton": "查看详情",
+      "membersJoined": "加入的成员",
+      "membersActive": "活跃成员",
+      "membersInactive": "不活跃成员",
+      "subTableHeaders": {
+        "srNo": "序列号",
+        "userName": "用户名",
+        "email": "电子邮件",
+        "startDateTime": "开始日期时间",
+        "status": "状态"
+      },
+      "status": {
+        "active": "活跃",
+        "inactive": "不活跃"
+      }
+    },
+    "endedSermons": {
+      "title": "已结束的讲道",
+      "tableHeaders": {
+        "srNo": "序列号",
+        "churchName": "教会名称",
+        "hostedBy": "主办方",
+        "startDateTime": "开始日期时间",
+        "actions": "操作"
+      },
+      "noSessions": "没有可用的已结束会话",
+      "loading": "正在加载讲道...",
+      "detailsButton": "查看详情",
+      "membersJoined": "加入的成员",
+      "subTableHeaders": {
+        "srNo": "序列号",
+        "userName": "用户名",
+        "email": "电子邮件",
+        "startTime": "开始时间",
+        "endTime": "结束时间",
+        "duration": "持续时间"
+      },
+      "noListeners": "未找到听众"
+    },
+    "errors": {
+      "fetchJesusUsers": "获取接受耶稣的用户时出错",
+      "fetchData": "获取数据时出错",
+      "fetchChurches": "获取教会时出错",
+      "deleteSermon": "无法删除讲道"
+    },
+    "success": {
+      "deleteSermon": "讲道删除成功"
+    },
+    "confirmDelete": "您确定要删除此讲道吗？"
+  },
+  "churchEdit": {
+    "imageAlt": "教会",
+    "overlayText": "更换教会照片",
+    "formLabels": {
+      "name": "名称",
+      "contactNo": "联系电话",
+      "city": "城市",
+      "state": "州/省",
+      "country": "国家",
+      "seniorPastorName": "主任牧师姓名",
+      "seniorPastorPhoneNumber": "主任牧师电话",
+      "speech_key": "语音密钥",
+      "speech_location": "语音位置",
+      "translator_endpoint": "翻译服务端点",
+      "translator_key": "翻译服务密钥",
+      "translator_location": "翻译服务位置",
+      "stream_limit_minutes": "直播限制（每周）",
+      "stream_used_minutes": "已使用直播时间",
+      "address": "地址"
+    },
+    "placeholders": {
+      "name": "请输入名称",
+      "contactNo": "请输入联系电话",
+      "city": "请输入城市",
+      "state": "请输入州/省",
+      "country": "请输入国家",
+      "seniorPastorName": "请输入主任牧师姓名",
+      "seniorPastorPhoneNumber": "请输入主任牧师电话",
+      "speech_key": "请输入语音密钥",
+      "speech_location": "请输入语音位置",
+      "translator_endpoint": "请输入翻译服务端点",
+      "translator_key": "请输入翻译服务密钥",
+      "translator_location": "请输入翻译服务位置",
+      "stream_limit_minutes": "输入分钟数（例如：120表示2小时）",
+      "stream_used_minutes": "已使用的直播分钟数",
+      "address": "请输入地址"
+    },
+    "updateButton": "更新",
+    "errors": {
+      "churchIdNotFound": "在本地存储中未找到教会ID",
+      "fetchDetails": "获取教会详情时出错",
+      "invalidImageType": "请上传有效的图片文件（JPEG、PNG）",
+      "uploadImage": "上传图片时出错",
+      "updateDetails": "更新教会详情时出错",
+      "speechLocationRequired": "必须填写演讲地点",
+      "speechKeyRequired": "必须填写演讲密钥",
+      "translatorKeyRequired": "必须填写翻译密钥",
+      "translatorLocationRequired": "必须填写翻译地点"
+    },
+    "success": {
+      "imageUpdated": "教会图片更新成功",
+      "detailsUpdated": "教会详情更新成功"
+    }
+  },
+  "staffmember": {
+    "modal": {
+      "title_save": "添加员工",
+      "title_update": "编辑员工"
+    },
+    "search_placeholder": "按姓名或电子邮件搜索...",
+    "buttons": {
+      "add": "添加新员工",
+      "edit": "编辑",
+      "delete": "删除",
+      "save": "保存",
+      "update": "更新"
+    },
+    "table_headers": {
+      "serial_number": "序列号",
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件",
+      "phone": "电话",
+      "suburb": "郊区",
+      "church_name": "教会名称",
+      "actions": "操作"
+    },
+    "sections": {
+      "basic_info": "基本信息",
+      "employment": "就业详情",
+      "access": "访问与权限",
+      "skills": "技能与资格",
+      "hr": "人力资源与薪资详情",
+      "additional": "附加信息"
+    },
+    "fields": {
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "password": "密码",
+      "date_of_birth": "出生日期",
+      "gender": "性别",
+      "suburb": "郊区",
+      "church_name": "教会名称",
+      "job_title": "职位/角色",
+      "department": "部门",
+      "employment_type": "就业类型",
+      "work_location": "工作地点",
+      "start_date": "开始日期",
+      "end_date": "结束日期",
+      "work_email": "工作电子邮件",
+      "country": "原籍国",
+      "user_role": "用户角色",
+      "system_access_level": "系统访问级别",
+      "assigned_teams": "分配的团队",
+      "education_level": "教育水平",
+      "certifications": "证书",
+      "skills": "技能与能力",
+      "languages_spoken": "会说的语言",
+      "employee_id": "员工ID",
+      "salary_or_hourly_rate": "薪资/小时工资",
+      "payroll_bank_details": "薪资银行详情",
+      "tfn_abn": "TFN/ABN",
+      "work_visa_status": "工作签证状态",
+      "emergency_contact": "紧急联系人",
+      "linkedin_profile": "LinkedIn个人资料",
+      "notes_and_comments": "备注与评论"
+    },
+    "options": {
+      "select_gender": "选择性别",
+      "gender_male": "男",
+      "gender_female": "女",
+      "gender_other": "其他",
+      "select_church": "选择教会",
+      "select_type": "选择类型",
+      "employment_full_time": "全职",
+      "employment_part_time": "兼职",
+      "employment_contractor": "承包商",
+      "select_location": "选择地点",
+      "location_onsite": "现场",
+      "location_remote": "远程",
+      "location_hybrid": "混合",
+      "role_staff": "员工"
+    },
+    "messages": {
+      "loading": "正在加载员工...",
+      "no_staff": "没有可用的员工",
+      "delete_confirm": "您确定要删除此员工吗？",
+      "delete_success": "员工删除成功",
+      "save_success": "员工添加成功",
+      "update_success": "员工更新成功",
+      "no_search_results": "未找到与 \"{searchTerm}\" 匹配的员工"
+    },
+    "placeholders": {
+      "first_name": "输入名字",
+      "last_name": "输入姓氏",
+      "email": "输入教会邮箱",
+      "phone": "+86 138 0000 0000",
+      "password": "输入安全密码",
+      "date_of_birth": "选择出生日期",
+      "suburb": "输入郊区/位置",
+      "job_title": "例如：敬拜领袖、青年牧师",
+      "department": "例如：敬拜、外展、儿童事工",
+      "system_access_level": "例如：管理员、志愿者、团队领袖",
+      "employee_id": "例如：CHU-00123",
+      "salary_or_hourly_rate": "例如：酬金或志愿时间",
+      "payroll_bank_details": "银行账户详情",
+      "tfn_abn": "输入TFN或ABN",
+      "work_visa_status": "输入签证状态",
+      "notes_and_comments": "附加备注或评论",
+      "work_email": "工作@公司.com",
+      "country": "中国",
+      "assigned_teams": "例如：敬拜团队、媒体团队、祷告事工",
+      "education_level": "例如：事工文凭、圣经学院",
+      "certifications": "例如：牧师执照、儿童安全培训",
+      "skills": "例如：讲道、活动协调、音乐",
+      "languages_spoken": "例如：中文、英文、粤语",
+      "emergency_contact": "例如：张三 - 138 0000 0000",
+      "linkedin_profile": "https://linkedin.com/in/用户名"
+    },
+    "helper_text": {
+      "password": "密码必须至少包含6个字符",
+      "comma_separated": "输入用逗号分隔的值"
+    },
+    "errors": {
+      "fetch_users": "获取用户时出错",
+      "fetch_churches": "获取教会时出错",
+      "delete_error": "删除员工时出错",
+      "form_submit": "{operation}操作期间出错",
+      "first_name_required": "名字为必填项。",
+      "first_name_min_length": "名字必须至少包含3个字符。",
+      "first_name_letters_only": "名字只能包含字母。",
+      "last_name_min_length": "姓氏必须至少包含3个字符。",
+      "last_name_letters_only": "姓氏只能包含字母。",
+      "email_required": "电子邮件为必填项。",
+      "email_invalid": "电子邮件格式无效。",
+      "phone_required": "电话为必填项。",
+      "phone_invalid": "电话号码必须正好包含10位数字。",
+      "password_required": "密码为必填项。",
+      "password_min_length": "密码必须至少包含6个字符。",
+      "suburb_required": "郊区为必填项。",
+      "suburb_invalid": "郊区不得包含特殊字符或为空。",
+      "church_name_required": "教会名称为必填项。"
+    }
+  },
+  "administrator": {
+    "modal": {
+      "title_save": "添加管理员",
+      "title_update": "编辑管理员"
+    },
+    "search_placeholder": "按姓名或电子邮件搜索...",
+    "buttons": {
+      "add": "添加新管理员",
+      "edit": "编辑",
+      "delete": "删除",
+      "save": "保存",
+      "update": "更新",
+      "cancel": "取消"
+    },
+    "table_headers": {
+      "serial_number": "序列号",
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件",
+      "phone": "电话",
+      "suburb": "郊区",
+      "church_name": "教会名称",
+      "actions": "操作"
+    },
+    "fields": {
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "email": "电子邮件",
+      "password": "密码",
+      "phone": "电话号码",
+      "address": "地址",
+      "suburb": "郊区",
+      "church_name": "教会名称"
+    },
+    "options": {
+      "select_church": "选择教会"
+    },
+    "messages": {
+      "loading": "正在加载管理员...",
+      "no_administrators": "没有可用的管理员",
+      "delete_confirm": "您确定要删除此管理员吗？",
+      "delete_success": "管理员删除成功",
+      "save_success": "管理员添加成功",
+      "update_success": "管理员更新成功",
+      "no_search_results": "未找到与 \"{searchTerm}\" 匹配的管理员"
+    },
+    "errors": {
+      "fetch_users": "获取管理员时出错",
+      "fetch_churches": "获取教会时出错",
+      "delete_error": "删除管理员时出错",
+      "form_submit": "{operation}操作期间出错",
+      "first_name_required": "名字为必填项。",
+      "first_name_min_length": "名字必须至少包含3个字符。",
+      "first_name_letters_only": "名字只能包含字母。",
+      "last_name_min_length": "姓氏必须至少包含3个字符。",
+      "last_name_letters_only": "姓氏只能包含字母。",
+      "email_required": "电子邮件为必填项。",
+      "email_invalid": "电子邮件格式无效。",
+      "password_required": "密码为必填项。",
+      "password_min_length": "密码必须至少包含6个字符。",
+      "phone_required": "电话为必填项。",
+      "phone_invalid": "电话号码必须正好包含10位数字。",
+      "suburb_required": "郊区为必填项。",
+      "suburb_invalid": "郊区不得包含特殊字符或为空。",
+      "church_name_required": "教会名称为必填项。"
+    }
+  },
+  "church": {
+    "search_placeholder": "按教会名称搜索...",
+    "addButton": "添加新教会",
+    "loading": "正在加载教会...",
+    "noChurches": "没有可用的教会",
+    "confirmDelete": "您确定要删除此教会吗？",
+    "addSuccess": "教会添加成功",
+    "updateSuccess": "教会更新成功",
+    "deleteSuccess": "教会删除成功",
+    "languageSettings": "语言设置",
+    "goLiveLanguages": "Go Live 语言",
+    "joinLiveLanguages": "Join Live 语言",
+    "maleVoices": "男声:",
+    "femaleVoices": "女声:",
+    "addlangButton": "+ 添加",
+    "cantFindLanguage": "找不到您的语言？",
+    "addNewLanguage": "+ 添加新语言",
+    "selectAnOption": "选择选项",
+    "selectAVoice": "选择声音",
+    "addLanguageTo": "添加语言到",
+    "selectLanguage": "选择语言",
+    "selectVoiceId": "选择声音ID",
+    "createNewLanguage": "创建新语言",
+    "languageName": "语言名称",
+    "maleVoiceId": "男声ID",
+    "femaleVoiceId": "女声ID",
+    "addMaleVoice": "+ 添加男声",
+    "addFemaleVoice": "+ 添加女声",
+    "cancel": "取消",
+    "addLanguageButton": "添加语言",
+    "createLanguageButton": "创建语言",
+    "languageRemoved": "语言删除成功",
+    "languageAdded": "声音添加成功",
+    "languageCreated": "新语言创建成功",
+    "pleaseSelectLanguage": "请选择语言和声音ID",
+    "pleaseEnterLanguageName": "请输入语言名称",
+    "pleaseAddVoiceId": "请至少添加一个声音ID",
+    "selectLocation": "选择教会位置",
+    "locationInstructions": "点击地图设置教会位置。地址字段将自动更新。",
+    "failedToRemove": "删除语言失败",
+    "failedToAdd": "添加语言失败",
+    "failedToCreate": "创建语言失败",
+    "failedToLoad": "加载可用语言失败",
+    "noChanges": "未检测到任何更改",
+    "messages": {
+      "no_search_results": "未找到与 \"{searchTerm}\" 匹配的教会"
+    },
+    "table": {
+      "srNo": "序列号",
+      "name": "名称",
+      "address": "地址",
+      "suburb": "郊区",
+      "languages": "语言",
+      "actions": "操作"
+    },
+    "actions": {
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "dialog": {
+      "addTitle": "添加教会",
+      "editTitle": "编辑教会"
+    },
+    "form": {
+      "name": "名称",
+      "address": "地址",
+      "contactNo": "联系电话",
+      "pastorName": "主任牧师姓名",
+      "pastorPhone": "主任牧师电话号码",
+      "state": "州/省",
+      "country": "国家",
+      "latitude": "纬度",
+      "longitude": "经度",
+      "suburb": "郊区",
+      "speech_location": "演讲地点",
+      "speech_key": "演讲密钥",
+      "translator_key": "翻译密钥",
+      "translator_location": "翻译地点",
+      "church_stream_Limit(per week)": "教会直播限制（每周）",
+      "used_stream_Limit": "已使用的直播限制",
+      "cancel": "取消",
+      "save": "保存",
+      "update": "更新"
+    },
+    "errors": {
+      "fetchFailed": "获取教会时出错：{{message}}",
+      "deleteFailed": "删除教会时出错：{{message}}",
+      "operationFailed": "{{operation}}操作期间出错：{{message}}",
+      "nameRequired": "名称为必填项",
+      "nameInvalid": "名称只能包含字母、空格和点",
+      "nameDot": "名称不得以点开头或结尾",
+      "nameLength": "名称必须至少包含3个字符",
+      "addressRequired": "地址为必填项",
+      "addressLength": "地址必须至少包含3个字符",
+      "cityRequired": "郊区为必填项",
+      "cityInvalid": "郊区只能包含字母和空格",
+      "cityLength": "郊区必须至少包含3个字符",
+      "stateRequired": "州/省为必填项",
+      "stateInvalid": "州/省只能包含字母和空格",
+      "stateLength": "州/省必须至少包含3个字符",
+      "countryRequired": "国家为必填项",
+      "countryInvalid": "国家只能包含字母和空格",
+      "countryLength": "国家必须至少包含3个字符",
+      "contactRequired": "联系电话为必填项",
+      "contactInvalid": "联系电话必须正好包含10位数字",
+      "pastorNameRequired": "牧师姓名为必填项",
+      "pastorNameInvalid": "牧师姓名只能包含字母、空格和点",
+      "pastorNameDot": "牧师姓名不得以点开头或结尾",
+      "pastorNameLength": "牧师姓名必须至少包含3个字符",
+      "pastorPhoneRequired": "牧师电话号码为必填项",
+      "streamLimitRequired": "直播限制是必需的",
+      "pastorPhoneInvalid": "牧师电话号码必须正好包含10位数字"
+    }
+  },
+  "churchEditt": {
+    "successUpdate": "教会详情更新成功",
+    "updateDetails": "无法更新教会详情"
+  },
+  "signup2": {
+    "sections": {
+      "introduction": {
+        "paragraph1": "Futures Church（Assemblies of God Paradise inc）ABN 79 020 003 383 明白保护您的隐私和机密性是我们关心人们的基础。",
+        "paragraph2": "Futures Church（教会），如同许多其他组织，必须在处理个人信息时遵守澳大利亚隐私法中包含的国家隐私原则。",
+        "paragraph3": "本隐私政策涵盖了教会对我们收集或持有的可识别个人信息的处理方式。"
+      },
+      "information_collect": {
+        "title": "1. 我们收集的信息",
+        "paragraph1": "我们收集信息以便为所有参加我们活动、设施和服务的人提供更好的结果。",
+        "paragraph2": "我们只会收集为履行这些职能和提供这些服务及项目所需的个人和敏感信息。我们可能收集、持有和使用的信息类型因目的而异，但可能包括（其中包括）：",
+        "sensitive_info_title": "敏感/特殊类别个人信息",
+        "list_items": {
+          "personal_details": "个人详细信息，如您的称呼、姓名和出生日期",
+          "contact_details": "联系信息，例如邮寄地址、邮政编码、电子邮件和可选的电话号码",
+          "demographic_information": "当与我们的使命相关时，人口统计信息，如婚姻状况、国籍、教育、职业/资格和家庭详情",
+          "financial_information": "财务信息，如信用卡详情、捐款历史和您的银行详情",
+          "family_details": "当您共同志愿、注册活动或在Futures Church注册您的孩子时，配偶和家庭详情",
+          "employee_volunteer_data": "员工和志愿者数据，如资格、语言和经验",
+          "contact_records": "您与我们联系的记录",
+          "photographs": "您提供或在Futures Church服务或活动中拍摄的照片",
+          "sensitive_info": "我们还可能收集和存储敏感的个人信息，如：",
+          "health_pastoral": "在牧师会议期间提供的健康信息",
+          "health_attendance": "协助参加Futures Church服务和活动的健康信息",
+          "religious_information": "宗教信息（参加服务、教会活动/活动、个人信仰决定、洗礼等）",
+          "prayer_requests": "祈祷请求",
+          "recording_notice": "同样重要的是要注意到，Futures Church的所有服务（包括各种其他活动）都会被录制。出席或参与服务（或其他活动）的人的图像可能在我们的服务、资源、促销目的和商业活动中使用和展示。通过参加任何服务（或其他活动），您同意Futures Church在这些录制中使用您的图像和个人信息。"
+        }
+      },
+      "use_information": {
+        "title": "2. 我们如何使用您的信息",
+        "paragraph1": "Futures Church将使用我们收集的个人信息用于收集时披露的目的或本隐私政策中规定的目的。除非得到您的同意或法律授权或要求，否则我们不会将您的个人信息用于其他目的。一般来说，我们将仅以下列方式使用和披露您的个人信息：",
+        "list_items": {
+          "maintain_involvement": "(a) 建立和维持您与教会的联系，包括向您提供新闻简讯和即将举行的活动信息",
+          "provide_services": "(b) 提供您从教会请求的产品或服务",
+          "answer_inquiry": "(c) 回答您的询问",
+          "register_events": "(d) 为您注册活动、会议或促销活动",
+          "improve_services": "(e) 帮助我们使教会的网站、服务和产品对我们的社区更有价值",
+          "promotion": "(f) 直接推广产品或服务，并让您了解我们认为您可能感兴趣的新发展",
+          "third_parties": "(g) 与我们聘请的第三方共享，以帮助我们运营教会并提供您请求的产品或服务，如宗教教育讲师、餐饮和活动协调员、促销公司、运输提供商、医疗服务提供商、网站主机、IT顾问和我们的专业顾问（如顾问、律师、会计师）。在某些情况下，作为您请求的服务的一部分，我们可能需要向第三方披露您的敏感信息",
+          "internal_use": "(h) 向教会不同部分提供信息，以促进其他产品和服务的开发和推广，并提高我们协助教会参与者和更广泛社区的整体能力。通过电子方式提供的信息，包括通过本网站，可能存储在Futures Church地点的计算机和澳大利亚的服务器上。以纸质形式提供的信息可能被转移到安全的虚拟系统或存储在安全的物理归档系统中。我们绝不会与第三方共享、出售或出租您的个人信息以供其促销使用。"
+        }
+      },
+      "access_information": {
+        "title": "3. 访问您的信息",
+        "paragraph1": "您可以通过联系教会隐私官（如下面所述）请求访问教会持有的您的个人信息。除非法律授权拒绝，否则我们将提供对您个人信息的访问。我们可能会为提供访问权限收取合理费用。",
+        "paragraph2": "如果您希望随时更改过时或不准确的个人信息，请联系我们。在您通知后，我们将采取合理步骤更正您的任何不准确、不完整或过时的信息。如果您希望删除您的个人信息，请告知我们，我们将在可行的情况下删除该信息。",
+        "paragraph3": "在某些情况下，我们可能拒绝您访问、修改或删除个人信息的请求。如果我们拒绝您的请求，我们将提供我们决定的理由，并且在修改的情况下，我们将记录您对信息准确性的争议。"
+      },
+      "security": {
+        "title": "4. 安全",
+        "paragraph1": "教会将采取合理步骤确保我们持有的任何个人信息的安保，并保持其准确性和更新性。个人信息存储在安全的服务器或文件中。",
+        "paragraph2": "互联网不是一种安全的传输信息方式。因此，教会无法对通过互联网发送或接收的信息的安全性或未经授权的访问或使用承担责任。"
+      },
+      "changes_policy": {
+        "title": "5. 本隐私政策的变更",
+        "paragraph1": "教会可能不时修改本隐私政策，修改后的版本将在教会的信息柜台或我们的网站https://futures.church/australia/上提供。",
+        "paragraph2": "我们建议您定期访问我们的网站以保持更新。"
+      },
+      "contact_us": {
+        "title": "6. 联系我们",
+        "paragraph1": "如需更多信息，或有关教会的隐私政策或我们一般信息处理实践的任何疑问、问题或投诉，请致电+61 8 8336 0000或写信给The Privacy Officer, Influencers Church, 57 Darley Road, Paradise SA 5075, AUSTRALIA联系我们的隐私官。"
+      }
+    }
+  },
+  "church2": {
+    "errors": {
+      "invalidImageType": "仅允许JPEG、PNG或GIF格式的图片",
+      "imageTooLarge": "图片大小必须小于5MB"
+    },
+    "form": {
+      "uploadImage": "上传教会图片",
+      "imageSelected": "已选择: {imageName}",
+      "removeImage": "删除图片"
+    }
+  },
+  "privacypolicy1": {
+    "sections": {
+      "information_collect": {
+        "paragraph3": "为了支持您与未来教会的体验并满足社区需求，我们收集个人和敏感信息，包括联系方式、健康相关信息和宗教偏好。"
+      },
+      "information_usage": {
+        "title": "我们如何使用您的信息",
+        "intro": "这些数据帮助我们：",
+        "bullet1": "促进活动注册和服务出席。",
+        "bullet2": "提供关于教会活动、项目和服务的更新。",
+        "bullet3": "改善我们的运营、安全和社区参与。",
+        "conclusion": "我们不会在未经您知情的情况下收集个人数据，并且我们仅将信息用于与您和未来教会互动直接相关的目的。个人数据不会被出售或共享用于营销目的。"
+      }
+    }
+  },
+  "analytics": {
+    "sermon_details": "讲道详情",
+    "new_salvations_details": "新救恩详情",
+    "new_users_details": "新用户详情",
+    "live_sermons_details": "直播讲道详情",
+    "dashboard_title": "分析仪表板",
+    "dashboard_prompt": "点击仪表板瓷砖查看详细分析",
+    "table": {
+      "sr_no": "序号",
+      "church_name": "教会名称",
+      "admin_name": "管理员名称",
+      "start_time": "开始时间",
+      "end_time": "结束时间",
+      "actions": "操作",
+      "user_name": "用户名",
+      "email": "电子邮件",
+      "phone": "电话",
+      "church": "教会",
+      "faith_level": "信仰程度",
+      "click_count": "点击次数",
+      "salvation_date": "救恩日期",
+      "full_name": "全名",
+      "registration_date": "注册日期",
+      "hosted_by": "主持人",
+      "start_datetime": "开始日期时间",
+      "duration": "持续时间",
+      "status": "状态"
+    },
+    "buttons": {
+      "view_details": "查看详情",
+      "back": "返回",
+      "end_sermon": "结束此讲道"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "不活跃"
+    },
+    "members": {
+      "joined": "已加入成员",
+      "active": "活跃成员",
+      "inactive": "不活跃成员",
+      "listeners": "听众"
+    },
+    "messages": {
+      "no_sermon_details": "未找到讲道详情",
+      "no_salvations": "未找到新救恩",
+      "no_users": "未找到新用户",
+      "no_live_sermons": "未找到直播讲道",
+      "no_listeners": "未找到听众"
+    },
+    "loading": "加载中...",
+    "not_available": "不可用"
+  },
+  "feedback": {
+    "heading": "帮助与反馈",
+    "subheading": "我们重视您的反馈！请帮助我们改进服务。",
+    "footer": "您的反馈对我们很重要，有助于我们为每个人改进翻译服务。所有回复都是保密的，仅用于服务改进目的。",
+    "fields": {
+      "type": "反馈类型 *",
+      "audioQuality": "音频质量",
+      "comment": "评论",
+      "commentPlaceholder": "在此添加其他评论"
+    },
+    "types": {
+      "GeneralFeedback": "一般反馈",
+      "Complaint": "投诉",
+      "Suggestion": "建议"
+    },
+    "audio": {
+      "Good": "好",
+      "Average": "一般",
+      "Poor": "差"
+    },
+    "errors": {
+      "selectType": "请选择反馈类型",
+      "userNotFound": "未找到用户。无法提交音频反馈。",
+      "commentRequired": "请输入您的评论"
+    },
+    "buttons": {
+      "submitFeedback": "提交反馈",
+      "clearForm": "清除表单"
+    },
+    "messages": {
+      "submitSuccess": "反馈提交成功！",
+      "submitError": "提交反馈时出错。请再试一次。"
+    }
+  },
+  "reviews": {
+    "messages": {
+      "fetchError": "获取反馈失败，请重试。",
+      "deleteSuccess": "反馈已成功删除。",
+      "deleteError": "删除反馈失败，请重试。"
+    },
+    "adminDashboard": {
+      "title": "反馈面板",
+      "refresh": "刷新",
+      "totalFeedback": "总反馈",
+      "audioFeedback": "音频反馈",
+      "feedbackOnly": "仅反馈",
+      "allSubmissions": "所有提交 ({{count}})",
+      "noSubmissions": "暂无反馈提交。",
+      "noComment": "未提供评论",
+      "delete": "删除",
+      "confirmDeleteTitle": "确认删除",
+      "confirmDeleteMessage": "您确定要删除此反馈吗？",
+      "cancel": "取消",
+      "table": {
+        "date": "日期",
+        "userId": "用户名",
+        "type": "反馈类型",
+        "audio": "音频反馈",
+        "comment": "评论",
+        "actions": "操作"
+      },
+      "dialog": {
+        "title": "反馈和用户详情",
+        "userInfo": "用户信息",
+        "feedbackInfo": "反馈详情",
+        "userId": "ID",
+        "name": "姓名",
+        "email": "邮箱",
+        "suburb": "区",
+        "faithLevel": "信仰等级",
+        "language": "语言",
+        "type": "类型",
+        "audioQuality": "音质",
+        "comment": "评论",
+        "date": "日期",
+        "close": "关闭",
+        "na": "无"
+      }
+    }
+  }
+}

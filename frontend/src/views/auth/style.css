@@ -1,0 +1,158 @@
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    padding-left: 17px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  /* Container and Paper styles */
+  .MuiContainer-root {
+    padding: 10px !important;
+  }
+
+  .MuiPaper-root {
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  /* Logo styles */
+  .b-title {
+    height: 40px !important;
+    padding-top: 10px !important;
+  }
+
+  /* Header styles */
+  .MuiTypography-h5 {
+    font-size: 1.1rem !important;
+    padding: 10px !important;
+  }
+
+  /* Form field styles */
+  .MuiTextField-root {
+    margin-bottom: 12px !important;
+  }
+
+  .MuiInputBase-root {
+    font-size: 16px !important; /* Prevents zoom on iOS */
+  }
+
+  .MuiInputBase-input {
+    padding: 12px !important;
+  }
+
+  .MuiInputLabel-root {
+    font-size: 14px !important;
+  }
+
+  /* Button styles */
+  .MuiButton-root {
+    width: 100% !important;
+    padding: 12px !important;
+    font-size: 16px !important;
+    margin: 8px 0 !important;
+  }
+
+  /* Grid spacing */
+  .MuiGrid-container {
+    padding: 0 !important;
+  }
+
+  .MuiGrid-item {
+    padding: 8px !important;
+  }
+
+  /* Typography for mobile */
+  .MuiTypography-body1 {
+    font-size: 14px !important;
+  }
+
+  /* Modal styles */
+  .MuiModal-root .MuiBox-root {
+    width: 90% !important;
+    padding: 16px !important;
+    max-height: 80vh !important;
+  }
+
+  /* Bottom section */
+  .MuiBox-root[mt="auto"] {
+    margin-top: 16px !important;
+  }
+
+  /* Church selector */
+  .MuiSelect-select {
+    padding: 12px !important;
+    font-size: 16px !important;
+  }
+
+  /* Checkbox and radio buttons */
+  .MuiCheckbox-root {
+    padding: 6px !important;
+  }
+
+  /* Error messages */
+  .MuiFormHelperText-root {
+    font-size: 12px !important;
+    margin-top: 4px !important;
+  }
+
+  /* Input spacing */
+  .MuiFormControl-root {
+    margin-bottom: 16px !important;
+  }
+
+  /* Icon buttons */
+  .MuiIconButton-root {
+    padding: 8px !important;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px !important;
+  }
+
+  /* Text alignment */
+  .text-center-mobile {
+    text-align: center !important;
+  }
+
+  /* Spacing utilities */
+  .mobile-mt-2 {
+    margin-top: 16px !important;
+  }
+
+  .mobile-mb-2 {
+    margin-bottom: 16px !important;
+  }
+
+  .mobile-p-2 {
+    padding: 16px !important;
+  }
+}
+
+/* Additional styles for tablets */
+@media (min-width: 601px) and (max-width: 960px) {
+  .MuiContainer-root {
+    padding: 20px !important;
+  }
+
+  .MuiPaper-root {
+    width: 90% !important;
+  }
+
+  .MuiButton-root {
+    width: auto !important;
+    min-width: 120px !important;
+  }
+}
+
+/* Landscape mode specific styles */
+@media (max-width: 600px) and (orientation: landscape) {
+  .MuiContainer-root {
+    padding: 10px 20px !important;
+  }
+
+  .MuiPaper-root {
+    max-height: 90vh !important;
+  }
+}

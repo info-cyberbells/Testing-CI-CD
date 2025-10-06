@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  .container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #4a4a4a;
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .left-panel,
+  .right-panel {
+    flex: 1;
+  }
+  .transcription-container {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 300px;
+    overflow-y: auto;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .controls {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  button,
+  select {
+    background-color: #4caf50;
+    border: none;
+    color: white !important;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  button:hover,
+  select:hover {
+    background-color: #45a049;
+  }
+  .status {
+    margin-top: 1rem;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+  

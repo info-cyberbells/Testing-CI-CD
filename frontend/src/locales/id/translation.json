@@ -1,0 +1,1535 @@
+{
+  "login": {
+    "language": "Pilih Bahasa",
+    "signIn": "Masuk",
+    "signUp": "Daftar",
+    "email": "Alamat Email",
+    "password": "Kata Sandi",
+    "login": "Masuk",
+    "noAccount": "Belum punya akun? ",
+    "forgotPassword": "Lupa Kata Sandi?",
+    "resetPassword": "Atur Ulang Kata Sandi",
+    "resetPasswordInstructions": "Masukkan alamat email Anda. Kami akan mengirimkan kode 4 digit untuk mengatur ulang kata sandi Anda.",
+    "backToLogin": "Kembali ke Masuk",
+    "sendCode": "Kirim Kode",
+    "enterResetCode": "Masukkan Kode Atur Ulang",
+    "enterCodeInstructions": "Masukkan kode 4 digit yang dikirim ke email Anda dan kata sandi baru Anda.",
+    "code": "Kode 4 Digit",
+    "newPassword": "Kata Sandi Baru",
+    "submit": "Kirim",
+    "errors": {
+      "emailRequired": "Email diperlukan.",
+      "passwordRequired": "Kata sandi diperlukan.",
+      "invalidEmail": "Masukkan alamat email yang valid.",
+      "generic": "Terjadi kesalahan. Silakan coba lagi.",
+      "invalidCredentials": "Masukkan kredensial yang benar.",
+      "invalidCodeOrPassword": "Masukkan kode 4 digit yang valid dan kata sandi baru.",
+      "confirmPasswordRequired": "Harap konfirmasi kata sandi Anda",
+      "passwordMismatch": "Kata sandi tidak cocok",
+      "invalidCode": "Kode atau permintaan tidak valid."
+    },
+    "codeSent": "Kode atur ulang 4 digit telah dikirim ke email Anda. Silakan periksa kotak masuk Anda.",
+    "passwordUpdated": "Kata sandi berhasil diperbarui! Mengarahkan ke halaman masuk...",
+    "confirmNewPassword": "Konfirmasi Kata Sandi Baru"
+  },
+  "signup": {
+    "firstName": "Nama Depan",
+    "lastName": "Nama Belakang",
+    "phone": "Nomor Ponsel",
+    "email": "Alamat Email",
+    "suburb": "Pinggiran Kota",
+    "church": "Gereja",
+    "selectChurch": "Pilih Gereja",
+    "password": "Kata Sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "next": "Lanjut",
+    "prev": "Sebelumnya",
+    "getToKnowYou": "Mengenal Anda",
+    "attendedBeforeQuestion": "Apakah Anda pernah mengunjungi gereja ini sebelumnya?",
+    "yes": "Ya",
+    "no": "Tidak",
+    "faithLevelQuestion": "Jelaskan tingkat iman Anda:",
+    "faithLevel": {
+      "nofaith": "Tanpa iman",
+      "uncertain": "Tidak yakin",
+      "opentofaith": "Terbuka terhadap iman",
+      "activelyexploring": "Sedang menjelajah secara aktif",
+      "strongfaith": "Iman kuat"
+    },
+    "broughtByQuestion": "Apakah seseorang membawa Anda ke gereja?",
+    "broughtByName": "Siapa yang membawa Anda?",
+    "faithLevelLabel": "Tingkat iman",
+    "primaryLanguageQuestion": "Apa bahasa utama Anda?",
+    "primaryLanguageLabel": "Bahasa utama",
+    "selectOption": "Pilih salah satu",
+    "languages": {
+      "english": "Inggris",
+      "spanish": "Spanyol",
+      "portuguese": "Portugis",
+      "indonesian": "Indonesia",
+      "mandarin": "Mandarin"
+    },
+    "language": {
+      "english": "Bahasa Inggris",
+      "spanish": "Bahasa Spanyol",
+      "portuguese": "Bahasa Portugis",
+      "indonesian": "Bahasa Indonesia",
+      "mandarin": "Bahasa Mandarin"
+    },
+    "referralSource": {
+      "friendFamily": "Rujukan Teman atau Keluarga",
+      "churchEvent": "Acara atau Ibadah Gereja",
+      "socialMedia": "Media Sosial (Facebook, Instagram, dll.)",
+      "communityOutreach": "Program Penjangkauan Masyarakat / Amal",
+      "onlineSearch": "Pencarian Online (Google, YouTube, dll.)",
+      "flyerPoster": "Selebaran / Poster / Buletin"
+    },
+    "termsAndConditions": "Syarat dan Ketentuan",
+    "howDidYouHearQuestion": "Bagaimana Anda mengetahui tentang kami?",
+    "howDidYouHearLabel": "Sumber Referensi",
+    "referralSources": {
+      "friend_family": "Rujukan dari teman atau keluarga",
+      "church_event": "Acara atau layanan gereja",
+      "social_media": "Media sosial (Facebook, Instagram, dll.)",
+      "community_outreach": "Program penjangkauan masyarakat / Program amal",
+      "online_search": "Pencarian online (Google, YouTube, dll.)",
+      "flyer_poster": "Selebaran / Poster / Buletin"
+    },
+    "referralSection": "Informasi Rujukan (Opsional)",
+    "referralCode": "Kode Rujukan",
+    "referralCodePlaceholder": "Masukkan kode rujukan jika Anda memilikinya",
+    "referredBy": "Dirujuk Oleh",
+    "referredByPlaceholder": "Masukkan nama orang yang merujuk Anda",
+    "termsDescription": "Dengan membuat akun, Anda mengonfirmasi bahwa Anda berusia 18 tahun ke atas, atau 13–17 tahun dengan izin dari orang tua atau wali. Anda juga menyetujui syarat dan ketentuan lain yang tercantum dalam Ketentuan Layanan dan Kebijakan Privasi kami.",
+    "readPrivacyPolicy": "Baca Kebijakan Privasi Kami",
+    "acceptTerms": "Saya setuju bahwa Futures Church akan menggunakan informasi ini sesuai dengan Kebijakan Privasi mereka",
+    "finish": "Selesai",
+    "agree": "Saya Setuju",
+    "errors": {
+      "firstNameMin": "Nama depan harus terdiri dari minimal 3 karakter",
+      "firstNameLetters": "Nama depan hanya boleh berisi huruf",
+      "firstNameRequired": "Nama depan diperlukan",
+      "lastNameLetters": "Nama belakang hanya boleh berisi huruf",
+      "emailRequired": "Email diperlukan",
+      "emailInvalid": "Format email tidak valid",
+      "emailExists": "Email ini sudah terdaftar. Gunakan email lain.",
+      "suburbRequired": "Pinggiran kota diperlukan",
+      "phoneDigits": "Nomor telepon hanya boleh berisi angka",
+      "phoneMin": "Nomor telepon harus terdiri dari minimal 10 digit",
+      "phoneRequired": "Nomor ponsel diperlukan",
+      "passwordMin": "Kata sandi harus terdiri dari minimal 6 karakter",
+      "passwordRequired": "Kata sandi diperlukan",
+      "confirmPasswordMatch": "Kata sandi harus cocok",
+      "confirmPasswordRequired": "Konfirmasi kata sandi diperlukan",
+      "churchRequired": "Pemilihan gereja diperlukan",
+      "termsRequired": "Anda harus menyetujui syarat dan ketentuan.",
+      "broughtByName": "Masukkan nama yang valid",
+      "generic": "Pendaftaran gagal"
+    },
+    "success": "Akun Anda berhasil dibuat!"
+  },
+  "dashboard": {
+    "totalChurches": "Total Gereja",
+    "totalAdmins": "Total Administrator",
+    "totalStaff": "Total Staf",
+    "totalUsers": "Total Pengguna",
+    "totalEvents": "Total Acara",
+    "totalSermons": "Total Khotbah",
+    "totalSalvations": "Total Keselamatan",
+    "totalLiveChurches": "Total Gereja Langsung",
+    "loading": "Memuat...",
+    "click_to_view": "Klik untuk melihat",
+    "filters": {
+      "date_range": "Pilih Rentang Tanggal",
+      "past_24_hours": "24 Jam Terakhir",
+      "this_week": "Minggu Ini",
+      "this_month": "Bulan Ini",
+      "this_year": "Tahun Ini",
+      "custom_range": "Rentang Tanggal Kustom",
+      "select_church": "Pilih Gereja",
+      "select_all": "Pilih Semua",
+      "your_church": "(Gereja Anda)",
+      "no_church_assigned": "Tidak ada gereja yang ditugaskan"
+    },
+    "tiles": {
+      "new_users": "Pengguna Baru",
+      "new_salvations": "Keselamatan Baru",
+      "new_sermons": "Khotbah Baru"
+    },
+    "live_sermons": {
+      "title": "Khotbah Langsung",
+      "sr_no": "No.",
+      "church_name": "NAMA GEREJA",
+      "start_time": "WAKTU MULAI",
+      "active_users": "PENGGUNA AKTIF",
+      "no_live_sermons": "Tidak ada khotbah langsung saat ini",
+      "view_in_detail": "Lihat Detail"
+    },
+    "messages": {
+      "no_church_selected": "Tidak Ada Gereja yang Dipilih",
+      "select_church_description": "Silakan pilih setidaknya satu gereja dari filter untuk melihat analisis dan grafik.",
+      "apply_filters_title": "Terapkan Filter untuk Melihat Data",
+      "apply_filters_description": "Klik tombol \"Terapkan Filter\" untuk memuat analisis gereja yang Anda pilih."
+    },
+    "charts": {
+      "faith_status": "Status Iman",
+      "overall_breakdown": "Perincian keseluruhan",
+      "no_faith_data": "Tidak Ada Data Iman",
+      "no_faith_data_available": "Tidak ada data tingkat iman yang tersedia",
+      "church_wise_breakdown": "Registrasi per Gereja",
+      "new_registrations": "Pendaftaran Baru",
+      "no_church_selected": "Tidak Ada Gereja Dipilih",
+      "apply_filters_to_view": "Terapkan Filter untuk Melihat Data",
+      "select_church_message": "Silakan pilih setidaknya satu gereja dari filter untuk melihat analitik dan grafik.",
+      "click_apply_filters_message": "Klik tombol Terapkan Filter untuk memuat data dari gereja yang dipilih.",
+      "monthly_breakdown": "Perincian bulanan",
+      "no_registrations": "Tidak Ada Pendaftaran Baru",
+      "no_registrations_message": "Tidak ada pendaftaran pengguna baru dalam periode yang dipilih",
+      "church_locations": "Lokasi Gereja",
+      "distribution": "Distribusi gereja berdasarkan wilayah",
+      "no_church_locations": "Tidak Ada Lokasi Gereja",
+      "add_church_locations": "Tambahkan lokasi gereja untuk ditampilkan di peta",
+      "no_location_data": "Tidak ada data lokasi gereja yang tersedia",
+      "all_countries": "Semua Negara",
+      "app_discovery": "Penemuan Aplikasi",
+      "how_users_found": "Bagaimana pengguna menemukan kami",
+      "no_discovery_data": "Tidak Ada Data Penemuan",
+      "no_discovery_available": "Tidak ada data penemuan aplikasi yang tersedia",
+      "languages_by_country": "Bahasa berdasarkan Negara",
+      "user_distribution": "Distribusi pengguna berdasarkan wilayah",
+      "no_language_data": "Tidak Ada Data Bahasa",
+      "no_sermon_data": "Tidak Ada Data Khotbah",
+      "no_sermon_data_message": "Tidak ada data durasi khotbah tersedia untuk periode yang dipilih.",
+      "no_language_available": "Tidak ada data bahasa berdasarkan negara yang tersedia",
+      "primary_language": "Distribusi Bahasa Utama",
+      "active_users_by_church": "Pengguna Aktif berdasarkan Gereja",
+      "users_active_period": "Pengguna aktif dalam periode yang dipilih",
+      "all_churches": "Semua Gereja",
+      "no_active_users": "Tidak Ada Pengguna Aktif",
+      "no_active_users_message": "Tidak ada pengguna yang aktif selama periode yang dipilih",
+      "avg_sermon_duration": "Durasi Rata-rata Khotbah",
+      "performance_by_church": "Kinerja berdasarkan gereja",
+      "church": "Gereja",
+      "avg_duration": "Durasi Rata-rata",
+      "sermons": "Khotbah",
+      "avg_users": "Rata-rata Pengguna",
+      "total_hours": "Total Jam",
+      "sermon_languages": "Bahasa Mendengarkan Khotbah",
+      "language_distribution": "Distribusi Penggunaan Bahasa",
+      "no_language_data_available": "Tidak ada data mendengarkan khotbah yang tersedia untuk periode ini"
+    }
+  },
+  "menu": {
+    "dashboard": "Dasbor",
+    "manageProfile": "Kelola Profil",
+    "manageAdministrators": "Kelola Administrator",
+    "manageStaffMembers": "Kelola Anggota Staf",
+    "manageUsers": "Kelola Pengguna",
+    "manageChurches": "Kelola Gereja",
+    "manageEvents": "Kelola Acara",
+    "analytics": "Analitik",
+    "manageChurch": "Kelola Gereja",
+    "goLive": "Siaran Langsung",
+    "deleteRequestAccounts": "Permintaan Penghapusan Akun",
+    "joinLiveSermons": "Bergabung dengan Khotbah Langsung",
+    "events": "Acara",
+    "privacyPolicy": "Kebijakan Privasi",
+    "deleteMyAccount": "Hapus Akun Saya",
+    "Feedback": "Masukan",
+    "viewFeedback": "Semua Masukan"
+  },
+  "profile": {
+    "header": "Pengaturan Profil",
+    "changePassword": "Ubah Kata Sandi",
+    "sections": {
+      "basic_information": "Informasi Dasar",
+      "employment_details": "Detail Pekerjaan",
+      "access_permissions": "Akses & Izin",
+      "skills_qualifications": "Keterampilan & Kualifikasi",
+      "hr_payroll_details": "Detail SDM & Penggajian",
+      "additional_information": "Informasi Tambahan",
+      "church_member_details": "Detail Anggota Gereja",
+      "additional_church_info": "Informasi Gereja Tambahan"
+    },
+    "modal": {
+      "change_password": "Ubah Kata Sandi"
+    },
+    "fields": {
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Email",
+      "phone_number": "Nomor Telepon",
+      "suburb": "Pinggiran kota",
+      "date_of_birth": "Tanggal Lahir",
+      "gender": "Jenis Kelamin",
+      "profile_photo": "Foto Profil",
+      "referalcode": "Kode Referal",
+      "job_title": "Judul Pekerjaan/Peran",
+      "department": "Departemen",
+      "user_role": "Peran Pengguna",
+      "system_access_level": "Tingkat Akses Sistem",
+      "education_level": "Tingkat Pendidikan",
+      "certifications": "Sertifikasi (dipisahkan dengan koma)",
+      "employee_id": "ID Karyawan",
+      "salary_hourly_rate": "Gaji/Tarif Per Jam",
+      "emergency_contact": "Kontak Darurat",
+      "linkedin_profile": "Profil LinkedIn",
+      "current_password": "Kata Sandi Saat Ini",
+      "new_password": "Kata Sandi Baru",
+      "confirm_new_password": "Konfirmasi Kata Sandi Baru",
+      "attended_before": "Apakah Anda pernah menghadiri gereja ini sebelumnya?",
+      "faith_journey": "Perjalanan Iman",
+      "brought_by": "Siapa yang membawa Anda ke gereja?"
+    },
+    "placeholders": {
+      "phone_number": "+1234567890",
+      "education_level": "misalnya, Sarjana",
+      "certifications": "misalnya, Bersertifikat AWS, Scrum Master",
+      "linkedin_profile": "https://linkedin.com/in/username",
+      "emergency_contact": "Nomor Telepon",
+      "brought_by": "Masukkan nama orang yang membawa Anda..."
+    },
+    "options": {
+      "select_gender": "Pilih Jenis Kelamin",
+      "male": "Laki-laki",
+      "female": "Perempuan",
+      "other": "Lainnya",
+      "select_role": "Pilih Peran",
+      "admin": "Admin",
+      "staff": "Staf",
+      "user": "Pengguna",
+      "yes": "Ya",
+      "no": "Tidak",
+      "no_faith": "Tidak beriman",
+      "uncertain": "Tidak yakin",
+      "open_to_faith": "Terbuka terhadap iman",
+      "actively_exploring": "Sedang mengeksplorasi",
+      "strong_faith": "Iman yang kuat"
+    },
+    "buttons": {
+      "update_profile": "Perbarui Profil",
+      "cancel": "Batal",
+      "change_password": "Ubah Kata Sandi"
+    },
+    "messages": {
+      "supported_formats": "Format yang didukung: JPG, PNG, (maks 5MB)",
+      "profile_updated_successfully": "Profil berhasil diperbarui",
+      "password_changed_successfully": "Kata sandi berhasil diubah"
+    },
+    "errors": {
+      "first_name_and_last_name_are_required": "Nama depan dan nama belakang diperlukan",
+      "invalid_phone_number_format": "Format nomor telepon tidak valid",
+      "invalid_email_format": "Format email tidak valid",
+      "invalid_work_email_format": "Format email kerja tidak valid",
+      "invalid_linkedin_profile_url": "URL profil LinkedIn tidak valid",
+      "user_id_not_found": "ID pengguna tidak ditemukan di penyimpanan lokal",
+      "file_is_too_large_please_select_an_image_under_5mb": "File terlalu besar. Pilih gambar di bawah 5MB.",
+      "error_updating_profile": "Kesalahan saat memperbarui profil",
+      "all_password_fields_required": "Semua kolom kata sandi diperlukan",
+      "passwords_do_not_match": "Kata sandi baru dan konfirmasi kata sandi tidak cocok",
+      "error_changing_password": "Kesalahan saat mengubah kata sandi",
+      "file_size_exceeds_5mb_limit": "Ukuran file melebihi batas 5MB",
+      "fetch_failed": "404 Tidak ditemukan"
+    }
+  },
+  "user": {
+    "buttons": {
+      "add_new_user": "Tambah Pengguna Baru",
+      "edit": "Edit",
+      "delete": "Hapus",
+      "cancel": "Batal",
+      "save": "Simpan",
+      "update": "Perbarui"
+    },
+    "search_placeholder": "Cari berdasarkan nama atau email...",
+    "table": {
+      "serial_number": "No. Seri",
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Email",
+      "phone": "Telepon",
+      "suburb": "Pinggiran Kota",
+      "church_name": "Nama Gereja",
+      "actions": "Aksi"
+    },
+    "modal": {
+      "save_user": "Simpan Pengguna",
+      "update_user": "Perbarui Pengguna"
+    },
+    "fields": {
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Email",
+      "password": "Kata Sandi",
+      "phone": "Telepon",
+      "address": "Alamat",
+      "suburb": "Pinggiran Kota",
+      "church_name": "Nama Gereja"
+    },
+    "options": {
+      "select_church": "Pilih Gereja"
+    },
+    "messages": {
+      "loading_users": "Memuat pengguna...",
+      "no_users_available": "Tidak ada pengguna tersedia",
+      "user_deleted_successfully": "Pengguna berhasil dihapus",
+      "user_save_successfully": "Pengguna berhasil ditambahkan",
+      "user_update_successfully": "Pengguna berhasil diperbarui",
+      "delete_user_confirmation": "Apakah Anda yakin ingin menghapus pengguna ini?",
+      "no_search_results": "Tidak ada pengguna yang cocok dengan \"{searchTerm}\""
+    },
+    "errors": {
+      "first_name_required": "Nama depan diperlukan.",
+      "first_name_min_length": "Nama depan harus terdiri dari minimal 3 karakter.",
+      "first_name_letters_only": "Nama depan hanya boleh berisi huruf.",
+      "last_name_min_length": "Nama belakang harus terdiri dari minimal 3 karakter.",
+      "last_name_letters_only": "Nama belakang hanya boleh berisi huruf.",
+      "password_required": "Kata sandi diperlukan.",
+      "password_min_length": "Kata sandi harus terdiri dari minimal 6 karakter.",
+      "email_required": "Email diperlukan.",
+      "email_invalid": "Masukkan alamat email yang valid.",
+      "phone_required": "Telepon diperlukan.",
+      "phone_invalid": "Nomor telepon harus tepat 10 digit.",
+      "suburb_required": "Pinggiran kota diperlukan.",
+      "suburb_letters_only": "Pinggiran kota hanya boleh berisi huruf.",
+      "church_required": "Pilih gereja.",
+      "error_fetching_users": "Kesalahan saat mengambil pengguna",
+      "error_fetching_churches": "Kesalahan saat mengambil gereja",
+      "error_deleting_user": "Kesalahan saat menghapus pengguna",
+      "error_during_save_operation": "Kesalahan selama operasi penyimpanan",
+      "error_during_update_operation": "Kesalahan selama operasi pembaruan"
+    }
+  },
+  "event": {
+    "buttons": {
+      "add_new_event": "Tambah Acara Baru",
+      "edit": "Edit",
+      "delete": "Hapus",
+      "cancel": "Batal",
+      "save": "Simpan",
+      "update": "Perbarui",
+      "save_photos": "Tambah Foto",
+      "update_photos": "Perbarui Foto"
+    },
+    "table": {
+      "serial_number": "No. Seri",
+      "event_name": "Nama Acara",
+      "event_date": "Tanggal Acara",
+      "status": "Status",
+      "actions": "Aksi"
+    },
+    "modal": {
+      "save_event": "Tambah Acara",
+      "update_event": "Edit Acara"
+    },
+    "fields": {
+      "name": "Nama",
+      "date": "Tanggal & Waktu Acara",
+      "description": "Deskripsi",
+      "church_name": "Nama Gereja"
+    },
+    "labels": {
+      "event_images": "Gambar Acara"
+    },
+    "options": {
+      "select_church": "Pilih Gereja"
+    },
+    "status": {
+      "active": "Aktif",
+      "expired": "Kadaluarsa"
+    },
+    "messages": {
+      "loading_events": "Memuat acara...",
+      "no_events_available": "Tidak ada acara tersedia",
+      "event_deleted_successfully": "Acara berhasil dihapus",
+      "event_save_successfully": "Acara berhasil disimpan",
+      "event_update_successfully": "Acara berhasil diperbarui",
+      "image_deleted_successfully": "Gambar berhasil dihapus",
+      "delete_event_confirmation": "Apakah Anda yakin ingin menghapus acara ini?"
+    },
+    "errors": {
+      "event_name_required": "Nama acara diperlukan.",
+      "event_description_required": "Deskripsi acara wajib diisi",
+      "event_date_required": "Tanggal acara diperlukan.",
+      "invalid_date_format": "Format tanggal tidak valid",
+      "church_name_required": "Nama gereja diperlukan.",
+      "error_fetching_events": "Kesalahan saat mengambil acara",
+      "error_fetching_churches": "Kesalahan saat mengambil gereja",
+      "error_deleting_event": "Kesalahan saat menghapus acara",
+      "error_during_save_operation": "Kesalahan selama operasi penyimpanan",
+      "error_during_update_operation": "Kesalahan selama operasi pembaruan",
+      "image_not_found_in_database": "Gambar tidak ditemukan di database",
+      "failed_to_delete_image": "Gagal menghapus gambar"
+    }
+  },
+  "golive": {
+    "seo": {
+      "title": "Penerjemah Khotbah Langsung | Terjemahan Khotbah Real-Time",
+      "description": "Rasakan terjemahan khotbah secara real-time dan layanan gereja multibahasa dengan penerjemah khotbah langsung kami.",
+      "keywords": "Penerjemah khotbah gereja, Terjemahan khotbah langsung, Penerjemah khotbah real-time, Layanan gereja multibahasa, Terjemahkan khotbah secara online, Terjemahan layanan ibadah, Terjemahan khotbah Alkitab"
+    },
+    "labels": {
+      "professional_speech_translation": "Terjemahan Pidato Profesional",
+      "current_transcription": "Transkripsi Saat Ini"
+    },
+    "buttons": {
+      "start_speaking": "Mulai Berbicara",
+      "stop": "Berhenti"
+    },
+    "options": {
+      "choose_microphone": "Pilih Mikrofon...",
+      "language_english": "Inggris"
+    },
+    "placeholders": {
+      "transcription_placeholder": "Transkripsi Anda akan muncul di sini..."
+    },
+    "status": {
+      "ready_to_start": "Siap untuk memulai",
+      "listening": "Mendengarkan...",
+      "stopped": "Berhenti"
+    },
+    "errors": {
+      "browser_not_supported": "Browser tidak didukung",
+      "no_microphones_found": "Tidak ada mikrofon ditemukan",
+      "microphone_permission_denied": "Kesalahan saat mengakses mikrofon. Pastikan izin mikrofon diberikan.",
+      "microphone_error_audio_capture": "Kesalahan mikrofon: penangkapan audio. Periksa izin mikrofon Anda.",
+      "microphone_error_not_allowed": "Kesalahan mikrofon: tidak diizinkan. Periksa izin mikrofon Anda.",
+      "recognition_error_no_speech": "Kesalahan pengenalan: tidak ada ucapan",
+      "too_many_restart_attempts": "Terlalu banyak upaya mulai ulang. Coba lagi.",
+      "translation_error": "Terjadi kesalahan terjemahan",
+      "wake_lock_not_supported": "Peringatan: Kunci Layar tidak didukung. Khotbah akan tetap berlanjut.",
+      "error_starting_stream": "Kesalahan saat memulai streaming",
+      "error_stopping_stream": "Kesalahan saat menghentikan streaming",
+      "error_adding_sermon": "Kesalahan saat menambahkan khotbah",
+      "error_updating_sermon_status": "Kesalahan saat memperbarui status khotbah"
+    }
+  },
+  "joinlivesermons": {
+    "seo": {
+      "selection": {
+        "title": "Khotbah Langsung Gereja | Bergabung dengan Khotbah Langsung",
+        "description": "Bergabunglah dengan khotbah langsung gereja dan rasakan terjemahan khotbah secara real-time dalam berbagai bahasa.",
+        "keywords": "Khotbah langsung gereja, Bergabung dengan khotbah online, Siaran langsung gereja, Terjemahan khotbah online"
+      },
+      "translation": {
+        "title": "Penerjemah Khotbah Langsung | Terjemahan Khotbah Real-Time",
+        "description": "Rasakan terjemahan khotbah secara real-time dan layanan gereja multibahasa dengan penerjemah khotbah langsung kami.",
+        "keywords": "Penerjemah khotbah gereja, Terjemahan khotbah langsung, Penerjemah khotbah real-time, Layanan gereja multibahasa, Terjemahkan khotbah secara online, Terjemahan layanan ibadah, Terjemahan khotbah Alkitab"
+      }
+    },
+    "labels": {
+      "live_sermons": "Khotbah Langsung",
+      "accept_jesus": "Saya menerima Yesus.",
+      "live_sermon": "Khotbah Langsung",
+      "live_now": "LANGSUNG SEKARANG",
+      "initiator": "Pemrakarsa",
+      "start_time": "Waktu Mulai",
+      "your_previous_sessions": "Sesi Sebelumnya Anda",
+      "status": "Status"
+    },
+    "buttons": {
+      "join_sermon": "Bergabung dengan Khotbah",
+      "leave_sermon": "Tinggalkan Khotbah",
+      "start_translation": "Mulai Terjemahan",
+      "stop_translation": "Hentikan Terjemahan"
+    },
+    "options": {
+      "language_english": "Inggris",
+      "language_spanish": "Spanyol",
+      "language_portuguese": "Portugis",
+      "language_indonesian": "Indonesia",
+      "language_mandarin": "Mandarin",
+      "language_arabic": "Arab"
+    },
+    "table": {
+      "serial_number": "No. Seri",
+      "church_name": "Nama Gereja",
+      "initiator_name": "Nama Pemrakarsa",
+      "start_date_time": "Tanggal Waktu Mulai",
+      "end_date_time": "Tanggal Waktu Selesai"
+    },
+    "placeholders": {
+      "transcription_placeholder": "Menunggu terjemahan khotbah dimulai..."
+    },
+    "messages": {
+      "loading_sermon_data": "Memuat data khotbah...",
+      "no_live_sermons": "Tidak ada khotbah langsung tersedia saat ini. Silakan periksa kembali nanti.",
+      "loading": "Memuat..."
+    },
+    "status": {
+      "ready_to_start": "Siap untuk memulai",
+      "connected": "Terhubung",
+      "disconnected": "Terputus",
+      "connection_lost": "Koneksi hilang. Segarkan halaman."
+    },
+    "errors": {
+      "no_live_sermon_available": "Tidak ada khotbah langsung tersedia",
+      "failed_to_fetch_sermon_data": "Gagal mengambil data khotbah",
+      "failed_to_start_backend_session": "Gagal memulai sesi backend",
+      "failed_to_start_streaming": "Gagal memulai streaming",
+      "failed_to_stop_streaming": "Gagal menghentikan streaming",
+      "wake_lock_failed": "Peringatan: Tidak dapat mencegah layar meredup. Terjemahan akan tetap berlanjut.",
+      "wake_lock_not_supported": "Peringatan: Kunci Layar tidak didukung. Terjemahan akan tetap berlanjut."
+    }
+  },
+  "events": {
+    "labels": {
+      "upcoming_events": "Acara Mendatang",
+      "expired": "Kadaluarsa",
+      "event_photos": "Foto Acara"
+    },
+    "buttons": {
+      "read_more": "Baca lebih lanjut",
+      "show_less": "Tampilkan lebih sedikit"
+    },
+    "messages": {
+      "no_events_available": "Tidak ada acara tersedia saat ini"
+    },
+    "errors": {
+      "error_loading_events": "Kesalahan saat memuat acara: {error}",
+      "error_fetching_events": "Kesalahan saat mengambil acara"
+    },
+    "alt": {
+      "event_image": "Gambar acara {number}",
+      "zoomed_event": "Acara yang diperbesar"
+    }
+  },
+  "privacypolicy": {
+    "labels": {
+      "title": "Kebijakan Privasi & Ketentuan Layanan",
+      "back": "Kembali"
+    },
+    "sections": {
+      "introduction": {
+        "paragraph1": "PENERJEMAH GEREJA",
+        "paragraph2": "Terakhir Diperbarui: 2 Mei 2025",
+        "paragraph3": "Selamat datang di Church Translator (\"kami\", \"kita\", \"kami\"). “Church Translator” adalah aplikasi yang dikembangkan dan dioperasikan oleh <strong>Futures Church South Australia Incorporated</strong> (“Futures Church”). Untuk tujuan privasi, Futures Church bertanggung jawab atas pengumpulan dan penanganan data Anda sesuai dengan kebijakan ini.",
+        "paragraph4": "Church Translator mematuhi <strong>Prinsip Privasi Australia (APPs)</strong> berdasarkan <strong>Undang-Undang Privasi 1988 (Cth)</strong> untuk pengumpulan, penggunaan, pengungkapan, dan penyimpanan informasi pribadi. Kami juga berkomitmen untuk memenuhi kewajiban yang berlaku dari persyaratan privasi toko aplikasi Apple dan Google Play, memastikan pengalaman yang aman dan transparan saat Anda menggunakan layanan kami.",
+        "paragraph5": "Dokumen ini menguraikan <strong>Kebijakan Privasi</strong> dan <strong>Ketentuan Layanan</strong> kami (\"Ketentuan\"). Dengan mengakses atau menggunakan Church Translator, Anda setuju untuk terikat oleh Ketentuan ini."
+      },
+      "table_of_contents": {
+        "title": "Daftar Isi",
+        "list_items": {
+          "item1": "1. Informasi yang Kami Kumpulkan",
+          "item2": "2. Dasar Hukum untuk Pemrosesan Data",
+          "item3": "3. Bagaimana Kami Menggunakan Informasi Anda",
+          "item4": "4. Foto Profil",
+          "item5": "5. Akses Mikrofon",
+          "item6": "6. Layanan Pihak Ketiga",
+          "item7": "7. Transfer Data Internasional",
+          "item8": "8. Akses dan Berbagi Data",
+          "item9": "9. Keamanan Data",
+          "item10": "10. Retensi dan Penghapusan Data",
+          "item11": "11. Pemberitahuan Pelanggaran Data",
+          "item12": "12. Hak Anda",
+          "item13": "13. Privasi dan Kelayakan Anak",
+          "item14": "14. Tanggung Jawab Pengguna",
+          "item15": "15. Penghentian",
+          "item16": "16. Kekayaan Intelektual",
+          "item17": "17. Batasan Tanggung Jawab",
+          "item18": "18. Hukum yang Berlaku",
+          "item19": "19. Perubahan pada Kebijakan Ini",
+          "item20": "20. Penafian",
+          "item21": "21. Hubungi Kami"
+        }
+      },
+      "information_we_collect": {
+        "title": "1. Informasi yang Kami Kumpulkan",
+        "paragraph1": "Saat Anda membuat akun di Church Translator, kami mengumpulkan informasi pribadi berikut:",
+        "list_items": {
+          "name": "Nama",
+          "email_address": "Alamat email",
+          "mobile_number": "Nomor ponsel (opsional)",
+          "home_suburb": "Pinggiran tempat tinggal (opsional)",
+          "church_attend": "Gereja yang Anda hadiri",
+          "faith_status": "Status iman (misalnya, tidak beriman, sedikit iman, iman kuat, dll.)",
+          "church_attendance_details": "Detail kehadiran gereja"
+        },
+        "paragraph2": "Jika Anda menggunakan fitur audio atau profil kami, kami juga dapat meminta akses ke mikrofon, kamera, atau perpustakaan foto perangkat Anda. Lihat di bawah ini bagaimana informasi ini digunakan.",
+        "paragraph3": "Kami juga dapat mengumpulkan informasi perangkat dan penggunaan yang terbatas (misalnya, alamat IP, versi aplikasi, log kerusakan) untuk meningkatkan fungsionalitas aplikasi."
+      },
+      "legal_basis": {
+        "title": "2. Dasar Hukum untuk Pemrosesan Data",
+        "paragraph1": "Kami memproses informasi pribadi Anda berdasarkan dasar hukum berikut:",
+        "list_items": {
+          "consent": "<strong>Persetujuan</strong>: Kami mengandalkan persetujuan Anda untuk mengumpulkan dan menggunakan data opsional atau sensitif, seperti status iman Anda, afiliasi gereja, dan penggunaan mikrofon, kamera, atau perpustakaan foto Anda. Anda dapat menarik persetujuan Anda kapan saja melalui pengaturan perangkat Anda atau dengan menghubungi kami.",
+          "legitimate_interest": "<strong>Kepentingan Sah</strong>: Kami memproses informasi Anda untuk memantau dampak aplikasi Church Translator, mengevaluasi keterlibatan dengan konten spiritual, mendukung kepemimpinan gereja dalam merawat komunitas mereka, dan memenuhi persyaratan akuntabilitas yang ditetapkan oleh mitra pendanaan kami. Kami percaya penggunaan ini proporsional, wajar, dan tidak mengesampingkan hak Anda.",
+          "contract_fulfilment": "<strong>Pemenuhan Kontrak</strong>: Beberapa data pribadi diproses untuk memungkinkan kami menyediakan layanan terjemahan inti kami, mengelola akun Anda, dan memenuhi ketentuan layanan yang Anda setujui saat menggunakan aplikasi."
+        }
+      },
+      "how_we_use": {
+        "title": "3. Bagaimana Kami Menggunakan Informasi Anda",
+        "paragraph1": "Kami menggunakan informasi Anda untuk:",
+        "list_items": {
+          "provide_translation": "Menyediakan layanan terjemahan langsung selama acara.",
+          "manage_profile": "Memungkinkan Anda mengelola profil pribadi Anda dan menggunakan fitur aplikasi.",
+          "share_pastors": "Berbagi detail yang relevan dengan pendeta atau kepemimpinan gereja terdaftar Anda untuk membantu memberikan dukungan pastoral.",
+          "monitor_kpis": "Memantau tren penggunaan aplikasi secara keseluruhan dan memenuhi indikator kinerja utama (KPI) organisasi. Ini termasuk (tetapi tidak terbatas pada) pelacakan keterlibatan dan keputusan keselamatan untuk membantu mengevaluasi pertumbuhan spiritual.",
+          "improve_functionality": "Memantau tren penggunaan untuk meningkatkan fungsionalitas dan pengalaman aplikasi."
+        },
+        "paragraph2": "Kami <strong>tidak</strong> mengumpulkan data pribadi tanpa sepengetahuan Anda, dan kami hanya menggunakan informasi untuk tujuan yang diuraikan dalam dokumen ini.",
+        "paragraph3": "Kami <strong>tidak</strong> menggunakan data Anda untuk iklan pihak ketiga atau menjual informasi pribadi Anda."
+      },
+      "profile_photos": {
+        "title": "4. Foto Profil",
+        "paragraph1": "Jika Anda memilih untuk mengunggah foto profil di Church Translator, kami dapat meminta akses ke perangkat Anda:",
+        "list_items": {
+          "camera": "<strong>Kamera</strong> (untuk mengambil foto)",
+          "photo_library": "<strong>Perpustakaan Foto</strong> (untuk memilih gambar)"
+        },
+        "paragraph2": "Menambahkan foto adalah opsional dan hanya digunakan dalam profil pribadi Anda. Ini tidak dibagikan, dipublikasikan, atau digunakan untuk tujuan pemasaran. Anda dapat mencabut izin ini kapan saja melalui pengaturan perangkat Anda."
+      },
+      "microphone_access": {
+        "title": "5. Akses Mikrofon",
+        "paragraph1": "Akses mikrofon diperlukan untuk menyediakan <strong>terjemahan audio</strong> secara real-time langsung ke perangkat Anda.",
+        "list_items": {
+          "active_sessions": "Akses hanya digunakan selama sesi terjemahan aktif.",
+          "audio_not_stored": "Audio tidak direkam, disimpan, atau digunakan kembali di luar kebutuhan untuk terjemahan real-time."
+        },
+        "paragraph2": "Anda dapat mencabut akses mikrofon kapan saja melalui pengaturan perangkat, namun terjemahan tidak akan terjadi saat fitur ini dinonaktifkan."
+      },
+      "third_party_services": {
+        "title": "6. Layanan Pihak Ketiga",
+        "paragraph1": "Church Translator menggunakan layanan pihak ketiga berikut secara ketat untuk fungsi inti:",
+        "list_items": {
+          "microsoft_azure": "<strong>Microsoft Azure –</strong> Server yang berlokasi di Melbourne, Australia, digunakan untuk meng-host layanan aplikasi inti.",
+          "mongodb_atlas": "<strong>MongoDB Atlas (di-host oleh Amazon Web Services) –</strong> Layanan basis data yang berlokasi di Sydney, Australia, digunakan untuk menyimpan dan mengelola data pengguna dengan aman."
+        },
+        "paragraph2": "Layanan ini penting untuk menyediakan fitur seperti terjemahan real-time, konversi suara ke teks, dan teks ke suara sebagai respons terhadap tindakan yang dimulai oleh pengguna.",
+        "paragraph3": "Kami <strong>tidak</strong> membagikan informasi pribadi Anda (seperti nama, email, nomor ponsel, status iman, atau detail gereja) dengan penyedia layanan ini untuk tujuan pemasaran, iklan, atau tujuan sekunder lainnya. Data yang diproses melalui layanan ini terbatas pada yang diperlukan untuk memenuhi permintaan Anda dan memastikan operasi aplikasi yang tepat. Semua penanganan data dilakukan sesuai dengan standar keamanan dan privasi yang ketat."
+      },
+      "international_data_transfer": {
+        "title": "7. Transfer Data Internasional",
+        "paragraph1": "Semua data pribadi yang dikumpulkan melalui aplikasi Church Translator disimpan dan dikelola di server yang berlokasi <strong>di Australia</strong> (lihat “Bagian 6. Layanan Pihak Ketiga” untuk detail lebih lanjut).",
+        "paragraph2": "Meskipun kami tidak menyimpan atau memproses data di server yang berlokasi di luar Australia, pengguna yang mengakses aplikasi dari luar negeri dapat mengirimkan data ke server Australia kami. Ini berarti transfer data lintas batas dapat terjadi ketika pengguna internasional berinteraksi dengan aplikasi.",
+        "paragraph3": "Kami memastikan bahwa semua transfer tersebut ditangani dengan aman, menggunakan protokol transmisi terenkripsi (misalnya, TLS 1.2+) untuk melindungi informasi Anda saat dikirim ke server kami sesuai dengan hukum privasi yang berlaku."
+      },
+      "data_access_sharing": {
+        "title": "8. Akses dan Berbagi Data",
+        "paragraph1": "Data Anda hanya dapat diakses oleh:",
+        "list_items": {
+          "authorised_leadership": "Kepemimpinan resmi dari gereja afiliasi Anda.",
+          "authorised_staff": "Staf resmi dari Futures Church."
+        },
+        "paragraph2": "Semua akses ke data diatur oleh perjanjian kerahasiaan yang ketat dan diamankan melalui tindakan teknis dan organisasi yang sesuai."
+      },
+      "data_security": {
+        "title": "9. Keamanan Data",
+        "paragraph1": "Kami menggunakan <strong>tindakan pengamanan teknis dan organisasi standar industri</strong>, termasuk:",
+        "list_items": {
+          "tls_ssl": "<strong>Enkripsi TLS 1.2+ dan SSL</strong> untuk transmisi data yang aman",
+          "encryption": "<strong>Enkripsi data saat diam dan dalam perjalanan</strong>",
+          "role_based_access": "<strong>Kontrol akses berbasis peran</strong> untuk membatasi akses internal ke data",
+          "secure_backups": "<strong>Cadangan aman reguler</strong>",
+          "authentication_protocols": "<strong>Protokol autentikasi</strong> untuk melindungi akun pengguna"
+        },
+        "paragraph2": "Kami terus mengevaluasi dan meningkatkan keamanan kami untuk memenuhi praktik terbaik; namun, kami tidak dapat menjamin perlindungan absolut terhadap data dan metrik. Church Translator tidak dapat menerima tanggung jawab atas keamanan atau informasi yang Anda kirim atau terima dari kami melalui Internet, atau atas akses atau penggunaan yang tidak sah atas informasi tersebut."
+      },
+      "data_retention_deletion": {
+        "title": "10. Retensi dan Penghapusan Data",
+        "paragraph1": "Kami menyimpan data pribadi Anda hanya selama diperlukan untuk tujuan yang dimaksudkan. Anda dapat menghapus akun Anda dengan:",
+        "list_items": {
+          "option1_title": "<strong>Opsi 1: Dalam Aplikasi</strong>",
+          "option1_step": "Pergi ke Menu > Hapus Akun",
+          "option2_title": "<strong>Opsi 2: Melalui Email</strong>",
+          "option2_step1": "Kirim permintaan ke: <blue>lauren.van.niekerk@futures.church</blue>",
+          "option2_step2": "Sertakan nama lengkap dan email terdaftar Anda"
+        },
+        "paragraph2": "Data Anda akan dihapus dalam waktu <strong>30 hari</strong> kecuali kami diwajibkan secara hukum untuk menyimpannya untuk periode yang lebih lama."
+      },
+      "data_breach_notification": {
+        "title": "11. Pemberitahuan Pelanggaran Data",
+        "paragraph1": "Dalam hal terjadi pelanggaran data yang dianggap kemungkinan besar menyebabkan kerugian serius, kami akan memberitahu pengguna yang terkena dampak dan Kantor <strong>Komisaris Informasi Australia (OAIC)</strong> sesuai dengan <strong>Skema Pelanggaran Data yang Wajib Diberitahukan (NDB)</strong>."
+      },
+      "your_rights": {
+        "title": "12. Hak Anda",
+        "paragraph1": "Anda memiliki hak untuk:",
+        "list_items": {
+          "access_correct": "Mengakses dan memperbaiki data pribadi Anda",
+          "request_deletion": "Meminta penghapusan akun dan data pribadi Anda",
+          "withdraw_consent": "Menarik persetujuan untuk pengumpulan data (misalnya, kamera, mikrofon)",
+          "lodge_complaint": "Mengajukan keluhan kepada OAIC jika Anda percaya data Anda telah salah kelola"
+        }
+      },
+      "childrens_privacy": {
+        "title": "13. Privasi dan Kelayakan Anak",
+        "paragraph1": "Anda harus berusia setidaknya <strong>13 tahun</strong> untuk menggunakan aplikasi. Pengguna <strong>di bawah 18 tahun</strong> harus memiliki <strong>persetujuan orang tua atau wali</strong>.",
+        "paragraph2": "Kami tidak secara sengaja mengumpulkan data dari anak-anak di bawah 13 tahun. Jika kami mengetahui adanya pengumpulan data tersebut, kami akan memprioritaskan penghapusan informasi tersebut dari server kami."
+      },
+      "user_responsibilities": {
+        "title": "14. Tanggung Jawab Pengguna",
+        "paragraph1": "Anda setuju untuk:",
+        "list_items": {
+          "accurate_information": "Memberikan informasi yang akurat dan jujur selama pendaftaran",
+          "lawful_purposes": "Menggunakan aplikasi hanya untuk tujuan yang sah dan sesuai dengan Ketentuan ini",
+          "secure_credentials": "Menjaga keamanan kredensial login Anda."
+        }
+      },
+      "termination": {
+        "title": "15. Penghentian",
+        "paragraph1": "Kami dapat menangguhkan atau mengakhiri akun Anda jika:",
+        "list_items": {
+          "breach_terms": "Anda melanggar Ketentuan ini",
+          "misuse_services": "Anda menyalahgunakan layanan",
+          "legal_security": "Penghentian diperlukan karena alasan hukum atau keamanan"
+        },
+        "paragraph2": "Jika kami menangguhkan atau mengakhiri akun Anda, akun tersebut akan dihapus dari server kami.",
+        "paragraph3": "Anda juga dapat menghapus akun Anda kapan saja dengan menghubungi dukungan atau menggunakan pengaturan dalam aplikasi."
+      },
+      "intellectual_property": {
+        "title": "16. Kekayaan Intelektual",
+        "paragraph1": "Church Translator dan kontennya adalah milik Futures Church. Semua hak dilindungi. Anda tidak boleh menyalin, memodifikasi, atau mendistribusikan bagian mana pun dari aplikasi tanpa persetujuan tertulis."
+      },
+      "limitation_liability": {
+        "title": "17. Batasan Tanggung Jawab",
+        "paragraph1": "Sejauh diizinkan oleh hukum, <strong>Futures Church,</strong> stafnya, dan pengembang aplikasi tidak bertanggung jawab atas kerusakan tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan aplikasi."
+      },
+      "governing_law": {
+        "title": "18. Hukum yang Berlaku",
+        "paragraph1": "Ketentuan ini diatur oleh hukum <strong>Australia Selatan, Australia.</strong> Sengketa akan ditangani di bawah yurisdiksi pengadilan Australia Selatan."
+      },
+      "changes_policy": {
+        "title": "19. Perubahan pada Kebijakan Ini",
+        "paragraph1": "Kami dapat merevisi Ketentuan dan Kebijakan Privasi ini dari waktu ke waktu.",
+        "paragraph2": "Kami akan memberitahu Anda tentang perubahan signifikan melalui aplikasi atau email, dan versi yang telah direvisi akan tersedia di situs web kami di <blue>https://churchtranslator.com/privacy-policy</blue>. Penggunaan Church Translator yang berlanjut setelah pemberitahuan perubahan tersebut akan dianggap sebagai penerimaan Ketentuan yang diperbarui."
+      },
+      "disclaimer": {
+        "title": "20. Penafian",
+        "paragraph1": "Church Translator disediakan “sebagaimana adanya” dan “sesuai ketersediaan”. Kami tidak menjamin layanan tanpa gangguan atau terjemahan yang sepenuhnya akurat."
+      },
+      "contact_us": {
+        "title": "21. Hubungi Kami",
+        "paragraph1": "Jika Anda memiliki pertanyaan, permintaan, atau kekhawatiran mengenai Ketentuan ini atau Kebijakan Privasi kami, silakan hubungi kami di:",
+        "list_items": {
+          "email": "<strong>Email:</strong> <blue>lauren.van.niekerk@futures.church</blue>",
+          "mailing_address_title": "<strong>Alamat Surat:</strong>",
+          "mailing_address_line1": "Church Translator",
+          "mailing_address_line2": "c/o Futures Church",
+          "mailing_address_line3": "57 Darley Road, Paradise",
+          "mailing_address_line4": "South Australia, 5075 AUSTRALIA"
+        },
+        "paragraph2": "Church Translator adalah inisiatif pelayanan yang dikembangkan dan dioperasikan oleh <strong>Futures Church South Australia Incorporated (ABN: 94 916 517 224),</strong> sebuah organisasi amal terdaftar di Australia."
+      }
+    }
+  },
+  "deleteAccountRequest": {
+    "title": "Hapus Akun Saya",
+    "subtitle": "Silakan pilih alasan untuk menghapus akun Anda.",
+    "reasonLabel": "Alasan Penghapusan",
+    "selectReason": "Pilih alasan",
+    "submitButton": "Hapus Sekarang",
+    "pendingMessage": "Permintaan Anda telah dikirim dan sedang menunggu tinjauan admin.",
+    "approvedMessage": "Akun Anda telah dijadwalkan untuk dihapus.",
+    "rejectedMessage": "Permintaan Anda telah ditolak oleh admin.",
+    "errorNoReason": "Silakan pilih alasan untuk penghapusan",
+    "successMessage": "Akun berhasil dihapus",
+    "errorMessage": "Kesalahan dalam permintaan penghapusan",
+    "userNotFound": "Data pengguna tidak ditemukan"
+  },
+  "deletionReasons": [
+    "Tidak lagi membutuhkan akun",
+    "Kekhawatiran privasi",
+    "Beralih ke layanan lain",
+    "Terlalu banyak notifikasi",
+    "Lainnya"
+  ],
+  "adminDeleteRequests": {
+    "title": "Permintaan Penghapusan Akun",
+    "subtitle": "Tinjau dan kelola permintaan penghapusan akun yang tertunda dari pengguna.",
+    "noRequests": "Tidak ada permintaan baru",
+    "tableHeaders": {
+      "srNo": "No. Seri",
+      "user": "Pengguna",
+      "reason": "Alasan",
+      "status": "Status",
+      "requestedAt": "Diajukan Pada",
+      "actions": "Aksi"
+    },
+    "approveButton": "Setujui",
+    "rejectButton": "Tolak",
+    "errorFetch": "Kesalahan saat mengambil permintaan penghapusan",
+    "successApprove": "Permintaan disetujui dan pengguna berhasil dihapus",
+    "errorApprove": "Kesalahan saat menyetujui dan menghapus akun",
+    "successReject": "Permintaan penghapusan berhasil ditolak",
+    "errorReject": "Kesalahan saat menolak permintaan"
+  },
+  "analyticsMenu": {
+    "acceptedJesus": {
+      "title": "Menerima Yesus",
+      "tableHeaders": {
+        "srNo": "No. Seri",
+        "name": "Nama",
+        "email": "Email",
+        "phone": "Telepon",
+        "count": "Jumlah"
+      },
+      "noUsers": "Belum ada pengguna yang menerima Yesus",
+      "loading": "Memuat pengguna..."
+    },
+    "liveSermons": {
+      "title": "Khotbah Langsung",
+      "tableHeaders": {
+        "srNo": "No. Seri",
+        "churchName": "Nama Gereja",
+        "hostedBy": "Diselenggarakan Oleh",
+        "startDateTime": "Tanggal Waktu Mulai",
+        "actions": "Aksi"
+      },
+      "noSessions": "Tidak ada sesi langsung tersedia",
+      "loading": "Memuat khotbah...",
+      "detailsButton": "Lihat Detail",
+      "membersJoined": "Anggota yang Bergabung",
+      "membersActive": "Anggota Aktif",
+      "membersInactive": "Anggota Tidak Aktif",
+      "subTableHeaders": {
+        "srNo": "No. Seri",
+        "userName": "Nama Pengguna",
+        "email": "Email",
+        "startDateTime": "Tanggal Waktu Mulai",
+        "status": "Status"
+      },
+      "status": {
+        "active": "Aktif",
+        "inactive": "Tidak Aktif"
+      }
+    },
+    "endedSermons": {
+      "title": "Khotbah yang Berakhir",
+      "tableHeaders": {
+        "srNo": "No. Seri",
+        "churchName": "Nama Gereja",
+        "hostedBy": "Diselenggarakan Oleh",
+        "startDateTime": "Tanggal Waktu Mulai",
+        "actions": "Aksi"
+      },
+      "noSessions": "Tidak ada sesi yang berakhir tersedia",
+      "loading": "Memuat khotbah...",
+      "detailsButton": "Lihat Detail",
+      "membersJoined": "Anggota yang Bergabung",
+      "subTableHeaders": {
+        "srNo": "No. Seri",
+        "userName": "Nama Pengguna",
+        "email": "Email",
+        "startTime": "Waktu Mulai",
+        "endTime": "Waktu Selesai",
+        "duration": "Durasi"
+      },
+      "noListeners": "Tidak ada pendengar ditemukan"
+    },
+    "errors": {
+      "fetchJesusUsers": "Kesalahan saat mengambil pengguna yang menerima Yesus",
+      "fetchData": "Kesalahan saat mengambil data",
+      "fetchChurches": "Kesalahan saat mengambil gereja",
+      "deleteSermon": "Gagal menghapus khotbah"
+    },
+    "success": {
+      "deleteSermon": "Khotbah berhasil dihapus"
+    },
+    "confirmDelete": "Apakah Anda yakin ingin menghapus khotbah ini?"
+  },
+  "churchEdit": {
+    "imageAlt": "Gereja",
+    "overlayText": "Ganti Foto Gereja",
+    "formLabels": {
+      "name": "Nama",
+      "contactNo": "No Kontak",
+      "city": "Kota",
+      "state": "Provinsi",
+      "country": "Negara",
+      "seniorPastorName": "Nama Pendeta Utama",
+      "seniorPastorPhoneNumber": "Telepon Pendeta Utama",
+      "speech_key": "Kunci Suara",
+      "speech_location": "Lokasi Suara",
+      "translator_endpoint": "Endpoint Penerjemah",
+      "translator_key": "Kunci Penerjemah",
+      "translator_location": "Lokasi Penerjemah",
+      "stream_limit_minutes": "Batas Streaming (per minggu)",
+      "stream_used_minutes": "Waktu Streaming yang Digunakan",
+      "address": "Alamat"
+    },
+    "placeholders": {
+      "name": "Masukkan nama",
+      "contactNo": "Masukkan nomor kontak",
+      "city": "Masukkan kota",
+      "state": "Masukkan provinsi",
+      "country": "Masukkan negara",
+      "seniorPastorName": "Masukkan nama pendeta utama",
+      "seniorPastorPhoneNumber": "Masukkan telepon pendeta utama",
+      "speech_key": "Masukkan kunci suara Anda",
+      "speech_location": "Masukkan lokasi suara",
+      "translator_endpoint": "Masukkan endpoint penerjemah",
+      "translator_key": "Masukkan kunci penerjemah Anda",
+      "translator_location": "Masukkan lokasi penerjemah",
+      "stream_limit_minutes": "Masukkan menit (contoh: 120 untuk 2 jam)",
+      "stream_used_minutes": "Menit streaming yang digunakan",
+      "address": "Masukkan alamat"
+    },
+    "updateButton": "Perbarui",
+    "errors": {
+      "churchIdNotFound": "ID gereja tidak ditemukan di penyimpanan lokal",
+      "fetchDetails": "Kesalahan saat mengambil detail gereja",
+      "invalidImageType": "Unggah file gambar yang valid (JPEG, PNG)",
+      "uploadImage": "Kesalahan saat mengunggah gambar",
+      "updateDetails": "Kesalahan saat memperbarui detail gereja",
+      "speechLocationRequired": "Lokasi pidato wajib diisi",
+      "speechKeyRequired": "Kunci pidato wajib diisi",
+      "translatorKeyRequired": "Kunci penerjemah wajib diisi",
+      "translatorLocationRequired": "Lokasi penerjemah wajib diisi"
+    },
+    "success": {
+      "imageUpdated": "Gambar gereja berhasil diperbarui",
+      "detailsUpdated": "Detail gereja berhasil diperbarui"
+    }
+  },
+  "staffmember": {
+    "modal": {
+      "title_save": "Tambah Anggota Staf",
+      "title_update": "Edit Anggota Staf"
+    },
+    "search_placeholder": "Cari berdasarkan nama atau email...",
+    "buttons": {
+      "add": "Tambah Anggota Staf Baru",
+      "edit": "Edit",
+      "delete": "Hapus",
+      "save": "Simpan",
+      "update": "Perbarui"
+    },
+    "table_headers": {
+      "serial_number": "No. Seri",
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Email",
+      "phone": "Telepon",
+      "suburb": "Pinggiran Kota",
+      "church_name": "Nama Gereja",
+      "actions": "Aksi"
+    },
+    "sections": {
+      "basic_info": "Informasi Dasar",
+      "employment": "Detail Pekerjaan",
+      "access": "Akses & Izin",
+      "skills": "Keterampilan & Kualifikasi",
+      "hr": "Detail SDM & Penggajian",
+      "additional": "Informasi Tambahan"
+    },
+    "fields": {
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Email",
+      "phone": "Nomor Telepon",
+      "password": "Kata Sandi",
+      "date_of_birth": "Tanggal Lahir",
+      "gender": "Jenis Kelamin",
+      "suburb": "Pinggiran Kota",
+      "church_name": "Nama Gereja",
+      "job_title": "Judul Pekerjaan/Peran",
+      "department": "Departemen",
+      "employment_type": "Jenis Pekerjaan",
+      "work_location": "Lokasi Kerja",
+      "start_date": "Tanggal Mulai",
+      "end_date": "Tanggal Selesai",
+      "work_email": "Email Kerja",
+      "country": "Negara Asal",
+      "user_role": "Peran Pengguna",
+      "system_access_level": "Tingkat Akses Sistem",
+      "assigned_teams": "Tim yang Ditugaskan",
+      "education_level": "Tingkat Pendidikan",
+      "certifications": "Sertifikasi",
+      "skills": "Keterampilan & Kompetensi",
+      "languages_spoken": "Bahasa yang Dikuasai",
+      "employee_id": "ID Karyawan",
+      "salary_or_hourly_rate": "Gaji/Tarif Per Jam",
+      "payroll_bank_details": "Detail Bank Penggajian",
+      "tfn_abn": "TFN/ABN",
+      "work_visa_status": "Status Visa Kerja",
+      "emergency_contact": "Kontak Darurat",
+      "linkedin_profile": "Profil LinkedIn",
+      "notes_and_comments": "Catatan & Komentar"
+    },
+    "options": {
+      "select_gender": "Pilih Jenis Kelamin",
+      "gender_male": "Laki-laki",
+      "gender_female": "Perempuan",
+      "gender_other": "Lainnya",
+      "select_church": "Pilih Gereja",
+      "select_type": "Pilih Jenis",
+      "employment_full_time": "Penuh Waktu",
+      "employment_part_time": "Paruh Waktu",
+      "employment_contractor": "Kontraktor",
+      "select_location": "Pilih Lokasi",
+      "location_onsite": "Di Tempat",
+      "location_remote": "Jarak Jauh",
+      "location_hybrid": "Hibrida",
+      "role_staff": "Staf"
+    },
+    "messages": {
+      "loading": "Memuat anggota staf...",
+      "no_staff": "Tidak ada anggota staf tersedia",
+      "delete_confirm": "Apakah Anda yakin ingin menghapus anggota staf ini?",
+      "delete_success": "Anggota staf berhasil dihapus",
+      "save_success": "Anggota staf berhasil ditambahkan",
+      "update_success": "Anggota staf berhasil diperbarui",
+      "no_search_results": "Tidak ada anggota staf yang cocok dengan \"{searchTerm}\""
+    },
+    "placeholders": {
+      "first_name": "Masukkan nama depan",
+      "last_name": "Masukkan nama belakang",
+      "email": "Masukkan email gereja",
+      "phone": "+62 812 000 0000",
+      "password": "Masukkan kata sandi yang aman",
+      "date_of_birth": "Pilih tanggal lahir",
+      "suburb": "Masukkan kelurahan/lokasi",
+      "job_title": "mis., Pemimpin Pujian, Pendeta Pemuda",
+      "department": "mis., Pujian, Jangkauan, Pelayanan Anak",
+      "system_access_level": "mis., Admin, Relawan, Pemimpin Tim",
+      "employee_id": "mis., GRJ-00123",
+      "salary_or_hourly_rate": "mis., Honorarium atau Jam Relawan",
+      "payroll_bank_details": "Detail rekening bank",
+      "tfn_abn": "Masukkan TFN atau ABN",
+      "work_visa_status": "Masukkan status visa",
+      "notes_and_comments": "Catatan atau komentar tambahan",
+      "work_email": "kerja@perusahaan.com",
+      "country": "Indonesia",
+      "assigned_teams": "mis., Tim Pujian, Tim Media, Pelayanan Doa",
+      "education_level": "mis., Diploma Pelayanan, Sekolah Alkitab",
+      "certifications": "mis., Lisensi Pastoral, Pelatihan Keamanan Anak",
+      "skills": "mis., Berkhotbah, Koordinasi Acara, Musik",
+      "languages_spoken": "mis., Indonesia, Inggris, Jawa",
+      "emergency_contact": "mis., Budi Santoso - 0812 345 678",
+      "linkedin_profile": "https://linkedin.com/in/namapengguna"
+    },
+    "helper_text": {
+      "password": "Kata sandi harus terdiri dari minimal 6 karakter",
+      "comma_separated": "Masukkan nilai yang dipisahkan dengan koma"
+    },
+    "errors": {
+      "fetch_users": "Kesalahan saat mengambil pengguna",
+      "fetch_churches": "Kesalahan saat mengambil gereja",
+      "delete_error": "Kesalahan saat menghapus anggota staf",
+      "form_submit": "Kesalahan selama operasi {operation}",
+      "first_name_required": "Nama depan diperlukan.",
+      "first_name_min_length": "Nama depan harus terdiri dari minimal 3 karakter.",
+      "first_name_letters_only": "Nama depan hanya boleh berisi huruf.",
+      "last_name_min_length": "Nama belakang harus terdiri dari minimal 3 karakter.",
+      "last_name_letters_only": "Nama belakang hanya boleh berisi huruf.",
+      "email_required": "Email diperlukan.",
+      "email_invalid": "Format email tidak valid.",
+      "phone_required": "Telepon diperlukan.",
+      "phone_invalid": "Nomor telepon harus tepat 10 digit.",
+      "password_required": "Kata sandi diperlukan.",
+      "password_min_length": "Kata sandi harus terdiri dari minimal 6 karakter.",
+      "suburb_required": "Pinggiran kota diperlukan.",
+      "suburb_invalid": "Pinggiran kota tidak boleh berisi karakter khusus atau kosong.",
+      "church_name_required": "Nama gereja diperlukan."
+    }
+  },
+  "administrator": {
+    "modal": {
+      "title_save": "Tambah Administrator",
+      "title_update": "Edit Administrator"
+    },
+    "search_placeholder": "Cari berdasarkan nama atau email...",
+    "buttons": {
+      "add": "Tambah Administrator Baru",
+      "edit": "Edit",
+      "delete": "Hapus",
+      "save": "Simpan",
+      "update": "Perbarui",
+      "cancel": "Batal"
+    },
+    "table_headers": {
+      "serial_number": "No. Seri",
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Email",
+      "phone": "Telepon",
+      "suburb": "Pinggiran Kota",
+      "church_name": "Nama Gereja",
+      "actions": "Aksi"
+    },
+    "fields": {
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Email",
+      "password": "Kata Sandi",
+      "phone": "Nomor Telepon",
+      "address": "Alamat",
+      "suburb": "Pinggiran Kota",
+      "church_name": "Nama Gereja"
+    },
+    "options": {
+      "select_church": "Pilih Gereja"
+    },
+    "messages": {
+      "loading": "Memuat administrator...",
+      "no_administrators": "Tidak ada administrator tersedia",
+      "delete_confirm": "Apakah Anda yakin ingin menghapus administrator ini?",
+      "delete_success": "Administrator berhasil dihapus",
+      "save_success": "Administrator berhasil ditambahkan",
+      "update_success": "Administrator berhasil diperbarui",
+      "no_search_results": "Tidak ada administrator yang cocok dengan \"{searchTerm}\""
+    },
+    "errors": {
+      "fetch_users": "Kesalahan saat mengambil administrator",
+      "fetch_churches": "Kesalahan saat mengambil gereja",
+      "delete_error": "Kesalahan saat menghapus administrator",
+      "form_submit": "Kesalahan selama operasi {operation}",
+      "first_name_required": "Nama depan diperlukan.",
+      "first_name_min_length": "Nama depan harus terdiri dari minimal 3 karakter.",
+      "first_name_letters_only": "Nama depan hanya boleh berisi huruf.",
+      "last_name_min_length": "Nama belakang harus terdiri dari minimal 3 karakter.",
+      "last_name_letters_only": "Nama belakang hanya boleh berisi huruf.",
+      "email_required": "Email diperlukan.",
+      "email_invalid": "Format email tidak valid.",
+      "password_required": "Kata sandi diperlukan.",
+      "password_min_length": "Kata sandi harus terdiri dari minimal 6 karakter.",
+      "phone_required": "Telepon diperlukan.",
+      "phone_invalid": "Nomor telepon harus tepat 10 digit.",
+      "suburb_required": "Pinggiran kota diperlukan.",
+      "suburb_invalid": "Pinggiran kota tidak boleh berisi karakter khusus atau kosong.",
+      "church_name_required": "Nama gereja diperlukan."
+    }
+  },
+  "church": {
+    "search_placeholder": "Cari berdasarkan nama gereja...",
+    "addButton": "Tambah Gereja Baru",
+    "loading": "Memuat gereja...",
+    "noChurches": "Tidak ada gereja tersedia",
+    "confirmDelete": "Apakah Anda yakin ingin menghapus gereja ini?",
+    "addSuccess": "Gereja berhasil ditambahkan",
+    "updateSuccess": "Gereja berhasil diperbarui",
+    "deleteSuccess": "Gereja berhasil dihapus",
+    "languageSettings": "Pengaturan Bahasa",
+    "goLiveLanguages": "Bahasa Go Live",
+    "joinLiveLanguages": "Bahasa Join Live",
+    "maleVoices": "Suara Pria:",
+    "femaleVoices": "Suara Wanita:",
+    "addlangButton": "+ Tambah",
+    "cantFindLanguage": "Tidak menemukan bahasa Anda?",
+    "addNewLanguage": "+ Tambah bahasa baru",
+    "selectAnOption": "Pilih opsi",
+    "selectAVoice": "Pilih suara",
+    "addLanguageTo": "Tambah Bahasa ke",
+    "selectLanguage": "Pilih Bahasa",
+    "selectVoiceId": "Pilih ID Suara",
+    "createNewLanguage": "Buat Bahasa Baru",
+    "languageName": "Nama Bahasa",
+    "maleVoiceId": "ID Suara Pria",
+    "femaleVoiceId": "ID Suara Wanita",
+    "addMaleVoice": "+ Tambah Suara Pria",
+    "addFemaleVoice": "+ Tambah Suara Wanita",
+    "cancel": "Batal",
+    "addLanguageButton": "Tambah Bahasa",
+    "createLanguageButton": "Buat Bahasa",
+    "languageRemoved": "Bahasa berhasil dihapus",
+    "languageAdded": "suara berhasil ditambahkan",
+    "languageCreated": "Bahasa baru berhasil dibuat",
+    "selectLocation": "Pilih Lokasi Gereja",
+    "locationInstructions": "Klik pada peta untuk menetapkan lokasi gereja. Field alamat akan diperbarui secara otomatis.",
+    "pleaseSelectLanguage": "Silakan pilih bahasa dan ID suara",
+    "pleaseEnterLanguageName": "Silakan masukkan nama bahasa",
+    "pleaseAddVoiceId": "Silakan tambahkan setidaknya satu ID suara",
+    "failedToRemove": "Gagal menghapus bahasa",
+    "failedToAdd": "Gagal menambah bahasa",
+    "failedToCreate": "Gagal membuat bahasa",
+    "failedToLoad": "Gagal memuat bahasa yang tersedia",
+    "noChanges": "Tidak ada perubahan yang terdeteksi",
+    "messages": {
+      "no_search_results": "Tidak ada gereja yang cocok dengan \"{searchTerm}\""
+    },
+    "table": {
+      "srNo": "No. Seri",
+      "name": "Nama",
+      "address": "Alamat",
+      "suburb": "Pinggiran Kota",
+      "languages": "Bahasa",
+      "actions": "Aksi"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Hapus"
+    },
+    "dialog": {
+      "addTitle": "Tambah Gereja",
+      "editTitle": "Edit Gereja"
+    },
+    "form": {
+      "name": "Nama",
+      "address": "Alamat",
+      "contactNo": "Nomor Kontak",
+      "pastorName": "Nama Pendeta Senior",
+      "pastorPhone": "Nomor Telepon Pendeta Senior",
+      "state": "Negara Bagian",
+      "country": "Negara",
+      "suburb": "Pinggiran Kota",
+      "latitude": "Lintang",
+      "longitude": "Bujur",
+      "speech_location": "Lokasi Pidato",
+      "speech_key": "Kunci Pidato",
+      "translator_key": "Kunci Penerjemah",
+      "translator_location": "Lokasi Penerjemah",
+      "church_stream_Limit(per week)": "Batas Streaming Gereja (per minggu)",
+      "used_stream_Limit": "Batas Streaming yang Digunakan",
+      "cancel": "Batal",
+      "save": "Simpan",
+      "update": "Perbarui"
+    },
+    "errors": {
+      "fetchFailed": "Kesalahan saat mengambil gereja: {{message}}",
+      "deleteFailed": "Kesalahan saat menghapus gereja: {{message}}",
+      "operationFailed": "Kesalahan selama operasi {{operation}}: {{message}}",
+      "nameRequired": "Nama diperlukan",
+      "nameInvalid": "Nama hanya boleh berisi huruf, spasi, dan titik",
+      "nameDot": "Nama tidak boleh dimulai atau diakhiri dengan titik",
+      "nameLength": "Nama harus terdiri dari minimal 3 karakter",
+      "addressRequired": "Alamat diperlukan",
+      "addressLength": "Alamat harus terdiri dari minimal 3 karakter",
+      "cityRequired": "Pinggiran kota diperlukan",
+      "cityInvalid": "Pinggiran kota hanya boleh berisi huruf dan spasi",
+      "cityLength": "Pinggiran kota harus terdiri dari minimal 3 karakter",
+      "stateRequired": "Negara bagian diperlukan",
+      "stateInvalid": "Negara bagian hanya boleh berisi huruf dan spasi",
+      "stateLength": "Negara bagian harus terdiri dari minimal 3 karakter",
+      "countryRequired": "Negara diperlukan",
+      "countryInvalid": "Negara hanya boleh berisi huruf dan spasi",
+      "countryLength": "Negara harus terdiri dari minimal 3 karakter",
+      "contactRequired": "Nomor kontak diperlukan",
+      "contactInvalid": "Nomor kontak harus tepat 10 digit",
+      "pastorNameRequired": "Nama pendeta diperlukan",
+      "pastorNameInvalid": "Nama pendeta hanya boleh berisi huruf, spasi, dan titik",
+      "pastorNameDot": "Nama pendeta tidak boleh dimulai atau diakhiri dengan titik",
+      "pastorNameLength": "Nama pendeta harus terdiri dari minimal 3 karakter",
+      "pastorPhoneRequired": "Nomor telepon pendeta diperlukan",
+      "streamLimitRequired": "Batas streaming wajib diisi",
+      "pastorPhoneInvalid": "Nomor telepon pendeta harus tepat 10 digit"
+    }
+  },
+  "churchEditt": {
+    "successUpdate": "Detail gereja berhasil diperbarui",
+    "updateDetails": "Gagal memperbarui detail gereja"
+  },
+  "signup2": {
+    "sections": {
+      "introduction": {
+        "paragraph1": "Futures Church (Assemblies of God Paradise inc) ABN 79 020 003 383 memahami bahwa melindungi privasi dan kerahasiaan Anda adalah hal mendasar dalam cara kami peduli terhadap orang-orang.",
+        "paragraph2": "Futures Church (Gereja), seperti banyak organisasi lain, harus mematuhi Prinsip Privasi Nasional yang terdapat dalam Undang-Undang Privasi Australia saat menangani informasi pribadi.",
+        "paragraph3": "Kebijakan Privasi ini mencakup perlakuan Gereja terhadap informasi yang dapat diidentifikasi secara pribadi yang kami kumpulkan atau simpan."
+      },
+      "information_collect": {
+        "title": "1. Informasi yang kami kumpulkan",
+        "paragraph1": "Kami mengumpulkan informasi untuk memberikan hasil yang lebih baik bagi semua yang menghadiri acara, fasilitas, dan layanan kami.",
+        "paragraph2": "Kami hanya akan mengumpulkan informasi pribadi dan sensitif yang diperlukan untuk melaksanakan fungsi-fungsi ini dan menyediakan layanan serta program ini. Jenis informasi yang dapat kami kumpulkan, simpan, dan gunakan bervariasi tergantung pada tujuannya, tetapi dapat mencakup (di antaranya):",
+        "sensitive_info_title": "Informasi Pribadi Sensitif/Kategori Khusus",
+        "list_items": {
+          "personal_details": "detail pribadi seperti gelar, nama, dan tanggal lahir",
+          "contact_details": "rincian kontak seperti alamat pos, kode pos, email, dan nomor telepon opsional.",
+          "demographic_information": "ketika relevan dengan misi kami, informasi demografis seperti status perkawinan, kebangsaan, pendidikan, pekerjaan/kualifikasi, dan detail keluarga",
+          "financial_information": "informasi keuangan seperti detail kartu kredit, riwayat donasi, dan detail bank Anda",
+          "family_details": "detail pasangan dan keluarga ketika Anda bersama-sama menjadi relawan, mendaftar untuk acara, dan/atau mendaftarkan anak-anak Anda untuk alasan apa pun di Futures Church",
+          "employee_volunteer_data": "data karyawan dan relawan seperti kualifikasi, bahasa, dan pengalaman",
+          "contact_records": "catatan kontak Anda dengan kami",
+          "photographs": "foto yang Anda berikan atau diambil di layanan atau acara Futures Church",
+          "sensitive_info": "Kami juga dapat mengumpulkan dan menyimpan informasi pribadi sensitif, seperti:",
+          "health_pastoral": "informasi kesehatan yang diberikan selama pertemuan pastoral",
+          "health_attendance": "informasi kesehatan untuk membantu kehadiran di layanan dan acara Futures Church",
+          "religious_information": "informasi keagamaan (kehadiran di layanan, acara/kegiatan gereja, keputusan iman pribadi, pembaptisan, dll.)",
+          "prayer_requests": "permintaan doa",
+          "recording_notice": "Penting untuk dicatat juga bahwa semua layanan (termasuk berbagai kegiatan lain) Futures Church direkam. Gambar orang-orang yang hadir atau berpartisipasi dalam layanan (atau kegiatan lain) dapat digunakan dan ditampilkan dalam layanan, sumber daya, dan untuk tujuan promosi lain serta kegiatan komersial. Dengan menghadiri layanan apa pun (atau kegiatan lain), Anda setuju bahwa Futures Church menggunakan gambar dan informasi pribadi Anda dalam rekaman ini."
+        }
+      },
+      "use_information": {
+        "title": "2. Bagaimana kami menggunakan informasi Anda",
+        "paragraph1": "Futures Church akan menggunakan informasi pribadi yang kami kumpulkan untuk tujuan yang diungkapkan pada saat pengumpulan atau sebagaimana diatur dalam Kebijakan Privasi ini. Kami tidak akan menggunakan informasi pribadi Anda untuk tujuan lain tanpa terlebih dahulu meminta persetujuan Anda, kecuali diizinkan atau diwajibkan oleh hukum. Secara umum, kami hanya akan menggunakan dan mengungkapkan informasi pribadi Anda sebagai berikut:",
+        "list_items": {
+          "maintain_involvement": "(a) untuk membangun dan mempertahankan keterlibatan Anda dengan Gereja, termasuk mengirimkan buletin dan informasi tentang acara mendatang",
+          "provide_services": "(b) untuk menyediakan produk atau layanan yang Anda minta dari Gereja",
+          "answer_inquiry": "(c) untuk menjawab pertanyaan Anda",
+          "register_events": "(d) untuk mendaftarkan Anda untuk acara, konferensi, atau promosi",
+          "improve_services": "(e) untuk membantu kami membuat situs, layanan, dan produk Gereja lebih berharga bagi komunitas kami",
+          "promotion": "(f) untuk promosi langsung produk atau layanan dan untuk memberi tahu Anda tentang perkembangan baru yang kami yakini mungkin menarik bagi Anda",
+          "third_parties": "(g) kepada pihak ketiga di mana kami telah mempekerjakan pihak ketiga tersebut untuk membantu kami mengoperasikan Gereja dan menyediakan produk atau layanan yang Anda minta, seperti instruktur pendidikan agama, koordinator acara dan katering, perusahaan promosi, penyedia transportasi, penyedia layanan kesehatan, host situs web dan konsultan TI, serta penasihat profesional kami seperti konsultan, pengacara, dan akuntan. Dalam beberapa kasus, kami mungkin perlu mengungkapkan informasi sensitif tentang Anda kepada pihak ketiga sebagai bagian dari layanan yang Anda minta",
+          "internal_use": "(h) ke berbagai bagian Gereja untuk memungkinkan pengembangan dan promosi produk dan layanan lain serta meningkatkan kemampuan umum kami untuk membantu peserta Gereja dan komunitas yang lebih luas. Informasi yang Anda berikan secara elektronik, termasuk melalui situs web ini, dapat disimpan di komputer di lokasi Futures Church dan di server di Australia. Informasi yang Anda berikan dalam bentuk kertas dapat ditransfer ke sistem virtual yang aman atau disimpan dalam sistem pengarsipan fisik yang aman. Kami tidak akan pernah membagikan, menjual, atau menyewakan informasi pribadi Anda kepada pihak ketiga untuk penggunaan promosi mereka."
+        }
+      },
+      "access_information": {
+        "title": "3. Akses ke informasi Anda",
+        "paragraph1": "Anda dapat meminta akses ke informasi pribadi Anda yang disimpan oleh Gereja dengan menghubungi Petugas Privasi Gereja, seperti yang ditunjukkan di bawah ini. Kami akan memberikan akses ke informasi pribadi Anda kecuali jika kami diizinkan secara hukum untuk menolak permintaan Anda. Kami dapat mengenakan biaya yang wajar untuk memberikan akses.",
+        "paragraph2": "Jika Anda ingin mengubah informasi pribadi yang sudah ketinggalan zaman atau tidak akurat kapan saja, silakan hubungi kami. Setelah pemberitahuan dari Anda, kami akan mengambil langkah-langkah yang wajar untuk memperbaiki informasi Anda yang tidak akurat, tidak lengkap, atau ketinggalan zaman. Jika Anda ingin informasi pribadi Anda dihapus, silakan beri tahu kami, dan kami akan menghapus informasi tersebut jika memungkinkan.",
+        "paragraph3": "Kami dapat menolak permintaan Anda untuk mengakses, mengubah, atau menghapus informasi pribadi Anda dalam keadaan tertentu. Jika kami menolak permintaan Anda, kami akan memberikan alasan untuk keputusan kami dan, dalam kasus perubahan, kami akan mencatat dengan informasi pribadi Anda bahwa Anda telah mempertanyakan keakuratannya."
+      },
+      "security": {
+        "title": "4. Keamanan",
+        "paragraph1": "Gereja akan mengambil langkah-langkah yang wajar untuk menjaga keamanan informasi pribadi yang kami miliki dan memastikan informasi tersebut akurat dan terkini. Informasi pribadi disimpan di server yang aman atau dalam file yang aman.",
+        "paragraph2": "Internet bukanlah metode yang aman untuk mengirimkan informasi. Oleh karena itu, Gereja tidak dapat menerima tanggung jawab atas keamanan informasi yang Anda kirim atau terima dari kami melalui Internet atau untuk akses atau penggunaan yang tidak sah atas informasi tersebut."
+      },
+      "changes_policy": {
+        "title": "5. Perubahan pada Kebijakan Privasi ini",
+        "paragraph1": "Gereja dapat mengubah Kebijakan Privasi ini dari waktu ke waktu dengan menyediakan versi yang telah diubah di konter informasi di Gereja atau di situs web kami di https://futures.church/australia/",
+        "paragraph2": "Kami menyarankan Anda mengunjungi situs web kami secara teratur untuk tetap diperbarui dengan perubahan apa pun."
+      },
+      "contact_us": {
+        "title": "6. Menghubungi kami",
+        "paragraph1": "Jika Anda menginginkan informasi lebih lanjut, atau memiliki pertanyaan, masalah, atau keluhan terkait dengan Kebijakan Privasi Gereja atau praktik penanganan informasi kami secara umum, silakan hubungi Petugas Privasi kami dengan menelepon +61 8 8336 0000 atau menulis ke The Privacy Officer, Influencers Church, 57 Darley Road, Paradise SA 5075, AUSTRALIA."
+      }
+    }
+  },
+  "church2": {
+    "errors": {
+      "invalidImageType": "Hanya gambar JPEG, PNG, atau GIF yang diizinkan",
+      "imageTooLarge": "Ukuran gambar harus kurang dari 5MB"
+    },
+    "form": {
+      "uploadImage": "Unggah Gambar Gereja",
+      "imageSelected": "Dipilih: {imageName}",
+      "removeImage": "Hapus Gambar"
+    }
+  },
+  "privacypolicy1": {
+    "sections": {
+      "information_collect": {
+        "paragraph3": "Untuk mendukung pengalaman Anda dengan Gereja Futures dan memenuhi kebutuhan komunitas, kami mengumpulkan informasi pribadi dan sensitif, termasuk detail kontak, informasi terkait kesehatan, dan preferensi keagamaan."
+      },
+      "information_usage": {
+        "title": "Bagaimana Kami Menggunakan Informasi Anda",
+        "intro": "Data ini membantu kami:",
+        "bullet1": "Memfasilitasi pendaftaran acara dan kehadiran di layanan.",
+        "bullet2": "Memberikan pembaruan tentang acara, program, dan layanan gereja.",
+        "bullet3": "Meningkatkan operasi, keamanan, dan keterlibatan komunitas kami.",
+        "conclusion": "Kami tidak mengumpulkan data pribadi tanpa sepengetahuan Anda, dan kami hanya menggunakan informasi untuk tujuan yang berkaitan langsung dengan interaksi Anda dengan Gereja Futures. Tidak ada data pribadi yang dijual atau dibagikan untuk tujuan pemasaran."
+      }
+    }
+  },
+  "analytics": {
+    "sermon_details": "Detail Khotbah",
+    "new_salvations_details": "Detail Keselamatan Baru",
+    "new_users_details": "Detail Pengguna Baru",
+    "live_sermons_details": "Detail Khotbah Langsung",
+    "dashboard_title": "Dasbor Analitik",
+    "dashboard_prompt": "Klik ubin dasbor untuk melihat analitik terperinci",
+    "table": {
+      "sr_no": "No.",
+      "church_name": "Nama Gereja",
+      "admin_name": "Nama Admin",
+      "start_time": "Waktu Mulai",
+      "end_time": "Waktu Selesai",
+      "actions": "Tindakan",
+      "user_name": "Nama Pengguna",
+      "email": "Email",
+      "phone": "Telepon",
+      "church": "Gereja",
+      "faith_level": "Tingkat Iman",
+      "click_count": "Jumlah Klik",
+      "salvation_date": "Tanggal Keselamatan",
+      "full_name": "Nama Lengkap",
+      "registration_date": "Tanggal Pendaftaran",
+      "hosted_by": "Diselenggarakan oleh",
+      "start_datetime": "Tanggal dan Waktu Mulai",
+      "duration": "Durasi",
+      "status": "Status"
+    },
+    "buttons": {
+      "view_details": "Lihat Detail",
+      "back": "Kembali",
+      "end_sermon": "Akhiri Khotbah Ini"
+    },
+    "status": {
+      "active": "Aktif",
+      "inactive": "Tidak Aktif"
+    },
+    "members": {
+      "joined": "Anggota Bergabung",
+      "active": "Anggota Aktif",
+      "inactive": "Anggota Tidak Aktif",
+      "listeners": "Pendengar"
+    },
+    "messages": {
+      "no_sermon_details": "Tidak ada detail khotbah ditemukan",
+      "no_salvations": "Tidak ada keselamatan baru ditemukan",
+      "no_users": "Tidak ada pengguna baru ditemukan",
+      "no_live_sermons": "Tidak ada khotbah langsung ditemukan",
+      "no_listeners": "Tidak ada pendengar ditemukan"
+    },
+    "loading": "Memuat...",
+    "not_available": "T/A"
+  },
+  "feedback": {
+    "heading": "Bantuan & Masukan",
+    "subheading": "Kami menghargai masukan Anda! Tolong bantu kami meningkatkan layanan.",
+    "footer": "Umpan balik Anda penting bagi kami dan membantu meningkatkan layanan terjemahan kami untuk semua orang. Semua tanggapan bersifat rahasia dan akan digunakan semata-mata untuk tujuan peningkatan layanan.",
+    "fields": {
+      "type": "Jenis Masukan *",
+      "audioQuality": "Kualitas Audio",
+      "comment": "Komentar",
+      "commentPlaceholder": "Tambahkan komentar tambahan di sini"
+    },
+    "types": {
+      "GeneralFeedback": "Masukan Umum",
+      "Complaint": "Keluhan",
+      "Suggestion": "Saran"
+    },
+    "audio": {
+      "Good": "Baik",
+      "Average": "Sedang",
+      "Poor": "Buruk"
+    },
+    "errors": {
+      "selectType": "Harap pilih jenis masukan",
+      "userNotFound": "Pengguna tidak ditemukan. Tidak dapat mengirim masukan audio.",
+      "commentRequired": "Harap masukkan komentar Anda"
+    },
+    "buttons": {
+      "submitFeedback": "Kirim Masukan",
+      "clearForm": "Hapus Formulir"
+    },
+    "messages": {
+      "submitSuccess": "Masukan berhasil dikirim!",
+      "submitError": "Terjadi kesalahan saat mengirim masukan. Silakan coba lagi."
+    }
+  },
+  "reviews": {
+    "messages": {
+      "fetchError": "Gagal mengambil umpan balik. Silakan coba lagi.",
+      "deleteSuccess": "Umpan balik berhasil dihapus.",
+      "deleteError": "Gagal menghapus umpan balik. Silakan coba lagi."
+    },
+    "adminDashboard": {
+      "title": "Dasbor Umpan Balik",
+      "refresh": "Segarkan",
+      "totalFeedback": "Total Umpan Balik",
+      "audioFeedback": "Umpan Balik Audio",
+      "feedbackOnly": "Hanya Umpan Balik",
+      "allSubmissions": "Semua Kiriman ({{count}})",
+      "noSubmissions": "Belum ada umpan balik yang dikirim.",
+      "noComment": "Tidak ada komentar",
+      "delete": "Hapus",
+      "confirmDeleteTitle": "Konfirmasi Hapus",
+      "confirmDeleteMessage": "Apakah Anda yakin ingin menghapus umpan balik ini?",
+      "cancel": "Batal",
+      "table": {
+        "date": "Tanggal",
+        "userId": "Nama Pengguna",
+        "type": "Jenis Feedback",
+        "audio": "Feedback Audio",
+        "comment": "Komentar",
+        "actions": "Aksi"
+      },
+      "dialog": {
+        "title": "Detail Feedback & Pengguna",
+        "userInfo": "Informasi Pengguna",
+        "feedbackInfo": "Detail Feedback",
+        "userId": "ID",
+        "name": "Nama",
+        "email": "Email",
+        "suburb": "Kecamatan",
+        "faithLevel": "Level Iman",
+        "language": "Bahasa",
+        "type": "Jenis",
+        "audioQuality": "Kualitas Audio",
+        "comment": "Komentar",
+        "date": "Tanggal",
+        "close": "Tutup",
+        "na": "N/A"
+      }
+    }
+  }
+}

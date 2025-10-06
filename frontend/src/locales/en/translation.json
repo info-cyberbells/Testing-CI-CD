@@ -1,0 +1,1536 @@
+{
+  "login": {
+    "language": "Select Language",
+    "signIn": "Login",
+    "signUp": "Sign Up",
+    "email": "Email Address",
+    "password": "Password",
+    "login": "Login",
+    "noAccount": "Don't have an account? ",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "resetPasswordInstructions": "Please enter your email address. We'll send you a 4-digit code to reset your password.",
+    "backToLogin": "Back to Login",
+    "sendCode": "Send Code",
+    "enterResetCode": "Enter Reset Code",
+    "enterCodeInstructions": "Enter the 4-digit code sent to your email and your new password.",
+    "code": "4-Digit Code",
+    "newPassword": "New Password",
+    "submit": "Submit",
+    "errors": {
+      "emailRequired": "Email is required.",
+      "passwordRequired": "Password is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "generic": "Something went wrong. Please try again.",
+      "invalidCredentials": "Please enter the correct credentials.",
+      "invalidCodeOrPassword": "Please enter a valid 4-digit code and new password.",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordMismatch": "Passwords do not match",
+      "invalidCode": "Invalid code or request."
+    },
+    "codeSent": "A 4-digit reset code has been sent to your email. Please check your inbox.",
+    "passwordUpdated": "Password updated successfully! Redirecting to login...",
+    "confirmNewPassword": "Confirm New Password"
+  },
+  "signup": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Mobile Number",
+    "email": "Email Address",
+    "suburb": "Suburb",
+    "church": "Church",
+    "selectChurch": "Select Church",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "next": "Next",
+    "prev": "Previous",
+    "getToKnowYou": "Get to Know You",
+    "attendedBeforeQuestion": "Have you been to this church before?",
+    "yes": "Yes",
+    "no": "No",
+    "broughtByQuestion": "Did someone bring you to church?",
+    "faithLevelQuestion": "What is your current faith level?",
+    "faithLevelLabel": "Faith Level",
+    "faithLevel": {
+      "nofaith": "No faith",
+      "uncertain": "Uncertain",
+      "opentofaith": "Open to faith",
+      "activelyexploring": "Actively Exploring",
+      "strongfaith": "Strong faith"
+    },
+    "primaryLanguageQuestion": "What is your primary language?",
+    "primaryLanguageLabel": "Primary Language",
+    "selectOption": "Select an option",
+    "languages": {
+      "english": "English",
+      "spanish": "Spanish",
+      "portuguese": "Portuguese",
+      "indonesian": "Indonesian",
+      "mandarin": "Mandarin"
+    },
+    "language": {
+      "english": "English",
+      "spanish": "Spanish",
+      "portuguese": "Portuguese",
+      "indonesian": "Indonesian",
+      "mandarin": "Mandarin"
+    },
+    "referralSource": {
+      "friendFamily": "Friend or Family Referral",
+      "churchEvent": "Church Event or Service",
+      "socialMedia": "Social Media (Facebook, Instagram, etc.)",
+      "communityOutreach": "Community Outreach / Charity Program",
+      "onlineSearch": "Online Search (Google, YouTube, etc.)",
+      "flyerPoster": "Flyer / Poster / Bulletin"
+    },
+    "broughtByName": "Who brought you?",
+    "howDidYouHearQuestion": "How did you hear about us?",
+    "howDidYouHearLabel": "Referral Source",
+    "referralSources": {
+      "friend_family": "Friend or Family Referral",
+      "church_event": "Church Event or Service",
+      "social_media": "Social Media (Facebook, Instagram, etc.)",
+      "community_outreach": "Community Outreach / Charity Program",
+      "online_search": "Online Search (Google, YouTube, etc.)",
+      "flyer_poster": "Flyer / Poster / Bulletin"
+    },
+    "termsAndConditions": "Terms and Conditions",
+    "referralSection": "Referral Information (Optional)",
+    "referralCode": "Referral Code",
+    "referralCodePlaceholder": "Enter referral code if you have one",
+    "referredBy": "Referred By",
+    "referredByPlaceholder": "Enter name of person who referred you",
+    "termsDescription": "By creating an account, you are confirming that you are 18 years or older, or aged 13-17 with permission from a parent or guardian. You are also agreeing to the other terms and conditions outlined in our Terms of Service and Privacy Policy.",
+    "readPrivacyPolicy": "Read Our Privacy Policy",
+    "acceptTerms": "I accept Futures Church will use this information in line with their Privacy Policy",
+    "finish": "Finish",
+    "agree": "I Agree",
+    "errors": {
+      "firstNameMin": "First name must be at least 3 characters",
+      "firstNameLetters": "First name should only contain letters",
+      "firstNameRequired": "First name is required",
+      "lastNameLetters": "Last name should only contain letters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "emailExists": "This email is already registered. Please use a different email.",
+      "suburbRequired": "Suburb is required",
+      "phoneDigits": "Phone number must contain only digits",
+      "phoneMin": "Phone number must be at least 10 digits",
+      "phoneRequired": "Mobile number is required",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordRequired": "Password is required",
+      "confirmPasswordMatch": "Passwords must match",
+      "confirmPasswordRequired": "Confirm Password is required",
+      "churchRequired": "Church selection is required",
+      "termsRequired": "You must agree to the terms and conditions.",
+      "broughtByName": "Please enter a valid name",
+      "generic": "Registration failed"
+    },
+    "success": "Your account has been created successfully!"
+  },
+  "dashboard": {
+    "totalChurches": "Total Churches",
+    "totalAdmins": "Total Administrators",
+    "totalStaff": "Total Staff Members",
+    "totalUsers": "Total Users",
+    "totalEvents": "Total Events",
+    "totalSermons": "Total Sermons",
+    "totalSalvations": "Total Salvations",
+    "totalLiveChurches": "Total Live Churches",
+    "loading": "Loading...",
+    "click_to_view": "Click to view",
+    "filters": {
+      "date_range": "Select Date Range",
+      "past_24_hours": "Past 24 Hours",
+      "this_week": "This Week",
+      "this_month": "This Month",
+      "this_year": "This Year",
+      "custom_range": "Custom Date Range",
+      "select_church": "Select Church",
+      "select_all": "Select All",
+      "your_church": "(Your Church)",
+      "no_church_assigned": "No church assigned"
+    },
+    "tiles": {
+      "new_users": "New Users",
+      "new_salvations": "New Salvations",
+      "new_sermons": "New Sermons"
+    },
+    "live_sermons": {
+      "title": "Live Sermons",
+      "sr_no": "Sr. No",
+      "church_name": "CHURCH NAME",
+      "start_time": "START TIME",
+      "active_users": "ACTIVE USERS",
+      "no_live_sermons": "No live sermons currently",
+      "view_in_detail": "View in Detail"
+    },
+    "messages": {
+      "no_church_selected": "No Church Selected",
+      "select_church_description": "Please select at least one church from the filter to view analytics and charts.",
+      "apply_filters_title": "Apply Filters to View Data",
+      "apply_filters_description": "Click the \"Apply Filters\" button to load analytics for your selected churches."
+    },
+    "charts": {
+      "faith_status": "Faith Status",
+      "overall_breakdown": "Overall breakdown",
+      "no_faith_data": "No Faith Data",
+      "no_faith_data_available": "No faith level data available",
+      "church_wise_breakdown": "Registrations by Church",
+      "new_registrations": "New Registrations",
+      "no_church_selected": "No Church Selected",
+      "apply_filters_to_view": "Apply Filters to View Data",
+      "select_church_message": "Please select at least one church from the filter to view analytics and charts.",
+      "click_apply_filters_message": "Click Apply Filters button to load data for selected churches.",
+      "monthly_breakdown": "Monthly breakdown",
+      "no_registrations": "No New Registrations",
+      "no_registrations_message": "No new user registrations in selected period",
+      "church_locations": "Church Locations",
+      "distribution": "Distribution of churches across regions",
+      "no_church_locations": "No Church Locations",
+      "add_church_locations": "Add church locations to display them on the map",
+      "no_location_data": "No church location data available",
+      "all_countries": "All Countries",
+      "app_discovery": "App Discovery",
+      "how_users_found": "How users found us",
+      "no_discovery_data": "No Discovery Data",
+      "no_discovery_available": "No app discovery data available",
+      "languages_by_country": "Languages by Country",
+      "user_distribution": "User distribution across regions",
+      "no_language_data": "No Language Data",
+      "no_sermon_data": "No Sermon Data",
+      "no_sermon_data_message": "No sermon duration data available for the selected period.",
+      "no_language_available": "No language data available by country",
+      "primary_language": "Primary Language Distribution",
+      "active_users_by_church": "Active Users by Church",
+      "users_active_period": "Users active in selected period",
+      "all_churches": "All Churches",
+      "no_active_users": "No Active Users",
+      "no_active_users_message": "No users were active during the selected time period",
+      "avg_sermon_duration": "Average Sermon Duration",
+      "performance_by_church": "Performance by church",
+      "church": "Church",
+      "avg_duration": "Avg Duration",
+      "sermons": "Sermons",
+      "avg_users": "Avg Users",
+      "total_hours": "Total Hours",
+      "sermon_languages": "Sermon Listening Languages",
+      "language_distribution": "Language Usage Distribution",
+      "no_language_data_available": "No sermon listening data available for this period"
+    }
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "manageProfile": "Manage Profile",
+    "manageAdministrators": "Manage Administrators",
+    "manageStaffMembers": "Manage Staff Members",
+    "manageUsers": "Manage Users",
+    "manageChurches": "Manage Churches",
+    "manageEvents": "Manage Events",
+    "analytics": "Analytics",
+    "manageChurch": "Manage Church",
+    "goLive": "Go Live",
+    "deleteRequestAccounts": "Delete Request Accounts",
+    "joinLiveSermons": "Join Live Sermons",
+    "events": "Events",
+    "privacyPolicy": "Privacy Policy",
+    "deleteMyAccount": "Delete My Account",
+    "Feedback": "Feedback",
+    "viewFeedback": "All Feedback"
+  },
+  "profile": {
+    "header": "Profile Settings",
+    "changePassword": "Change Password",
+    "sections": {
+      "basic_information": "Basic Information",
+      "employment_details": "Employment Details",
+      "access_permissions": "Access & Permissions",
+      "skills_qualifications": "Skills & Qualifications",
+      "hr_payroll_details": "HR & Payroll Details",
+      "additional_information": "Additional Information",
+      "church_member_details": "Church Member Details",
+      "additional_church_info": "Additional Church Information"
+    },
+    "modal": {
+      "change_password": "Change Password"
+    },
+    "fields": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone_number": "Phone Number",
+      "suburb": "Suburb",
+      "date_of_birth": "Date of Birth",
+      "gender": "Gender",
+      "profile_photo": "Profile Photo",
+      "referalcode": "Referral Code",
+      "job_title": "Job Title/Role",
+      "department": "Department",
+      "user_role": "User Role",
+      "system_access_level": "System Access Level",
+      "education_level": "Education Level",
+      "certifications": "Certifications (comma-separated)",
+      "employee_id": "Employee ID",
+      "salary_hourly_rate": "Salary/Hourly Rate",
+      "emergency_contact": "Emergency Contact",
+      "linkedin_profile": "LinkedIn Profile",
+      "current_password": "Current Password",
+      "new_password": "New Password",
+      "confirm_new_password": "Confirm New Password",
+      "attended_before": "Have you attended this church before?",
+      "faith_journey": "Faith Journey",
+      "brought_by": "Who brought you to church?"
+    },
+    "placeholders": {
+      "phone_number": "+1234567890",
+      "education_level": "e.g., Bachelor's Degree",
+      "certifications": "e.g., AWS Certified, Scrum Master",
+      "linkedin_profile": "https://linkedin.com/in/username",
+      "emergency_contact": "Phone Number",
+      "brought_by": "Enter the name of the person who brought you..."
+    },
+    "options": {
+      "select_gender": "Select Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "select_role": "Select Role",
+      "admin": "Admin",
+      "staff": "Staff",
+      "user": "User",
+      "yes": "Yes",
+      "no": "No",
+      "no_faith": "No faith",
+      "uncertain": "Uncertain",
+      "open_to_faith": "Open to faith",
+      "actively_exploring": "Actively Exploring",
+      "strong_faith": "Strong faith"
+    },
+    "buttons": {
+      "update_profile": "Update Profile",
+      "cancel": "Cancel",
+      "change_password": "Change Password"
+    },
+    "messages": {
+      "supported_formats": "Supported formats: JPG, PNG (max 5MB)",
+      "profile_updated_successfully": "Profile updated successfully",
+      "password_changed_successfully": "Password changed successfully"
+    },
+    "errors": {
+      "first_name_and_last_name_are_required": "First name and last name are required",
+      "invalid_phone_number_format": "Invalid phone number format",
+      "invalid_email_format": "Invalid email format",
+      "invalid_work_email_format": "Invalid work email format",
+      "invalid_linkedin_profile_url": "Invalid LinkedIn profile URL",
+      "user_id_not_found": "User ID not found in local storage",
+      "file_is_too_large_please_select_an_image_under_5mb": "File is too large. Please select an image under 5MB.",
+      "error_updating_profile": "Error updating profile",
+      "all_password_fields_required": "All password fields are required",
+      "passwords_do_not_match": "New password and confirm password do not match",
+      "error_changing_password": "Error changing password",
+      "file_size_exceeds_5mb_limit": "File size exceeds 5MB limit",
+      "fetch_failed": "404 Not found"
+    }
+  },
+  "user": {
+    "buttons": {
+      "add_new_user": "Add New User",
+      "edit": "Edit",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "save": "Save",
+      "update": "Update"
+    },
+    "search_placeholder": "Search by name or email...",
+    "table": {
+      "serial_number": "Sr. No",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "suburb": "Suburb",
+      "church_name": "Church Name",
+      "actions": "Actions"
+    },
+    "modal": {
+      "save_user": "Save User",
+      "update_user": "Update User"
+    },
+    "fields": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "phone": "Phone",
+      "address": "Address",
+      "suburb": "Suburb",
+      "church_name": "Church Name"
+    },
+    "options": {
+      "select_church": "Select Church"
+    },
+    "messages": {
+      "loading_users": "Loading users...",
+      "no_users_available": "No Users available",
+      "user_deleted_successfully": "User deleted successfully",
+      "user_save_successfully": "User added successfully",
+      "user_update_successfully": "User updated successfully",
+      "delete_user_confirmation": "Are you sure you want to delete this User?",
+      "no_search_results": "No users found matching \"{searchTerm}\""
+    },
+    "errors": {
+      "first_name_required": "First name is required.",
+      "first_name_min_length": "First name should be at least 3 characters.",
+      "first_name_letters_only": "First name should only contain letters.",
+      "last_name_min_length": "Last name should be at least 3 characters.",
+      "last_name_letters_only": "Last name should only contain letters.",
+      "password_required": "Password is required.",
+      "password_min_length": "Password must be at least 6 characters long.",
+      "email_required": "Email is required.",
+      "email_invalid": "Please enter a valid email address.",
+      "phone_required": "Phone is required.",
+      "phone_invalid": "Phone number must be exactly 10 digits.",
+      "suburb_required": "Suburb is required.",
+      "suburb_letters_only": "Suburb should only contain letters.",
+      "church_required": "Please select a church.",
+      "error_fetching_users": "Error fetching users",
+      "error_fetching_churches": "Error fetching churches",
+      "error_deleting_user": "Error deleting User",
+      "error_during_save_operation": "Error during save operation",
+      "error_during_update_operation": "Error during update operation"
+    }
+  },
+  "event": {
+    "buttons": {
+      "add_new_event": "Add New Event",
+      "edit": "Edit",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "save": "Save",
+      "update": "Update",
+      "save_photos": "Add Photos",
+      "update_photos": "Update Photos"
+    },
+    "table": {
+      "serial_number": "Sr. No",
+      "event_name": "Event Name",
+      "event_date": "Event Date",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "modal": {
+      "save_event": "Add Event",
+      "update_event": "Edit Event"
+    },
+    "fields": {
+      "name": "Name",
+      "date": "Event Date & Time",
+      "description": "Description",
+      "church_name": "Church Name"
+    },
+    "labels": {
+      "event_images": "Event Images"
+    },
+    "options": {
+      "select_church": "Select Church"
+    },
+    "status": {
+      "active": "Active",
+      "expired": "Expired"
+    },
+    "messages": {
+      "loading_events": "Loading events...",
+      "no_events_available": "No Events available",
+      "event_deleted_successfully": "Event deleted successfully",
+      "event_save_successfully": "Event saved successfully",
+      "event_update_successfully": "Event updated successfully",
+      "image_deleted_successfully": "Image deleted successfully",
+      "delete_event_confirmation": "Are you sure you want to delete this Event?"
+    },
+    "errors": {
+      "event_name_required": "Event Name is required.",
+      "event_description_required": "Event description is required",
+      "event_date_required": "Event Date is required.",
+      "invalid_date_format": "Invalid date format",
+      "church_name_required": "Church Name is required.",
+      "error_fetching_events": "Error fetching Events",
+      "error_fetching_churches": "Error fetching churches",
+      "error_deleting_event": "Error deleting Event",
+      "error_during_save_operation": "Error during save operation",
+      "error_during_update_operation": "Error during update operation",
+      "image_not_found_in_database": "Image not found in database",
+      "failed_to_delete_image": "Failed to delete image"
+    }
+  },
+  "golive": {
+    "seo": {
+      "title": "Live Church Sermon Translator | Real-Time Sermon Translation",
+      "description": "Experience real-time sermon translation and multilingual church services with our live church sermon translator.",
+      "keywords": "Church sermon translator, Live sermon translation, Real-time sermon interpreter, Multilingual church services, Translate sermons online, Worship service translation, Bible sermon translation"
+    },
+    "labels": {
+      "professional_speech_translation": "Professional Speech Translation",
+      "current_transcription": "Current Transcription"
+    },
+    "buttons": {
+      "start_speaking": "Start Speaking",
+      "stop": "Stop"
+    },
+    "options": {
+      "choose_microphone": "Choose Microphone...",
+      "language_english": "English"
+    },
+    "placeholders": {
+      "transcription_placeholder": "Your transcription will appear here..."
+    },
+    "status": {
+      "ready_to_start": "Ready to start",
+      "listening": "Listening...",
+      "stopped": "Stopped"
+    },
+    "errors": {
+      "browser_not_supported": "Browser not supported",
+      "no_microphones_found": "No microphones found",
+      "microphone_permission_denied": "Error accessing microphone. Please ensure microphone permissions are granted.",
+      "microphone_error_audio_capture": "Microphone error: audio-capture. Please check your microphone permissions.",
+      "microphone_error_not_allowed": "Microphone error: not-allowed. Please check your microphone permissions.",
+      "recognition_error_no_speech": "Recognition error: no-speech",
+      "too_many_restart_attempts": "Too many restart attempts. Please try again.",
+      "translation_error": "Translation error occurred",
+      "wake_lock_not_supported": "Warning: Screen Wake Lock not supported. The sermon will still proceed.",
+      "error_starting_stream": "Error starting stream",
+      "error_stopping_stream": "Error stopping stream",
+      "error_adding_sermon": "Error adding sermon",
+      "error_updating_sermon_status": "Error updating sermon status"
+    }
+  },
+  "joinlivesermons": {
+    "seo": {
+      "selection": {
+        "title": "Live Church Sermons | Join a Live Sermon",
+        "description": "Join live church sermons and experience real-time sermon translation in multiple languages.",
+        "keywords": "Live church sermons, Join sermon online, Church livestream, Online sermon translation"
+      },
+      "translation": {
+        "title": "Live Church Sermon Translator | Real-Time Sermon Translation",
+        "description": "Experience real-time sermon translation and multilingual church services with our live church sermon translator.",
+        "keywords": "Church sermon translator, Live sermon translation, Real-time sermon interpreter, Multilingual church services, Translate sermons online, Worship service translation, Bible sermon translation"
+      }
+    },
+    "labels": {
+      "live_sermons": "Live Sermons",
+      "accept_jesus": "I accept Jesus.",
+      "live_sermon": "Live Sermon",
+      "live_now": "LIVE NOW",
+      "initiator": "Initiator",
+      "start_time": "Start Time",
+      "your_previous_sessions": "Your Previous Sessions",
+      "status": "Status"
+    },
+    "buttons": {
+      "join_sermon": "Join Sermon",
+      "leave_sermon": "Leave Sermon",
+      "start_translation": "Start Translation",
+      "stop_translation": "Stop Translation"
+    },
+    "options": {
+      "language_english": "English",
+      "language_spanish": "Spanish",
+      "language_portuguese": "Portuguese",
+      "language_indonesian": "Indonesian",
+      "language_mandarin": "Mandarin",
+      "language_arabic": "Arabic",
+      "language_hindi": "Hindi"
+    },
+    "table": {
+      "serial_number": "Sr. No",
+      "church_name": "Church Name",
+      "initiator_name": "Initiator Name",
+      "start_date_time": "Start Date Time",
+      "end_date_time": "End Date Time"
+    },
+    "placeholders": {
+      "transcription_placeholder": "Waiting for sermon translation to begin..."
+    },
+    "messages": {
+      "loading_sermon_data": "Loading sermon data...",
+      "no_live_sermons": "There are no live sermons available at the moment. Please check back later.",
+      "loading": "Loading..."
+    },
+    "status": {
+      "ready_to_start": "Ready to start",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "connection_lost": "Connection lost. Please refresh the page."
+    },
+    "errors": {
+      "no_live_sermon_available": "No live sermon available",
+      "failed_to_fetch_sermon_data": "Failed to fetch sermon data",
+      "failed_to_start_backend_session": "Failed to start backend session",
+      "failed_to_start_streaming": "Failed to start streaming",
+      "failed_to_stop_streaming": "Failed to stop streaming",
+      "wake_lock_failed": "Warning: Could not prevent screen from dimming. Translation will still proceed.",
+      "wake_lock_not_supported": "Warning: Screen Wake Lock not supported. Translation will still proceed."
+    }
+  },
+  "events": {
+    "labels": {
+      "upcoming_events": "Upcoming Events",
+      "expired": "Expired",
+      "event_photos": "Event Photos"
+    },
+    "buttons": {
+      "read_more": "Read more",
+      "show_less": "Show less"
+    },
+    "messages": {
+      "no_events_available": "No events available at the moment"
+    },
+    "errors": {
+      "error_loading_events": "Error loading events: {error}",
+      "error_fetching_events": "Error fetching Events"
+    },
+    "alt": {
+      "event_image": "Event image {number}",
+      "zoomed_event": "Zoomed event"
+    }
+  },
+  "privacypolicy": {
+    "labels": {
+      "title": "Privacy Policy & Terms of Service",
+      "back": "Back"
+    },
+    "sections": {
+      "introduction": {
+        "paragraph1": "CHURCH TRANSLATOR",
+        "paragraph2": "Last Updated: 2nd May 2025",
+        "paragraph3": "Welcome to Church Translator (\"we\", \"our\", \"us\"). “Church Translator” is an app developed and operated by <strong>Futures Church South Australia Incorporated</strong> (“Futures Church”). For privacy purposes, Futures Church is responsible for the collection and handling of your data in accordance with this policy.",
+        "paragraph4": "Church Translator complies with the <strong>Australian Privacy Principles (APPs)</strong> under the <strong>Privacy Act 1988 (Cth)</strong> for the collection, use, disclosure, and storage of personal information. We are also committed to fulfilling applicable obligations under Apple and Google Play’s app store privacy requirements, ensuring a safe, transparent experience as you use our services.",
+        "paragraph5": "This document outlines our <strong>Privacy Policy</strong> and <strong>Terms of Service </strong> (\"Terms\"). By accessing or using Church Translator, you agree to be bound by these Terms."
+      },
+      "table_of_contents": {
+        "title": "Table of Contents",
+        "list_items": {
+          "item1": "1. Information We Collect",
+          "item2": "2. Legal Basis for Data Processing",
+          "item3": "3. How We Use Your Information",
+          "item4": "4. Profile Photos",
+          "item5": "5. Microphone Access",
+          "item6": "6. Third-Party Services",
+          "item7": "7. International Data Transfer",
+          "item8": "8. Data Access and Sharing",
+          "item9": "9. Data Security",
+          "item10": "10. Data Retention and Deletion",
+          "item11": "11. Data Breach Notification",
+          "item12": "12. Your Rights",
+          "item13": "13. Children’s Privacy and Eligibility",
+          "item14": "14. User Responsibilities",
+          "item15": "15. Termination",
+          "item16": "16. Intellectual Property",
+          "item17": "17. Limitation of Liability",
+          "item18": "18. Governing Law",
+          "item19": "19. Changes to This Policy",
+          "item20": "20. Disclaimer",
+          "item21": "21. Contact Us"
+        }
+      },
+      "information_we_collect": {
+        "title": "1. Information We Collect",
+        "paragraph1": "When you create an account with Church Translator, we collect the following personal information:",
+        "list_items": {
+          "name": "Name",
+          "email_address": "Email address",
+          "mobile_number": "Mobile number (optional)",
+          "home_suburb": "Home suburb (optional)",
+          "church_attend": "Church you attend",
+          "faith_status": "Faith status (e.g., no faith, little faith, strong faith, etc.)",
+          "church_attendance_details": "Church attendance details"
+        },
+        "paragraph2": "If you use our audio or profile features, we may also request access to your device’s microphone, camera, or photo library. See below for how this information is used.",
+        "paragraph3": "We may also collect limited device and usage information (e.g., IP address, app version, crash logs) to improve app functionality."
+      },
+      "legal_basis": {
+        "title": "2. Legal Basis for Data Processing",
+        "paragraph1": "We process your personal information based on the following legal grounds:",
+        "list_items": {
+          "consent": "<strong>Consent</strong>: We rely on your consent to collect and use optional or sensitive data, such as your faith status, church affiliation, and use of your microphone, camera, or photo library. You can withdraw your consent at any time via your device settings or by contacting us.",
+          "legitimate_interest": "<strong>Legitimate Interest</strong>: We process your information to monitor the impact of the Church Translator app, evaluate engagement with spiritual content, support church leadership in caring for their communities, and fulfill accountability requirements set by our funding partners. We believe this use is proportionate, reasonable, and does not override your rights.",
+          "contract_fulfilment": "<strong>Contract Fulfilment</strong>: Some personal data is processed to allow us to provide our core translation services, manage your account, and fulfill the terms of service you agree to when using the app."
+        }
+      },
+      "how_we_use": {
+        "title": "3. How We Use Your Information",
+        "paragraph1": "We use your information to:",
+        "list_items": {
+          "provide_translation": "Provide live translation services during events.",
+          "manage_profile": "Enable you to manage your personal profile and use app features.",
+          "share_pastors": "Share relevant details with authorised pastors or leadership or your registered church to help provide pastoral support.",
+          "monitor_kpis": "Monitor overall app usage trends and meet organisational Key Performance indicators (KPIs). This includes (but is not limited to) tracking engagement and salvation decisions to help evaluate spiritual growth.",
+          "improve_functionality": "Monitor usage trends to improve app functionality and experience."
+        },
+        "paragraph2": "We <strong>do not</strong> collect personal data without your knowledge, and we only use the information for the purposes outlined in this document.",
+        "paragraph3": "We <strong>do not</strong> use your data for third-party advertising or sell your personal information."
+      },
+      "profile_photos": {
+        "title": "4. Profile Photos",
+        "paragraph1": "If you choose to upload a profile photo within Church Translator, we may request access to your device's:",
+        "list_items": {
+          "camera": "<strong>Camera</strong> (to take a photo)",
+          "photo_library": "<strong>Photo Library</strong> (to select an image)"
+        },
+        "paragraph2": "Adding a photo is optional and only used within your personal profile. It is not shared, published or used for marketing purposes. You may revoke this permission at any time via your device settings."
+      },
+      "microphone_access": {
+        "title": "5. Microphone Access",
+        "paragraph1": "Microphone access is required to provide real-time <strong>audio translation</strong> directly to your device.",
+        "list_items": {
+          "active_sessions": "Access is used only during active translation sessions.",
+          "audio_not_stored": "Audio is not recorded, stored, or reused beyond what is necessary for real-time translation."
+        },
+        "paragraph2": "You may withdraw microphone access at any time via device settings, however translation will not occur while this feature is disabled."
+      },
+      "third_party_services": {
+        "title": "6. Third-Party Services",
+        "paragraph1": "Church Translator uses the following third-party services strictly for core functionality:",
+        "list_items": {
+          "microsoft_azure": "<strong>Microsoft Azure –</strong>  Servers located in Melbourne, Australia, used to host core application services.",
+          "mongodb_atlas": "<strong>MongoDB Atlas (hosted by Amazon Web Services) –</strong> Database services located in Sydney, Australia, used to store and manage user data securely."
+        },
+        "paragraph2": "These services are essential for delivering features such as real-time translation, speech-to-text, and text-to-speech functionality in response to user-initiated actions.",
+        "paragraph3": "We <strong>do not</strong> share your personal information (such as your name, email, mobile number, faith status, or church details) with these service providers for marketing, advertising, or any other secondary purposes. The data processed through these services is limited to what is necessary to fulfil your requests and ensure proper operation of the app. All data handling is performed in accordance with strict security and privacy standards."
+      },
+      "international_data_transfer": {
+        "title": "7. International Data Transfer",
+        "paragraph1": "All personal data collected through the Church Translator app is stored and managed on servers located <strong>within Australia</strong> (see “Section 6. Third-Party Services” for more details).",
+        "paragraph2": "While we do not store or process data on servers located outside Australia, users accessing the app from overseas may transmit data to our Australian servers. This means that cross-border data transfers may occur when international users interact with the app.",
+        "paragraph3": "We ensure that all such transfers are handled securely, using encrypted transmission protocols (e.g., TLS 1.2+) to protect your information as it is sent to our servers in compliance with applicable privacy laws."
+      },
+      "data_access_sharing": {
+        "title": "8. Data Access and Sharing",
+        "paragraph1": "Your data is accessible only to:",
+        "list_items": {
+          "authorised_leadership": "Authorised leadership from your affiliated church.",
+          "authorised_staff": "Authorised staff of Futures Church."
+        },
+        "paragraph2": "All access to the data governed by strict confidentiality agreements and secured through appropriate technical and organisational measures."
+      },
+      "data_security": {
+        "title": "9. Data Security",
+        "paragraph1": "We use <strong>industry-standard technical and organisational safeguards</strong>, including:",
+        "list_items": {
+          "tls_ssl": "<strong>TLS 1.2+ and SSL encryption</strong> for secure data transmission",
+          "encryption": "<strong>Data encryption at rest and in transit</strong>",
+          "role_based_access": "<strong>Role-based access control</strong> to limit internal data access",
+          "secure_backups": "<strong>Regular secure backups</strong>",
+          "authentication_protocols": "<strong>Authentication protocols</strong> to protect user accounts"
+        },
+        "paragraph2": "We continually assess and upgrade our security to match best practices; however, we are unable to guarantee absolute protection of data and metrics. Church Translator cannot accept responsibility for the security or information you send to or receive from us over the Internet, or for any unauthorised access or use of that information."
+      },
+      "data_retention_deletion": {
+        "title": "10. Data Retention and Deletion",
+        "paragraph1": "We retain your personal data only for as long as necessary for its intended purpose. You may delete your account by:",
+        "list_items": {
+          "option1_title": "<strong>Option 1: In-App </strong>",
+          "option1_step": "Go to Menu > Account Delete",
+          "option2_title": "<strong>Option 2: By Email</strong>",
+          "option2_step1": "Send a request to: <blue>lauren.van.niekerk@futures.church</blue>",
+          "option2_step2": "Include your full name and registered email"
+        },
+        "paragraph2": "Your data will be deleted within <strong>30 days</strong> unless we are legally required to retain it for a longer period."
+      },
+      "data_breach_notification": {
+        "title": "11. Data Breach Notification",
+        "paragraph1": "In the event of a data breach which is considered likely to result in serious harm, we will notify affected users and the Office of the <strong>Australian Information Commissioner (OAIC)</strong> in accordance with the <strong>Notifiable Data Breaches (NDB)scheme.</strong> "
+      },
+      "your_rights": {
+        "title": "12. Your Rights",
+        "paragraph1": "You have the right to:",
+        "list_items": {
+          "access_correct": "Access and correct your personal data",
+          "request_deletion": "Request deletion of your account and personal data",
+          "withdraw_consent": "Withdraw consent to data collection (e.g., camera, microphone)",
+          "lodge_complaint": "Lodge a complaint with the OAIC if you believe your data has been mishandled"
+        }
+      },
+      "childrens_privacy": {
+        "title": "13. Children's Privacy and Eligibility",
+        "paragraph1": "You must be at least <strong>13 years old</strong> to use the app. Users <strong>under 18</strong> must have <strong>parental or guardian consent</strong>.",
+        "paragraph2": "We do not knowingly collect data from children under 13. If we become aware of such data collection, we will prioritise deleting the information from our server."
+      },
+      "user_responsibilities": {
+        "title": "14. User Responsibilities",
+        "paragraph1": "You agree to:",
+        "list_items": {
+          "accurate_information": "Provide accurate and truthful information during sign-up",
+          "lawful_purposes": "Use the app only for lawful purposes and in accordance with these Terms",
+          "secure_credentials": "Keep your login credentials secure."
+        }
+      },
+      "termination": {
+        "title": "15. Termination",
+        "paragraph1": "We may suspend or terminate your account if:",
+        "list_items": {
+          "breach_terms": "You breach these Terms",
+          "misuse_services": "You misuse the services",
+          "legal_security": "Termination is required for legal or security reasons"
+        },
+        "paragraph2": "If we suspend or terminate your account, it will be deleted from our servers.",
+        "paragraph3": "You may also delete your account at any time by contacting support or using the in-app settings."
+      },
+      "intellectual_property": {
+        "title": "16. Intellectual Property",
+        "paragraph1": "Church Translator and its contents are the property of Futures Church. All rights reserved. You may not copy, modify, or distribute any part of the app without written consent."
+      },
+      "limitation_liability": {
+        "title": "17. Limitation of Liability",
+        "paragraph1": "To the fullest extent permitted by law, <strong>Futures Church,</strong> its staff, and app developers are not liable for indirect, incidental, or consequential damages arising from app use."
+      },
+      "governing_law": {
+        "title": "18. Governing Law",
+        "paragraph1": "These Terms are governed by the laws of <strong>South Australia, Australia.</strong> Disputes will be handled under the jurisdiction of South Australian courts."
+      },
+      "changes_policy": {
+        "title": "19. Changes to This Policy",
+        "paragraph1": "We may revise these Terms and Privacy Policy from time to time.",
+        "paragraph2": "We will notify you of significant changes via the app or email, and the amended version will be made available on our website at <blue>lauren.van.niekerk@futures.church</blue> Continued use of Church Translator following notification of such changes will be taken as acceptance of the updated Terms."
+      },
+      "disclaimer": {
+        "title": "20. Disclaimer",
+        "paragraph1": "Church Translator is provided “as is” and “as available”. We do not guarantee uninterrupted service or completely accurate translations."
+      },
+      "contact_us": {
+        "title": "21. Contact Us",
+        "paragraph1": "If you have any questions, requests, or concerns regarding these Terms or our Privacy Policy, please contact us at:",
+        "list_items": {
+          "email": "<strong>Email:</strong> <blue>lauren.van.niekerk@futures.church</blue>",
+          "mailing_address_title": "<strong>Mailing Address:</strong>",
+          "mailing_address_line1": "Church Translator",
+          "mailing_address_line2": "c/o Futures Church",
+          "mailing_address_line3": "57 Darley Road, Paradise",
+          "mailing_address_line4": "South Australia, 5075 AUSTRALIA"
+        },
+        "paragraph2": "Church Translator is a ministry initiative developed and operated by <strong>Futures Church South Australia Incorporated (ABN: 94 916 517 224),</strong> an Australian registered charity."
+      }
+    }
+  },
+  "deleteAccountRequest": {
+    "title": "Delete My Account",
+    "subtitle": "Please select a reason for deleting your account.",
+    "reasonLabel": "Reason for Deletion",
+    "selectReason": "Select a reason",
+    "submitButton": "Delete Now",
+    "pendingMessage": "Your request is sent and is awaiting admin review.",
+    "approvedMessage": "Your account is scheduled for deletion.",
+    "rejectedMessage": "Your request has been rejected by the admin.",
+    "errorNoReason": "Please select a reason for deletion",
+    "successMessage": "Account deleted successfully",
+    "errorMessage": "Error deletion request",
+    "userNotFound": "User Data Not found"
+  },
+  "deletionReasons": [
+    "No longer need the account",
+    "Privacy concerns",
+    "Switching to another service",
+    "Too many notifications",
+    "Other"
+  ],
+  "adminDeleteRequests": {
+    "title": "Account Deletion Requests",
+    "subtitle": "Review and manage pending account deletion requests from users.",
+    "noRequests": "No new requests",
+    "tableHeaders": {
+      "srNo": "Sr No",
+      "user": "User",
+      "reason": "Reason",
+      "status": "Status",
+      "requestedAt": "Requested At",
+      "actions": "Actions"
+    },
+    "approveButton": "Approve",
+    "rejectButton": "Reject",
+    "errorFetch": "Error fetching deletion requests",
+    "successApprove": "Request approved and user deleted successfully",
+    "errorApprove": "Error approving and deleting account",
+    "successReject": "Deletion request rejected successfully",
+    "errorReject": "Error rejecting request"
+  },
+  "analyticsMenu": {
+    "acceptedJesus": {
+      "title": "Accepted Jesus",
+      "tableHeaders": {
+        "srNo": "Sr. No",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "count": "Count"
+      },
+      "noUsers": "No users have clicked Jesus yet",
+      "loading": "Loading users..."
+    },
+    "liveSermons": {
+      "title": "Live Sermons",
+      "tableHeaders": {
+        "srNo": "Sr. No",
+        "churchName": "Church Name",
+        "hostedBy": "Hosted By",
+        "startDateTime": "Start Date Time",
+        "actions": "Actions"
+      },
+      "noSessions": "No Live Sessions available",
+      "loading": "Loading sermons...",
+      "detailsButton": "View Details",
+      "membersJoined": "Members Joined",
+      "membersActive": "Members Active",
+      "membersInactive": "Members Inactive",
+      "subTableHeaders": {
+        "srNo": "Sr. No",
+        "userName": "User Name",
+        "email": "Email",
+        "startDateTime": "Start Date Time",
+        "status": "Status"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "endedSermons": {
+      "title": "Ended Sermons",
+      "tableHeaders": {
+        "srNo": "Sr. No",
+        "churchName": "Church Name",
+        "hostedBy": "Hosted By",
+        "startDateTime": "Start Date Time",
+        "actions": "Actions"
+      },
+      "noSessions": "No Ended Sessions available",
+      "loading": "Loading sermons...",
+      "detailsButton": "View Details",
+      "membersJoined": "Members Joined",
+      "subTableHeaders": {
+        "srNo": "Sr. No",
+        "userName": "User Name",
+        "email": "Email",
+        "startTime": "Start Time",
+        "endTime": "End Time",
+        "duration": "Duration"
+      },
+      "noListeners": "No listeners found"
+    },
+    "errors": {
+      "fetchJesusUsers": "Error fetching users who clicked Jesus",
+      "fetchData": "Error fetching data",
+      "fetchChurches": "Error fetching churches",
+      "deleteSermon": "Failed to delete sermon"
+    },
+    "success": {
+      "deleteSermon": "Sermon deleted successfully"
+    },
+    "confirmDelete": "Are you sure you want to delete this sermon?"
+  },
+  "churchEdit": {
+    "imageAlt": "Church",
+    "overlayText": "Change Church Photo",
+    "formLabels": {
+      "name": "Name",
+      "contactNo": "Contact No",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "seniorPastorName": "Senior Pastor Name",
+      "seniorPastorPhoneNumber": "Senior Pastor Phone Number",
+      "speech_key": "Speech Key",
+      "speech_location": "Speech Location",
+      "translator_endpoint": "Translator Endpoint",
+      "translator_key": "Translator Key",
+      "translator_location": "Translator Location",
+      "stream_limit_minutes": "Stream Limit (per week)",
+      "stream_used_minutes": "Used Stream Time",
+      "address": "Address"
+    },
+    "placeholders": {
+      "name": "Enter name",
+      "contactNo": "Enter contact number",
+      "city": "Enter city",
+      "state": "Enter state",
+      "country": "Enter country",
+      "seniorPastorName": "Enter senior pastor name",
+      "seniorPastorPhoneNumber": "Enter senior pastor phone number",
+      "speech_key": "Enter Your Speech Key",
+      "speech_location": "Enter Your Speech Location",
+      "translator_endpoint": "Enter Translator Endpoint",
+      "translator_key": "Enter Your Translator Key",
+      "translator_location": "Enter Your Translator Location",
+      "stream_limit_minutes": "Enter minutes (e.g., 120 for 2 hours)",
+      "stream_used_minutes": "Used streaming minutes",
+      "address": "Enter address"
+    },
+    "updateButton": "Update",
+    "errors": {
+      "churchIdNotFound": "Church ID not found in local storage",
+      "fetchDetails": "Error fetching church details",
+      "invalidImageType": "Please upload a valid image file (JPEG, PNG)",
+      "uploadImage": "Error uploading image",
+      "updateDetails": "Error updating church details",
+      "speechLocationRequired": "Speech Location is required",
+      "speechKeyRequired": "Speech Key is required",
+      "translatorKeyRequired": "Translator Key is required",
+      "translatorLocationRequired": "Translator Location is required"
+    },
+    "success": {
+      "imageUpdated": "Church image updated successfully",
+      "detailsUpdated": "Church details updated successfully"
+    }
+  },
+  "staffmember": {
+    "modal": {
+      "title_save": "Add Staff Member",
+      "title_update": "Edit Staff Member"
+    },
+    "search_placeholder": "Search by name or email...",
+    "buttons": {
+      "add": "Add New Staff Member",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "update": "Update",
+      "cancel": "Cancel"
+    },
+    "table_headers": {
+      "serial_number": "Sr. No",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "suburb": "Suburb",
+      "church_name": "Church Name",
+      "actions": "Actions"
+    },
+    "sections": {
+      "basic_info": "Basic Information",
+      "employment": "Employment Details",
+      "access": "Access & Permissions",
+      "skills": "Skills & Qualifications",
+      "hr": "HR & Payroll Details",
+      "additional": "Additional Information"
+    },
+    "fields": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "password": "Password",
+      "date_of_birth": "Date of Birth",
+      "gender": "Gender",
+      "suburb": "Suburb",
+      "church_name": "Church Name",
+      "job_title": "Job Title/Role",
+      "department": "Department",
+      "employment_type": "Employment Type",
+      "work_location": "Work Location",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "work_email": "Work Email",
+      "country": "Country of Origin",
+      "user_role": "User Role",
+      "system_access_level": "System Access Level",
+      "assigned_teams": "Assigned Teams",
+      "education_level": "Education Level",
+      "certifications": "Certifications",
+      "skills": "Skills & Competencies",
+      "languages_spoken": "Languages Spoken",
+      "employee_id": "Employee ID",
+      "salary_or_hourly_rate": "Salary/Hourly Rate",
+      "payroll_bank_details": "Payroll Bank Details",
+      "tfn_abn": "TFN/ABN",
+      "work_visa_status": "Work Visa Status",
+      "emergency_contact": "Emergency Contact",
+      "linkedin_profile": "LinkedIn Profile",
+      "notes_and_comments": "Notes & Comments"
+    },
+    "options": {
+      "select_gender": "Select Gender",
+      "gender_male": "Male",
+      "gender_female": "Female",
+      "gender_other": "Other",
+      "select_church": "Select Church",
+      "select_type": "Select Type",
+      "employment_full_time": "Full-Time",
+      "employment_part_time": "Part-Time",
+      "employment_contractor": "Contractor",
+      "select_location": "Select Location",
+      "location_onsite": "Onsite",
+      "location_remote": "Remote",
+      "location_hybrid": "Hybrid",
+      "role_staff": "Staff"
+    },
+    "messages": {
+      "loading": "Loading staff members...",
+      "no_staff": "No Staff member available",
+      "delete_confirm": "Are you sure you want to delete this Staff member?",
+      "delete_success": "Staff member deleted successfully",
+      "save_success": "Staff member added successfully",
+      "update_success": "Staff member updated successfully",
+      "no_search_results": "No staff members found matching \"{searchTerm}\""
+    },
+    "placeholders": {
+      "first_name": "Enter first name",
+      "last_name": "Enter last name",
+      "email": "Enter church email",
+      "phone": "+61 400 000 000",
+      "password": "Enter secure password",
+      "date_of_birth": "Select date of birth",
+      "suburb": "Enter suburb/location",
+      "job_title": "e.g., Worship Leader, Youth Pastor",
+      "department": "e.g., Worship, Outreach, Children's Ministry",
+      "system_access_level": "e.g., Admin, Volunteer, Team Leader",
+      "employee_id": "e.g., CHR-00123",
+      "salary_or_hourly_rate": "e.g., Honorarium or Volunteer Hours",
+      "payroll_bank_details": "Bank account details",
+      "tfn_abn": "Enter TFN or ABN",
+      "work_visa_status": "Enter visa status",
+      "notes_and_comments": "Additional notes or comments",
+      "work_email": "work@company.com",
+      "country": "Australia",
+      "assigned_teams": "e.g., Worship Team, Media Team, Prayer Ministry",
+      "education_level": "e.g., Diploma in Ministry, Bible College",
+      "certifications": "e.g., Pastoral License, Child Safety Training",
+      "skills": "e.g., Preaching, Event Coordination, Music",
+      "languages_spoken": "e.g., English, Samoan, Filipino",
+      "emergency_contact": "e.g., John Doe - 0412 345 678",
+      "linkedin_profile": "https://linkedin.com/in/username"
+    },
+    "helper_text": {
+      "password": "Password must be at least 6 characters",
+      "comma_separated": "Enter comma-separated values"
+    },
+    "errors": {
+      "fetch_users": "Error fetching users",
+      "fetch_churches": "Error fetching churches",
+      "delete_error": "Error deleting Staff member",
+      "form_submit": "Error during {operation} operation",
+      "first_name_required": "First name is required.",
+      "first_name_min_length": "First name should be at least 3 characters.",
+      "first_name_letters_only": "First name should only contain letters.",
+      "last_name_min_length": "Last name should be at least 3 characters.",
+      "last_name_letters_only": "Last name should only contain letters.",
+      "email_required": "Email is required.",
+      "email_invalid": "Email format is invalid.",
+      "phone_required": "Phone is required.",
+      "phone_invalid": "Phone number must be exactly 10 digits.",
+      "password_required": "Password is required.",
+      "password_min_length": "Password must be at least 6 characters long.",
+      "suburb_required": "Suburb is required.",
+      "suburb_invalid": "Suburb must not contain special characters or be empty.",
+      "church_name_required": "Church Name is required."
+    }
+  },
+  "administrator": {
+    "modal": {
+      "title_save": "Add Administrator",
+      "title_update": "Edit Administrator"
+    },
+    "search_placeholder": "Search by name or email...",
+    "buttons": {
+      "add": "Add New Administrator",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "update": "Update",
+      "cancel": "Cancel"
+    },
+    "table_headers": {
+      "serial_number": "Sr. No",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "suburb": "Suburb",
+      "church_name": "Church Name",
+      "actions": "Actions"
+    },
+    "fields": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "phone": "Phone Number",
+      "address": "Address",
+      "suburb": "Suburb",
+      "church_name": "Church Name"
+    },
+    "options": {
+      "select_church": "Select Church"
+    },
+    "messages": {
+      "loading": "Loading administrators...",
+      "no_administrators": "No Administrator available",
+      "delete_confirm": "Are you sure you want to delete this Administrator?",
+      "delete_success": "Administrator deleted successfully",
+      "save_success": "Administrator added successfully",
+      "update_success": "Administrator updated successfully",
+      "no_search_results": "No administrators found matching \"{searchTerm}\""
+    },
+    "errors": {
+      "fetch_users": "Error fetching Administrators",
+      "fetch_churches": "Error fetching churches",
+      "delete_error": "Error deleting Administrator",
+      "form_submit": "Error during {operation} operation",
+      "first_name_required": "First name is required.",
+      "first_name_min_length": "First name should be at least 3 characters.",
+      "first_name_letters_only": "First name should only contain letters.",
+      "last_name_min_length": "Last name should be at least 3 characters.",
+      "last_name_letters_only": "Last name should only contain letters.",
+      "email_required": "Email is required.",
+      "email_invalid": "Email format is invalid.",
+      "password_required": "Password is required.",
+      "password_min_length": "Password must be at least 6 characters long.",
+      "phone_required": "Phone is required.",
+      "phone_invalid": "Phone number must be exactly 10 digits.",
+      "suburb_required": "Suburb is required.",
+      "suburb_invalid": "Suburb must not contain special characters or be empty.",
+      "church_name_required": "Church Name is required."
+    }
+  },
+  "church": {
+    "search_placeholder": "Search by church name...",
+    "addButton": "Add New Church",
+    "loading": "Loading churches...",
+    "noChurches": "No churches available",
+    "confirmDelete": "Are you sure you want to delete this church?",
+    "addSuccess": "Church added successfully",
+    "updateSuccess": "Church updated successfully",
+    "deleteSuccess": "Church deleted successfully",
+    "languageSettings": "Language Settings",
+    "goLiveLanguages": "Go Live Languages",
+    "joinLiveLanguages": "Join Live Languages",
+    "maleVoices": "Male Voices:",
+    "femaleVoices": "Female Voices:",
+    "addlangButton": "+ Add",
+    "cantFindLanguage": "Can't find your language?",
+    "addNewLanguage": "+ Add a new language",
+    "selectAnOption": "Select an option",
+    "selectAVoice": "Select a voice",
+    "addLanguageTo": "Add Language to",
+    "selectLanguage": "Select Language",
+    "selectVoiceId": "Select Voice ID",
+    "createNewLanguage": "Create New Language",
+    "languageName": "Language Name",
+    "maleVoiceId": "Male Voice ID",
+    "femaleVoiceId": "Female Voice ID",
+    "addMaleVoice": "+ Add Male Voice",
+    "addFemaleVoice": "+ Add Female Voice",
+    "cancel": "Cancel",
+    "addLanguageButton": "Add Language",
+    "createLanguageButton": "Create Language",
+    "languageRemoved": "Language removed successfully",
+    "languageAdded": "voice added successfully",
+    "languageCreated": "New language created successfully",
+    "pleaseSelectLanguage": "Please select language and voice ID",
+    "pleaseEnterLanguageName": "Please enter language name",
+    "pleaseAddVoiceId": "Please add at least one voice ID",
+    "failedToRemove": "Failed to remove language",
+    "failedToAdd": "Failed to add language",
+    "failedToCreate": "Failed to create language",
+    "failedToLoad": "Failed to load available languages",
+    "selectLocation": "Select Church Location",
+    "locationInstructions": "Click on the map to set the church location. The address fields will be automatically updated.",
+    "noChanges": "No changes detected",
+    "table": {
+      "srNo": "Sr. No",
+      "name": "Name",
+      "address": "Address",
+      "suburb": "Suburb",
+      "languages": "Languages",
+      "actions": "Actions"
+    },
+    "messages": {
+      "no_search_results": "No churches found matching \"{searchTerm}\""
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "dialog": {
+      "addTitle": "Add Church",
+      "editTitle": "Edit Church"
+    },
+    "form": {
+      "name": "Name",
+      "address": "Address",
+      "contactNo": "Contact No",
+      "pastorName": "Senior Pastor Name",
+      "pastorPhone": "Senior Pastor Phone Number",
+      "state": "State",
+      "country": "Country",
+      "suburb": "Suburb",
+      "speech_location": "Speech Location",
+      "speech_key": "Speech key",
+      "translator_key": "Translator Key",
+      "translator_location": "Translator Location",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "church_stream_Limit(per week)": "Church Stream Limit (per week)",
+      "used_stream_Limit": "Used Stream Limit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "update": "Update"
+    },
+    "errors": {
+      "fetchFailed": "Error fetching churches: {{message}}",
+      "deleteFailed": "Error deleting church: {{message}}",
+      "operationFailed": "Error during {{operation}} operation: {{message}}",
+      "nameRequired": "Name is required",
+      "nameInvalid": "Name can only contain letters, spaces, and dots",
+      "nameDot": "Name cannot start or end with a dot",
+      "nameLength": "Name must be at least 3 characters long",
+      "addressRequired": "Address is required",
+      "addressLength": "Address must be at least 3 characters long",
+      "cityRequired": "Suburb is required",
+      "cityInvalid": "Suburb can only contain letters and spaces",
+      "cityLength": "Suburb must be at least 3 characters long",
+      "stateRequired": "State is required",
+      "stateInvalid": "State can only contain letters and spaces",
+      "stateLength": "State must be at least 3 characters long",
+      "countryRequired": "Country is required",
+      "countryInvalid": "Country can only contain letters and spaces",
+      "countryLength": "Country must be at least 3 characters long",
+      "contactRequired": "Contact number is required",
+      "contactInvalid": "Contact number must be exactly 10 digits",
+      "pastorNameRequired": "Pastor Name is required",
+      "pastorNameInvalid": "Pastor Name can only contain letters, spaces, and dots",
+      "pastorNameDot": "Pastor Name cannot start or end with a dot",
+      "pastorNameLength": "Pastor Name must be at least 3 characters long",
+      "pastorPhoneRequired": "Pastor phone number is required",
+      "streamLimitRequired": "Stream limit is required",
+      "pastorPhoneInvalid": "Pastor Phone number must be exactly 10 digits"
+    }
+  },
+  "churchEditt": {
+    "successUpdate": "Church details updated successfully",
+    "updateDetails": "Failed to update church details"
+  },
+  "signup2": {
+    "sections": {
+      "introduction": {
+        "paragraph1": "Futures Church (Assemblies of God Paradise inc) ABN 79 020 003 383 understands that protecting your privacy and confidentiality is fundamental in how we care for people.",
+        "paragraph2": "Futures Church (the Church) Like many other organisations must comply with the National Privacy Principles contained in the Australian Privacy Act when dealing with personal information.",
+        "paragraph3": "This Privacy Policy covers the Church's treatment of personally identifiable information that we collect or hold."
+      },
+      "information_collect": {
+        "title": "1. The information we collect",
+        "paragraph1": "We collect information to provide better outcomes to all that attend our events, facilities and services.",
+        "paragraph2": "We will only collect personal and sensitive information that is necessary for us to carry out these functions and provide these services and programs. The type of information we may collect, hold and use, varies depending on the purpose for which it is collected but may include (amongst others):",
+        "sensitive_info_title": "Sensitive/Special Category Personal Information",
+        "list_items": {
+          "personal_details": "personal details such as your title, name and date of birth",
+          "contact_details": "contact details such as postal address, post code, email, mobile and telephone numbers",
+          "demographic_information": "when relevant to our mission, demographic information such as marital status, nationality, education, employment/qualifications and family details",
+          "financial_information": "financial information such as credit card details, donation history and your bank details",
+          "family_details": "spouse and family details when you jointly volunteer, register for events, and/or register your children for any reason at Futures Church",
+          "employee_volunteer_data": "employee and volunteer data such as qualifications, languages and experience",
+          "contact_records": "records of your contact with us",
+          "photographs": "photographs provided by you or taken at Futures Church services or events",
+          "sensitive_info": "We may also collect and store sensitive personal information such as:",
+          "health_pastoral": "health information provided during pastoral meetings",
+          "health_attendance": "health information to assist attendance at Futures Church services and events",
+          "religious_information": "religious information (attendance at services, church events / activities, personal faith decisions, baptism etc)",
+          "prayer_requests": "prayer requests",
+          "recording_notice": "It is important to also note that all services (including various other activities) of Futures Church are recorded. Images of the people attending or participating in the service (or other activity) may be used and shown in our services, Resources and for other promotional purposes and commercial activities. By attending any service (or other activity) you agree to Futures Church using your image and personal information in these recordings."
+        }
+      },
+      "use_information": {
+        "title": "2. How we use your information",
+        "paragraph1": "Futures Church will use the personal information we collect for the purpose disclosed at the time of collection, or otherwise as set out in this Privacy Policy. We will not use your personal information for any other purpose without first seeking your consent, unless authorised or required by law. Generally we will only use and disclose your personal information as follows:",
+        "list_items": {
+          "maintain_involvement": "(a) to establish and maintain your involvement with the Church, including providing you with newsletters and information on upcoming events",
+          "provide_services": "(b) to provide the products or services you have requested from the Church",
+          "answer_inquiry": "(c) to answer your inquiry",
+          "register_events": "(d) to register you for events, conferences or promotions",
+          "improve_services": "(e) to assist us to make the Church's sites, services and products more valuable to our community",
+          "promotion": "(f) for direct promotion of products or services and to keep you informed of new developments we believe may be of interest to you",
+          "third_parties": "(g) to third parties where we have retained those third parties to assist us to operate the Church and provide the products or services you have requested, such as religious education instructors, catering and event coordinators, promotions companies, transport providers, health care providers, website hosts and IT consultants, and our professional advisers such as consultants, lawyers and accountants. In some circumstances we may need to disclose sensitive information about you to third parties as part of the services you have requested",
+          "internal_use": "(h) to different parts of the Church to enable the development and promotion of other products and services and to improve our general ability to assist Church attendees and the wider community. Information you provide electronically, including through this website, may be held on computers in Futures Churches locations and on servers in Australia. Information you provide in paper form may be transferred to secure virtual systems or stored in secure physical filing systems. We will never share, sell, or rent your personal information with third parties for their promotional use."
+        }
+      },
+      "access_information": {
+        "title": "3. Access to your information",
+        "paragraph1": "You can make a request to access your personal information that the Church holds about you by contacting the Church’s Privacy Officer as set out below. We will provide you with access to your personal information unless we are legally authorised to refuse your request. We may charge a reasonable amount for providing access.",
+        "paragraph2": "If you wish to change personal information that is out of date or inaccurate at any time please contact us. After notice from you, we will take reasonable steps to correct any of your information which is inaccurate, incomplete or out of date. If you wish to have your personal information deleted, please let us know and we will delete that information wherever practicable.",
+        "paragraph3": "We may refuse your request to access, amend or delete your personal information in certain circumstances. If we do refuse your request, we will provide you with a reason for our decision and, in the case of amendment, we will note with your personal information that you have disputed its accuracy."
+      },
+      "security": {
+        "title": "4. Security",
+        "paragraph1": "The Church will take reasonable steps to keep secure any personal information which we hold and to keep this information accurate and up to date. Personal information is stored in a secure server or secure files.",
+        "paragraph2": "The Internet is not a secure method of transmitting information. Accordingly, the Church cannot accept responsibility for the security of information you send to or receive from us over the Internet or for any unauthorised access or use of that information."
+      },
+      "changes_policy": {
+        "title": "5. Changes to this Privacy Policy",
+        "paragraph1": "The Church may amend this Privacy Policy from time to time by having the amended version available at the information counters at the Church or on our website at https://futures.church/australia/",
+        "paragraph2": "We suggest that you visit our website regularly to keep up to date with any changes."
+      },
+      "contact_us": {
+        "title": "6. Contacting us",
+        "paragraph1": "If you would like any further information, or have any queries, problems or complaints relating to the Church’s Privacy Policy or our information handling practices in general, please contact our Privacy Officer by calling +61 8 8336 0000 or writing to The Privacy Officer, Influencers Church, 57 Darley Road, Paradise SA 5075, AUSTRALIA."
+      }
+    }
+  },
+  "church2": {
+    "errors": {
+      "invalidImageType": "Only JPEG, PNG, or GIF images are allowed",
+      "imageTooLarge": "Image size must be less than 5MB"
+    },
+    "form": {
+      "uploadImage": "Upload Church Image",
+      "imageSelected": "Image selected"
+    }
+  },
+  "privacypolicy1": {
+    "sections": {
+      "information_collect": {
+        "paragraph3": "To support your experience with Futures Church and meet community needs, we collect personal and sensitive information, including contact details, health-related information, and religious preferences."
+      },
+      "information_usage": {
+        "title": "How We Use Your Information",
+        "intro": "This data helps us:",
+        "bullet1": "Facilitate event registrations and service attendance.",
+        "bullet2": "Provide updates on church events, programs, and services.",
+        "bullet3": "Improve our operations, safety, and community engagement.",
+        "conclusion": "We do not collect personal data without your knowledge, and we only use the information for purposes directly related to your interaction with Futures Church. No personal data is sold or shared for marketing purposes."
+      }
+    }
+  },
+  "analytics": {
+    "sermon_details": "Sermon Details",
+    "new_salvations_details": "New Salvations Details",
+    "new_users_details": "New Users Details",
+    "live_sermons_details": "Live Sermons Details",
+    "dashboard_title": "Analytics Dashboard",
+    "dashboard_prompt": "Click on a dashboard tile to view detailed analytics",
+    "table": {
+      "sr_no": "Sr. No",
+      "church_name": "Church Name",
+      "admin_name": "Admin Name",
+      "start_time": "Start Time",
+      "end_time": "End Time",
+      "actions": "Actions",
+      "user_name": "User Name",
+      "email": "Email",
+      "phone": "Phone",
+      "church": "Church",
+      "faith_level": "Faith Level",
+      "click_count": "Click Count",
+      "salvation_date": "Salvation Date",
+      "full_name": "Full Name",
+      "registration_date": "Registration Date",
+      "hosted_by": "Hosted By",
+      "start_datetime": "Start DateTime",
+      "duration": "Duration",
+      "status": "Status"
+    },
+    "buttons": {
+      "view_details": "View Details",
+      "back": "Back",
+      "end_sermon": "End This Sermon"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "members": {
+      "joined": "Members Joined",
+      "active": "Members Active",
+      "inactive": "Members Inactive",
+      "listeners": "Listeners"
+    },
+    "messages": {
+      "no_sermon_details": "No sermon details found",
+      "no_salvations": "No new salvations found",
+      "no_users": "No new users found",
+      "no_live_sermons": "No live sermons found",
+      "no_listeners": "No listeners found"
+    },
+    "loading": "Loading...",
+    "not_available": "N/A"
+  },
+  "feedback": {
+    "heading": "Feedback",
+    "subheading": "We value your feedback! Please help us improve our services.",
+    "footer": "Your feedback is important to us and helps improve our translation services for everyone. All responses are confidential and will be used solely for service improvement purposes.",
+    "fields": {
+      "type": "Feedback Type *",
+      "audioQuality": "Audio Quality",
+      "comment": "Comments",
+      "commentPlaceholder": "Add any additional comments here"
+    },
+    "types": {
+      "GeneralFeedback": "General Feedback",
+      "Complaint": "Complaint",
+      "Suggestion": "Suggestion"
+    },
+    "audio": {
+      "Good": "Good",
+      "Average": "Average",
+      "Poor": "Poor"
+    },
+    "errors": {
+      "selectType": "Please select feedback type",
+      "userNotFound": "User not found. Cannot submit audio feedback.",
+      "commentRequired": "Please enter your comment"
+    },
+    "buttons": {
+      "submitFeedback": "Submit Feedback",
+      "clearForm": "Clear Form"
+    },
+    "messages": {
+      "submitSuccess": "Feedback submitted successfully!",
+      "submitError": "Error submitting feedback. Please try again."
+    }
+  },
+  "reviews": {
+    "messages": {
+      "fetchError": "Failed to fetch feedback. Please try again.",
+      "deleteSuccess": "Feedback deleted successfully.",
+      "deleteError": "Failed to delete feedback. Please try again."
+    },
+    "adminDashboard": {
+      "title": "Feedback Dashboard",
+      "refresh": "Refresh",
+      "totalFeedback": "Total Feedback",
+      "audioFeedback": "Audio Feedback",
+      "feedbackOnly": "Feedback Only",
+      "allSubmissions": "All Submissions ({{count}})",
+      "noSubmissions": "No feedback submissions yet.",
+      "noComment": "No comment provided",
+      "delete": "Delete",
+      "confirmDeleteTitle": "Confirm Delete",
+      "confirmDeleteMessage": "Are you sure you want to delete this feedback?",
+      "cancel": "Cancel",
+      "table": {
+        "date": "Date",
+        "userId": "User Name",
+        "type": "Feedback Type",
+        "audio": "Audio Feedback",
+        "comment": "Comment",
+        "actions": "Actions"
+      },
+      "dialog": {
+        "title": "Feedback & User Details",
+        "userInfo": "User Information",
+        "feedbackInfo": "Feedback Details",
+        "userId": "ID",
+        "name": "Name",
+        "email": "Email",
+        "suburb": "Suburb",
+        "faithLevel": "Faith Level",
+        "language": "Language",
+        "type": "Type",
+        "audioQuality": "Audio Quality",
+        "comment": "Comment",
+        "date": "Date",
+        "close": "Close",
+        "na": "N/A"
+      }
+    }
+  }
+}

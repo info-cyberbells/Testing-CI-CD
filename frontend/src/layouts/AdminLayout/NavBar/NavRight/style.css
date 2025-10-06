@@ -1,0 +1,52 @@
+a.dud-logout {
+    padding-left: 16px;
+}
+/* .logout-icon:hover{
+    padding-left: 10px
+} */
+.pro-head {
+    font-size: 17px;
+}
+
+.pro-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dud-logout {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Tooltip positioning */
+  .tooltip {
+    position: absolute !important;
+    left: 10px !important;
+    transform: none !important;
+  }
+  
+  .tooltip .tooltip-inner {
+    background-color: #000;
+    color: #fff;
+    padding: 4px 0px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .tooltip .tooltip-arrow::before {
+    border-left-color: #000;
+  }
+  
+  /* Optional: Add some hover effect to the logout icon */
+  .logout-icon {
+    transition: color 0.2s ease;
+  }
+  
+  /* .dud-logout:hover .logout-icon {
+    color: #dc3545;  */
+    /* or any color you prefer */
+    /* padding-left: */
+  /* } */
