@@ -6,7 +6,7 @@
     "email": "Email Address",
     "password": "Password",
     "login": "Login",
-    "noAccount": "Don't have an account Mr AMAN? ",
+    "noAccount": "Don't have an account? ",
     "forgotPassword": "Forgot Password?",
     "resetPassword": "Reset Password",
     "resetPasswordInstructions": "Please enter your email address. We'll send you a 4-digit code to reset your password.",
