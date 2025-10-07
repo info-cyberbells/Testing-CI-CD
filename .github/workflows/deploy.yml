@@ -1,0 +1,39 @@
+name: Deploy MERN App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /root/church-App/Testing-CI-CD
+            git pull origin main
+
+            # Backend
+            cd backend
+            npm install
+            pm2 restart church-backend || pm2 start server.js --name church-backend
+
+            # Frontend
+            cd ../frontend
+            npm install
+            npm run build
+
+            # Deploy frontend
+            sudo rm -rf /var/www/church-frontend/*
+            sudo cp -r build/* /var/www/church-frontend/
+
+            sudo systemctl restart nginx
