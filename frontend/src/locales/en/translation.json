@@ -1,12 +1,12 @@
 {
   "login": {
-    "language": "Find Language",
+    "language": "Select Language",
     "signIn": "Login",
     "signUp": "Sign Up",
     "email": "Email Address",
     "password": "Password",
     "login": "Login",
-    "noAccount": "Thank you here to talk to me",
+    "noAccount": "Don't have an account? ",
     "forgotPassword": "Forgot Password?",
     "resetPassword": "Reset Password",
     "resetPasswordInstructions": "Please enter your email address. We'll send you a 4-digit code to reset your password.",

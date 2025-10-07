@@ -5,7 +5,7 @@ const routerChurch = express.Router();
 
 // Church Routes
 routerChurch.post('/add', addChurch);
-routerChurch.get('/fetchAll123', fetchAllChurch);
+routerChurch.get('/fetchAll', fetchAllChurch);
 routerChurch.get('/languages/:id', getChurchLanguages);
 routerChurch.get('/detail/:id', detailChurch);
 routerChurch.patch('/edit/:id', updateChurch);
