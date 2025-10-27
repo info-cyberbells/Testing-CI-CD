@@ -1,5 +1,16 @@
 // // src/services/punctuationService.js
 
+
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_API_URL;
+
+export const punctuateText = async (text) => {
+  const res = await axios.post(`${API_URL}/punctuate`, { text });
+  return res.data.result;
+};
+
+
 // const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
 // const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
 
@@ -1179,4 +1190,5 @@ export default {
   estimateCost,
   healthCheck,
   preWarmCache
+
 };
