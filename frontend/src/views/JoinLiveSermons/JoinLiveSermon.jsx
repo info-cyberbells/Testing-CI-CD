@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Typography, Box, FormControl, Select, CircularProgress, TableBody, MenuItem, Paper, TableContainer, Button, Table, TableHead, TableRow, TableCell, Container, Alert, styled, Card, CardContent, CardActions, Grid, Divider, Pagination } from '@mui/material';
 import SEO from 'views/Seo/SeoMeta';
+import { addPunctuation } from '../../services/punctuationService';
 import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 
@@ -1046,6 +1047,7 @@ const JoinLiveSermons = () => {
               });
             }
 
+            // Show text immediately (no delay) ✅
             setTranscription(prev => {
               let updatedText = prev ? prev + ' ' + newText : newText;
 
@@ -1061,6 +1063,24 @@ const JoinLiveSermons = () => {
 
               return updatedText;
             });
+
+            // 🆕 Add punctuation in background (non-blocking)
+            addPunctuation(newText, selectedLanguage)
+              .then(punctuatedText => {
+                if (punctuatedText !== newText) {
+                  // Replace with punctuated version
+                  setTranscription(prev => {
+                    if (prev.includes(newText)) {
+                      return prev.replace(newText, punctuatedText);
+                    }
+                    return prev;
+                  });
+                  console.log('[PUNCTUATION] ✓ Updated');
+                }
+              })
+              .catch(error => {
+                console.error('[PUNCTUATION] ✗ Failed:', error);
+              });
 
             const textId = ++textIdCounter.current;
             setSynthesisQueue(prevQueue => [...prevQueue, { textToSynthesize: newText, textId }]);
