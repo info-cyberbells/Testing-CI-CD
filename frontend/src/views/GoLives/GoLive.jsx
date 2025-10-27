@@ -157,7 +157,6 @@ const GoLive = () => {
   const [heartbeatStatus, setHeartbeatStatus] = useState('inactive'); // 'active', 'inactive', 'error'
   const broadcastStatusIntervalRef = useRef(null);
   const transcriptionBoxRef = useRef(null);
-
   const accumulatedTextRef = useRef('');
   const lastProcessedTextRef = useRef('');
 
@@ -967,84 +966,278 @@ const GoLive = () => {
     return true;
   };
 
-  const handleRecognitionResult = (event) => {
-    const currentTime = Date.now();
-    const formattedTime = new Date(currentTime).toISOString().split('T')[1].split('Z')[0];
+ const handleRecognitionResult = (event) => {
+  const currentTime = Date.now();
+  const formattedTime = new Date(currentTime).toISOString().split('T')[1].split('Z')[0];
 
-    console.log(`[${formattedTime}] Recognition result received`);
+  console.log(`[${formattedTime}] Recognition result received`);
 
-    for (let i = event.resultIndex; i < event.results.length; ++i) {
-      const transcript = event.results[i][0].transcript;
-      const timeSinceLastSpeech = currentTime - lastSpeechTimestampRef.current;
-      const segmentDuration = currentTime - segmentStartTimeRef.current;
-      const isInterim = !event.results[i].isFinal;
+  for (let i = event.resultIndex; i < event.results.length; ++i) {
+    let transcript = event.results[i][0].transcript;
+    const timeSinceLastSpeech = currentTime - lastSpeechTimestampRef.current;
+    const segmentDuration = currentTime - segmentStartTimeRef.current;
+    const isInterim = !event.results[i].isFinal;
 
-      const wordCount = transcript.trim().split(/\s+/).length;
-      const isLongEnough = wordCount >= SPEECH_CONFIG.WORD_COUNT_THRESHOLD;
+    const wordCount = transcript.trim().split(/\s+/).length;
+    const isLongEnough = wordCount >= SPEECH_CONFIG.WORD_COUNT_THRESHOLD;
 
+    if (!isInterim) {
+      // ✅ ADD PUNCTUATION TO FINAL RESULTS
+      const punctuatedText = addSmartPunctuation(transcript);
+      
+      console.log(`[PUNCTUATION] Original: "${transcript}"`);
+      console.log(`[PUNCTUATION] With punctuation: "${punctuatedText}"`);
+      
+      if (punctuatedText !== lastProcessedTextRef.current) {
+        lastProcessedTextRef.current = punctuatedText;
 
-      if (!isInterim) {
-        if (transcript !== lastProcessedTextRef.current) {
-          lastProcessedTextRef.current = transcript;
+        // Append new text WITH PUNCTUATION
+        accumulatedTextRef.current = accumulatedTextRef.current
+          ? accumulatedTextRef.current + ' ' + punctuatedText
+          : punctuatedText;
 
-          // Append new text
-          accumulatedTextRef.current = accumulatedTextRef.current
-            ? accumulatedTextRef.current + ' ' + transcript
-            : transcript;
-
-          const words = accumulatedTextRef.current.split(/\s+/);
-          if (words.length > 320) {
-            const wordsToRemove = Math.ceil(words.length * 0.2);
-            accumulatedTextRef.current = words.slice(wordsToRemove).join(' ');
-          }
-          setTranscription(accumulatedTextRef.current);
+        // Trim if too long
+        const words = accumulatedTextRef.current.split(/\s+/);
+        if (words.length > 320) {
+          const wordsToRemove = Math.ceil(words.length * 0.2);
+          accumulatedTextRef.current = words.slice(wordsToRemove).join(' ');
         }
-      } else {
-        setTranscription(accumulatedTextRef.current + (accumulatedTextRef.current ? ' ' : '') + transcript + '...');
+        
+        setTranscription(accumulatedTextRef.current);
+      }
+    } else {
+      // Show interim without punctuation
+      setTranscription(accumulatedTextRef.current + (accumulatedTextRef.current ? ' ' : '') + transcript + '...');
+    }
+
+    if (SPEECH_CONFIG.USE_SLIDING_WINDOW) {
+      // ✅ Use punctuated text for translation
+      const textForTranslation = isInterim ? transcript : addSmartPunctuation(transcript);
+      processSlidingWindow(textForTranslation, isInterim);
+      lastTranslationApiCallRef.current = Date.now();
+
+      if (timeSinceLastSpeech >= SPEECH_CONFIG.PAUSE_DURATION) {
+        lastSpeechTimestampRef.current = currentTime;
       }
 
-      if (SPEECH_CONFIG.USE_SLIDING_WINDOW) {
-        processSlidingWindow(transcript, isInterim);
-        lastTranslationApiCallRef.current = Date.now();
+      if (!isInterim) {
+        lastSpeechTimestampRef.current = currentTime;
 
-        if (timeSinceLastSpeech >= SPEECH_CONFIG.PAUSE_DURATION) {
-          lastSpeechTimestampRef.current = currentTime;
-        }
-
-        if (!isInterim) {
-          lastSpeechTimestampRef.current = currentTime;
-
-          if (transcript.endsWith('.') ||
-            transcript.endsWith('!') ||
-            transcript.endsWith('?') ||
+        const hasPunctuation = transcript.match(/[.!?]$/);
+        
+        if (hasPunctuation ||
             timeSinceLastSpeech > SPEECH_CONFIG.PAUSE_DURATION ||
             isLongEnough) {
 
-            slidingWindowStateRef.current.lastTranslatedIndex = 0;
+          slidingWindowStateRef.current.lastTranslatedIndex = 0;
 
-            let resetReason = '';
-            if (transcript.endsWith('.') || transcript.endsWith('!') || transcript.endsWith('?'))
-              resetReason = 'punctuation';
-            else if (timeSinceLastSpeech > SPEECH_CONFIG.PAUSE_DURATION)
-              resetReason = `${SPEECH_CONFIG.PAUSE_DURATION}ms pause`;
-            else if (isLongEnough)
-              resetReason = `word count threshold (${wordCount} words)`;
+          let resetReason = '';
+          if (hasPunctuation)
+            resetReason = 'punctuation';
+          else if (timeSinceLastSpeech > SPEECH_CONFIG.PAUSE_DURATION)
+            resetReason = `${SPEECH_CONFIG.PAUSE_DURATION}ms pause`;
+          else if (isLongEnough)
+            resetReason = `word count threshold (${wordCount} words)`;
 
-            segmentStartTimeRef.current = currentTime;
-            console.log(`[${formattedTime}] Segment reset: ${resetReason}`);
-          }
-        }
-      } else {
-        if (!isInterim) {
-          sendTranslationRequest(transcript, true);
-        } else if (isLongEnough || timeSinceLastSpeech >= SPEECH_CONFIG.PAUSE_DURATION) {
-          sendTranslationRequest(transcript, false);
-          lastSpeechTimestampRef.current = currentTime;
+          segmentStartTimeRef.current = currentTime;
+          console.log(`[${formattedTime}] Segment reset: ${resetReason}`);
         }
       }
+    } else {
+      // Non-sliding window mode
+      if (!isInterim) {
+        const punctuatedText = addSmartPunctuation(transcript);
+        sendTranslationRequest(punctuatedText, true);
+      } else if (isLongEnough || timeSinceLastSpeech >= SPEECH_CONFIG.PAUSE_DURATION) {
+        sendTranslationRequest(transcript, false);
+        lastSpeechTimestampRef.current = currentTime;
+      }
     }
-  };
+  }
+};
 
+const addSmartPunctuation = (text) => {
+  text = text.trim();
+  if (!text) return text;
+  
+  // ========================================
+  // CRITICAL FIX: Normalize Web Speech API quirks
+  // ========================================
+  
+  // Step 1: Remove ALL existing punctuation and normalize case
+  text = text
+    .replace(/[.!?,;:]/g, ' ')  // Remove all punctuation first
+    .replace(/\s+/g, ' ')        // Normalize spaces
+    .toLowerCase()               // Convert everything to lowercase
+    .trim();
+  
+  console.log(`[PUNCTUATION] Normalized input: ${text.substring(0, 100)}...`);
+  
+  // Step 2: Split into words
+  const words = text.split(/\s+/);
+  
+  // Configuration
+  const MIN_SENTENCE_LENGTH = 6;
+  const MAX_SENTENCE_LENGTH = 15;  // Reduced for more frequent breaks
+  const IDEAL_SENTENCE_LENGTH = 11;
+  
+  // Patterns
+  const questionWords = ['what', 'why', 'how', 'who', 'when', 'where', 'which', 'whose', 'whom'];
+  const questionHelpers = ['can', 'could', 'would', 'will', 'should', 'shall', 'do', 'does', 'did', 'are', 'is', 'was', 'were', 'have', 'has', 'had', 'am'];
+  const sentenceStarters = ['hello', 'hi', 'okay', 'ok', 'well', 'now', 'so', 'but', 'however', 'therefore', 'still', 'yet', 'actually', 'basically', 'first', 'second', 'finally', 'then', 'next', 'also', 'furthermore'];
+  const exclamationWords = ['wow', 'amazing', 'great', 'awesome', 'wonderful', 'hallelujah', 'praise', 'amen', 'thank', 'thanks', 'glory', 'blessed'];
+  const conjunctions = ['and', 'but', 'or', 'so', 'because', 'while', 'although', 'since', 'unless'];
+  
+  const sentences = [];
+  let currentSentence = [];
+  
+  for (let i = 0; i < words.length; i++) {
+    const word = words[i];
+    const nextWord = words[i + 1] || '';
+    const nextNextWord = words[i + 2] || '';
+    
+    currentSentence.push(word);
+    const length = currentSentence.length;
+    
+    let shouldBreak = false;
+    let reason = '';
+    
+    // RULE 1: Maximum length - FORCE BREAK
+    if (length >= MAX_SENTENCE_LENGTH) {
+      shouldBreak = true;
+      reason = 'max_length';
+    }
+    
+    // RULE 2: Sentence starter at ideal length
+    else if (length >= MIN_SENTENCE_LENGTH && sentenceStarters.includes(nextWord)) {
+      shouldBreak = true;
+      reason = 'sentence_starter';
+    }
+    
+    // RULE 3: Question word ahead
+    else if (length >= MIN_SENTENCE_LENGTH && questionWords.includes(nextWord)) {
+      shouldBreak = true;
+      reason = 'question_word';
+    }
+    
+    // RULE 4: Question pattern (helper + pronoun)
+    else if (length >= MIN_SENTENCE_LENGTH && 
+             questionHelpers.includes(nextWord) && 
+             ['you', 'we', 'they', 'i', 'he', 'she', 'it'].includes(nextNextWord)) {
+      shouldBreak = true;
+      reason = 'question_pattern';
+    }
+    
+    // RULE 5: Conjunction at ideal length
+    else if (length >= IDEAL_SENTENCE_LENGTH && conjunctions.includes(nextWord)) {
+      shouldBreak = true;
+      reason = 'conjunction';
+    }
+    
+    // RULE 6: Long sentence + any good break
+    else if (length >= 13 && (sentenceStarters.includes(nextWord) || conjunctions.includes(nextWord))) {
+      shouldBreak = true;
+      reason = 'long_break';
+    }
+    
+    // RULE 7: Last word
+    else if (i === words.length - 1) {
+      shouldBreak = true;
+      reason = 'last_word';
+    }
+    
+    if (shouldBreak) {
+      const sentence = currentSentence.join(' ').trim();
+      if (sentence) {
+        sentences.push(sentence);
+        console.log(`[PUNCTUATION] Sentence (${length} words, ${reason}): ${sentence.substring(0, 40)}...`);
+      }
+      currentSentence = [];
+    }
+  }
+  
+  // Add remaining words
+  if (currentSentence.length > 0) {
+    sentences.push(currentSentence.join(' ').trim());
+  }
+  
+  // Step 3: Add punctuation to each sentence
+  const punctuated = sentences.map(sentence => {
+    if (!sentence) return '';
+    
+    const words = sentence.split(/\s+/);
+    const first = words[0];
+    const second = words[1] || '';
+    const sentenceLower = sentence.toLowerCase();
+    
+    // Detect question
+    const isQuestion = 
+      questionWords.includes(first) ||
+      (questionHelpers.includes(first) && ['you', 'we', 'they', 'i', 'he', 'she', 'it'].includes(second)) ||
+      /\b(what|why|how|who|when|where|which)\b/.test(sentenceLower) ||
+      /\b(can|could|would|will|should|do|does|did|are|is|was|were)\s+(you|we|they|i|he|she|it)\b/.test(sentenceLower);
+    
+    // Detect exclamation
+    const isExclamation = 
+      exclamationWords.includes(first) ||
+      exclamationWords.some(w => sentenceLower.includes(w)) && words.length <= 8;
+    
+    // Capitalize first letter
+    sentence = sentence.charAt(0).toUpperCase() + sentence.slice(1);
+    
+    // Add punctuation
+    if (isQuestion) {
+      return sentence + '?';
+    } else if (isExclamation) {
+      return sentence + '!';
+    } else {
+      return sentence + '.';
+    }
+  });
+  
+  const result = punctuated.join(' ');
+  console.log(`[PUNCTUATION] Final result: ${result.substring(0, 150)}...`);
+  
+  return result;
+};
+
+// Helper function to add commas within sentences
+const addCommasToSentence = (sentence, conjunctions) => {
+  const words = sentence.split(/\s+/);
+  const result = [];
+  
+  for (let i = 0; i < words.length; i++) {
+    const word = words[i];
+    const nextWord = words[i + 1] ? words[i + 1].toLowerCase() : '';
+    const nextNextWord = words[i + 2] ? words[i + 2].toLowerCase() : '';
+    
+    result.push(word);
+    
+    // Add comma before conjunctions if segment is long enough
+    if (i >= 5 && i < words.length - 3) {
+      // Add comma before "and", "but", "or", "so" in mid-sentence
+      if (['and', 'but', 'or', 'so'].includes(nextWord)) {
+        result[result.length - 1] += ',';
+      }
+      // Add comma after "because", "while", "although", "though", "since"
+      else if (['because', 'while', 'although', 'though', 'since', 'unless'].includes(word.toLowerCase())) {
+        // Comma will be after this word
+      }
+    }
+    
+    // Add comma after introductory phrases
+    if (i === 0 && ['however', 'therefore', 'moreover', 'furthermore', 'thus', 'consequently'].includes(word.toLowerCase())) {
+      result[result.length - 1] += ',';
+    }
+    
+    // Add comma before "which", "who", "where" in relative clauses
+    if (i >= 3 && ['which', 'who', 'where', 'when'].includes(nextWord)) {
+      result[result.length - 1] += ',';
+    }
+  }
+  
+  return result.join(' ');
+};
   const checkStreamStatusEvery3Seconds = async () => {
     if (!isRecording) {
       console.log('[STREAM_CHECK] Skipping check - not recording');
